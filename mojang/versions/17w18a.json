@@ -9,17 +9,17 @@
     "assets": "1.12",
     "downloads": {
         "client": {
-            "sha1": "243f42af3ecff89646d001d781ed42c7c736c74d",
-            "size": 10000532,
-            "url": "https://launcher.mojang.com/mc/game/17w15a/client/243f42af3ecff89646d001d781ed42c7c736c74d/client.jar"
+            "sha1": "9eda8162e92b2db820a140f4b4d8fc7b70d32b3a",
+            "size": 10102975,
+            "url": "https://launcher.mojang.com/mc/game/17w18a/client/9eda8162e92b2db820a140f4b4d8fc7b70d32b3a/client.jar"
         },
         "server": {
-            "sha1": "cc26caa34e1a53326ec374d229db07a0e2a7de17",
-            "size": 30093058,
-            "url": "https://launcher.mojang.com/mc/game/17w15a/server/cc26caa34e1a53326ec374d229db07a0e2a7de17/server.jar"
+            "sha1": "b1f45946bd74f4e2cf1833324770809ebcd0b7b1",
+            "size": 30144567,
+            "url": "https://launcher.mojang.com/mc/game/17w18a/server/b1f45946bd74f4e2cf1833324770809ebcd0b7b1/server.jar"
         }
     },
-    "id": "17w15a",
+    "id": "17w18a",
     "libraries": [
         {
             "downloads": {
@@ -35,35 +35,35 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "oshi-project/oshi-core/1.1/oshi-core-1.1.jar",
-                    "sha1": "9ddf7b048a8d701be231c0f4f95fd986198fd2d8",
-                    "size": 30973,
-                    "url": "https://libraries.minecraft.net/oshi-project/oshi-core/1.1/oshi-core-1.1.jar"
+                    "path": "com/github/oshi/oshi-core/3.4.2/oshi-core-3.4.2.jar",
+                    "sha1": "18dfa6fad54d8cebed5600a67aefa8c6601ebd77",
+                    "size": 344873,
+                    "url": "https://libraries.minecraft.net/com/github/oshi/oshi-core/3.4.2/oshi-core-3.4.2.jar"
                 }
             },
-            "name": "oshi-project:oshi-core:1.1"
+            "name": "com.github.oshi:oshi-core:3.4.2"
         },
         {
             "downloads": {
                 "artifact": {
-                    "path": "net/java/dev/jna/jna/4.2.2/jna-4.2.2.jar",
-                    "sha1": "5012450aee579c3118ff09461d5ce210e0cdc2a9",
-                    "size": 1137286,
-                    "url": "https://libraries.minecraft.net/net/java/dev/jna/jna/4.2.2/jna-4.2.2.jar"
+                    "path": "net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar",
+                    "sha1": "cb208278274bf12ebdb56c61bd7407e6f774d65a",
+                    "size": 1091208,
+                    "url": "https://libraries.minecraft.net/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar"
                 }
             },
-            "name": "net.java.dev.jna:jna:4.2.2"
+            "name": "net.java.dev.jna:jna:4.4.0"
         },
         {
             "downloads": {
                 "artifact": {
-                    "path": "net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar",
-                    "sha1": "e3f70017be8100d3d6923f50b3d2ee17714e9c13",
-                    "size": 913436,
-                    "url": "https://libraries.minecraft.net/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar"
+                    "path": "net/java/dev/jna/jna-platform/4.4.0/jna-platform-4.4.0.jar",
+                    "sha1": "f396b0ceb7ababb8b4a5ea25e6742ced81e3d86f",
+                    "size": 2281814,
+                    "url": "https://libraries.minecraft.net/net/java/dev/jna/jna-platform/4.4.0/jna-platform-4.4.0.jar"
                 }
             },
-            "name": "net.java.dev.jna:platform:3.4.0"
+            "name": "net.java.dev.jna:jna-platform:4.4.0"
         },
         {
             "downloads": {
@@ -584,48 +584,48 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/text2speech/1.6/text2speech-1.6.jar",
-                    "sha1": "bb10fd127259f19ade452d20049de969eee6bb8f",
-                    "size": 10402,
-                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.6/text2speech-1.6.jar"
+                    "path": "com/mojang/text2speech/1.9/text2speech-1.9.jar",
+                    "sha1": "7ea59e820d34b2a6855b5b4c3cbd4d40a4eb9176",
+                    "size": 10727,
+                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.9/text2speech-1.9.jar"
                 },
                 "classifiers": {
                     "natives-linux": {
-                        "path": "com/mojang/text2speech/1.6/text2speech-1.6-natives-linux.jar",
-                        "sha1": "bc92446593a565db02494cea6c5048ad0681f3d0",
+                        "path": "com/mojang/text2speech/1.9/text2speech-1.9-natives-linux.jar",
+                        "sha1": "41a4b9e16034d706feb86856a7aa11f9bc72947f",
                         "size": 7833,
-                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.6/text2speech-1.6-natives-linux.jar"
+                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.9/text2speech-1.9-natives-linux.jar"
                     },
                     "natives-windows": {
-                        "path": "com/mojang/text2speech/1.6/text2speech-1.6-natives-windows.jar",
-                        "sha1": "0537943b8ae192ba211c8e0daf85fef60aecd7fe",
+                        "path": "com/mojang/text2speech/1.9/text2speech-1.9-natives-windows.jar",
+                        "sha1": "9b989b2c2397778b9a61b7a1e38ffd79391931b9",
                         "size": 9634,
-                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.6/text2speech-1.6-natives-windows.jar"
+                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.9/text2speech-1.9-natives-windows.jar"
                     }
                 }
             },
-            "name": "com.mojang:text2speech:1.6"
+            "name": "com.mojang:text2speech:1.9"
         },
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/text2speech/1.6/text2speech-1.6.jar",
-                    "sha1": "bb10fd127259f19ade452d20049de969eee6bb8f",
-                    "size": 10402,
-                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.6/text2speech-1.6.jar"
+                    "path": "com/mojang/text2speech/1.9/text2speech-1.9.jar",
+                    "sha1": "7ea59e820d34b2a6855b5b4c3cbd4d40a4eb9176",
+                    "size": 10727,
+                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.9/text2speech-1.9.jar"
                 },
                 "classifiers": {
                     "natives-linux": {
-                        "path": "com/mojang/text2speech/1.6/text2speech-1.6-natives-linux.jar",
-                        "sha1": "bc92446593a565db02494cea6c5048ad0681f3d0",
+                        "path": "com/mojang/text2speech/1.9/text2speech-1.9-natives-linux.jar",
+                        "sha1": "41a4b9e16034d706feb86856a7aa11f9bc72947f",
                         "size": 7833,
-                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.6/text2speech-1.6-natives-linux.jar"
+                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.9/text2speech-1.9-natives-linux.jar"
                     },
                     "natives-windows": {
-                        "path": "com/mojang/text2speech/1.6/text2speech-1.6-natives-windows.jar",
-                        "sha1": "0537943b8ae192ba211c8e0daf85fef60aecd7fe",
+                        "path": "com/mojang/text2speech/1.9/text2speech-1.9-natives-windows.jar",
+                        "sha1": "9b989b2c2397778b9a61b7a1e38ffd79391931b9",
                         "size": 9634,
-                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.6/text2speech-1.6-natives-windows.jar"
+                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.9/text2speech-1.9-natives-windows.jar"
                     }
                 }
             },
@@ -634,7 +634,7 @@
                     "META-INF/"
                 ]
             },
-            "name": "com.mojang:text2speech:1.6",
+            "name": "com.mojang:text2speech:1.9",
             "natives": {
                 "linux": "natives-linux",
                 "windows": "natives-windows"
@@ -718,7 +718,7 @@
     "mainClass": "net.minecraft.client.main.Main",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "minimumLauncherVersion": 18,
-    "releaseTime": "2017-04-12T09:30:50+00:00",
-    "time": "2017-05-03T13:29:59+00:00",
+    "releaseTime": "2017-05-03T14:50:23+00:00",
+    "time": "2017-05-03T14:51:21+00:00",
     "type": "snapshot"
 }
