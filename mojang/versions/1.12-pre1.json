@@ -9,17 +9,17 @@
     "assets": "1.12",
     "downloads": {
         "client": {
-            "sha1": "d10320fe0a9bf0e86bbea792216bb0da4430b17a",
-            "size": 10118268,
-            "url": "https://launcher.mojang.com/mc/game/17w18b/client/d10320fe0a9bf0e86bbea792216bb0da4430b17a/client.jar"
+            "sha1": "451d983529e78b807c8f8479f7f542863b1b6ae0",
+            "size": 10148714,
+            "url": "https://launcher.mojang.com/mc/game/1.12-pre1/client/451d983529e78b807c8f8479f7f542863b1b6ae0/client.jar"
         },
         "server": {
-            "sha1": "915c1833209d588ade3e064577700037093861da",
-            "size": 30158022,
-            "url": "https://launcher.mojang.com/mc/game/17w18b/server/915c1833209d588ade3e064577700037093861da/server.jar"
+            "sha1": "ebcafa3e1a3312500893087bf4bfb6c6f335ef0e",
+            "size": 30183246,
+            "url": "https://launcher.mojang.com/mc/game/1.12-pre1/server/ebcafa3e1a3312500893087bf4bfb6c6f335ef0e/server.jar"
         }
     },
-    "id": "17w18b",
+    "id": "1.12-pre1",
     "libraries": [
         {
             "downloads": {
@@ -35,13 +35,13 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/github/oshi/oshi-core/3.4.2/oshi-core-3.4.2.jar",
-                    "sha1": "18dfa6fad54d8cebed5600a67aefa8c6601ebd77",
-                    "size": 344873,
-                    "url": "https://libraries.minecraft.net/com/github/oshi/oshi-core/3.4.2/oshi-core-3.4.2.jar"
+                    "path": "oshi-project/oshi-core/1.1/oshi-core-1.1.jar",
+                    "sha1": "9ddf7b048a8d701be231c0f4f95fd986198fd2d8",
+                    "size": 30973,
+                    "url": "https://libraries.minecraft.net/oshi-project/oshi-core/1.1/oshi-core-1.1.jar"
                 }
             },
-            "name": "com.github.oshi:oshi-core:3.4.2"
+            "name": "oshi-project:oshi-core:1.1"
         },
         {
             "downloads": {
@@ -57,13 +57,13 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "net/java/dev/jna/jna-platform/4.4.0/jna-platform-4.4.0.jar",
-                    "sha1": "f396b0ceb7ababb8b4a5ea25e6742ced81e3d86f",
-                    "size": 2281814,
-                    "url": "https://libraries.minecraft.net/net/java/dev/jna/jna-platform/4.4.0/jna-platform-4.4.0.jar"
+                    "path": "net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar",
+                    "sha1": "e3f70017be8100d3d6923f50b3d2ee17714e9c13",
+                    "size": 913436,
+                    "url": "https://libraries.minecraft.net/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar"
                 }
             },
-            "name": "net.java.dev.jna:jna-platform:4.4.0"
+            "name": "net.java.dev.jna:platform:3.4.0"
         },
         {
             "downloads": {
@@ -718,7 +718,7 @@
     "mainClass": "net.minecraft.client.main.Main",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "minimumLauncherVersion": 18,
-    "releaseTime": "2017-05-04T13:40:22+00:00",
+    "releaseTime": "2017-05-10T11:37:17+00:00",
     "time": "2017-05-10T11:46:23+00:00",
     "type": "snapshot"
 }
