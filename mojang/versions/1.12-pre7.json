@@ -9,17 +9,17 @@
     "assets": "1.12",
     "downloads": {
         "client": {
-            "sha1": "12e23c0811c097ed63e50fad861fea297e1ae0be",
-            "size": 10176047,
-            "url": "https://launcher.mojang.com/mc/game/1.12-pre6/client/12e23c0811c097ed63e50fad861fea297e1ae0be/client.jar"
+            "sha1": "2439b69adbb6d5f2e8fee5145084603e033007c7",
+            "size": 10177172,
+            "url": "https://launcher.mojang.com/mc/game/1.12-pre7/client/2439b69adbb6d5f2e8fee5145084603e033007c7/client.jar"
         },
         "server": {
-            "sha1": "9bc0e57debc61da93c0ea0d97849254db4f4e556",
-            "size": 30201999,
-            "url": "https://launcher.mojang.com/mc/game/1.12-pre6/server/9bc0e57debc61da93c0ea0d97849254db4f4e556/server.jar"
+            "sha1": "a8d79598161edc5f67b606120ea9e62bcefcaaa7",
+            "size": 30202496,
+            "url": "https://launcher.mojang.com/mc/game/1.12-pre7/server/a8d79598161edc5f67b606120ea9e62bcefcaaa7/server.jar"
         }
     },
-    "id": "1.12-pre6",
+    "id": "1.12-pre7",
     "libraries": [
         {
             "downloads": {
@@ -718,7 +718,7 @@
     "mainClass": "net.minecraft.client.main.Main",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "minimumLauncherVersion": 18,
-    "releaseTime": "2017-05-29T11:45:12+00:00",
-    "time": "2017-05-30T09:06:00+00:00",
+    "releaseTime": "2017-05-31T10:56:41+00:00",
+    "time": "2017-05-31T10:57:37+00:00",
     "type": "snapshot"
 }
