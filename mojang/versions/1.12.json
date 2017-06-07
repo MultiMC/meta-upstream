@@ -9,28 +9,28 @@
     "assets": "1.12",
     "downloads": {
         "client": {
-            "sha1": "16c7be111b1efe29f163abc16426705be51ca7b7",
-            "size": 10151176,
-            "url": "https://launcher.mojang.com/mc/game/1.12-pre2/client/16c7be111b1efe29f163abc16426705be51ca7b7/client.jar"
+            "sha1": "909823f9c467f9934687f136bc95a667a0d19d7f",
+            "size": 10177098,
+            "url": "https://launcher.mojang.com/mc/game/1.12/client/909823f9c467f9934687f136bc95a667a0d19d7f/client.jar"
         },
         "server": {
-            "sha1": "e5fd1c4202f9b0855d9104b66ba4182d52e79c38",
-            "size": 30185206,
-            "url": "https://launcher.mojang.com/mc/game/1.12-pre2/server/e5fd1c4202f9b0855d9104b66ba4182d52e79c38/server.jar"
+            "sha1": "8494e844e911ea0d63878f64da9dcc21f53a3463",
+            "size": 30202458,
+            "url": "https://launcher.mojang.com/mc/game/1.12/server/8494e844e911ea0d63878f64da9dcc21f53a3463/server.jar"
         }
     },
-    "id": "1.12-pre2",
+    "id": "1.12",
     "libraries": [
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/patchy/1.0/patchy-1.0.jar",
-                    "sha1": "41843d5f68c82b6a4211d4ebefcfbe9876df7b07",
-                    "size": 15736,
-                    "url": "https://libraries.minecraft.net/com/mojang/patchy/1.0/patchy-1.0.jar"
+                    "path": "com/mojang/patchy/1.1/patchy-1.1.jar",
+                    "sha1": "aef610b34a1be37fa851825f12372b78424d8903",
+                    "size": 15817,
+                    "url": "https://libraries.minecraft.net/com/mojang/patchy/1.1/patchy-1.1.jar"
                 }
             },
-            "name": "com.mojang:patchy:1.0"
+            "name": "com.mojang:patchy:1.1"
         },
         {
             "downloads": {
@@ -268,13 +268,13 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/realms/1.10.8/realms-1.10.8.jar",
-                    "sha1": "67560bbd6a83d48ae8b956f1feac09010bde879c",
-                    "size": 3025164,
-                    "url": "https://libraries.minecraft.net/com/mojang/realms/1.10.8/realms-1.10.8.jar"
+                    "path": "com/mojang/realms/1.10.16/realms-1.10.16.jar",
+                    "sha1": "b4948eb06ff238e45044f47aa69c2c977ce69dcb",
+                    "size": 3257394,
+                    "url": "https://libraries.minecraft.net/com/mojang/realms/1.10.16/realms-1.10.16.jar"
                 }
             },
-            "name": "com.mojang:realms:1.10.8"
+            "name": "com.mojang:realms:1.10.16"
         },
         {
             "downloads": {
@@ -584,48 +584,48 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/text2speech/1.10.1/text2speech-1.10.1.jar",
-                    "sha1": "9fab79a2822f493b194c81f5c92d3466abc28f27",
-                    "size": 10810,
-                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.1/text2speech-1.10.1.jar"
+                    "path": "com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar",
+                    "sha1": "48fd510879dff266c3815947de66e3d4809f8668",
+                    "size": 11055,
+                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar"
                 },
                 "classifiers": {
                     "natives-linux": {
-                        "path": "com/mojang/text2speech/1.10.1/text2speech-1.10.1-natives-linux.jar",
-                        "sha1": "5ceb9acf93ad3e3f2c1487d9ee241804d2d0b65d",
+                        "path": "com/mojang/text2speech/1.10.3/text2speech-1.10.3-natives-linux.jar",
+                        "sha1": "ab7896aec3b3dd272b06194357f2d98f832c0cfc",
                         "size": 7833,
-                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.1/text2speech-1.10.1-natives-linux.jar"
+                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3-natives-linux.jar"
                     },
                     "natives-windows": {
-                        "path": "com/mojang/text2speech/1.10.1/text2speech-1.10.1-natives-windows.jar",
-                        "sha1": "168d84077b984900edf52e260b7ca1ef57a3e56a",
+                        "path": "com/mojang/text2speech/1.10.3/text2speech-1.10.3-natives-windows.jar",
+                        "sha1": "84a4b856389cc4f485275b1f63497a95a857a443",
                         "size": 81217,
-                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.1/text2speech-1.10.1-natives-windows.jar"
+                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3-natives-windows.jar"
                     }
                 }
             },
-            "name": "com.mojang:text2speech:1.10.1"
+            "name": "com.mojang:text2speech:1.10.3"
         },
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/text2speech/1.10.1/text2speech-1.10.1.jar",
-                    "sha1": "9fab79a2822f493b194c81f5c92d3466abc28f27",
-                    "size": 10810,
-                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.1/text2speech-1.10.1.jar"
+                    "path": "com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar",
+                    "sha1": "48fd510879dff266c3815947de66e3d4809f8668",
+                    "size": 11055,
+                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar"
                 },
                 "classifiers": {
                     "natives-linux": {
-                        "path": "com/mojang/text2speech/1.10.1/text2speech-1.10.1-natives-linux.jar",
-                        "sha1": "5ceb9acf93ad3e3f2c1487d9ee241804d2d0b65d",
+                        "path": "com/mojang/text2speech/1.10.3/text2speech-1.10.3-natives-linux.jar",
+                        "sha1": "ab7896aec3b3dd272b06194357f2d98f832c0cfc",
                         "size": 7833,
-                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.1/text2speech-1.10.1-natives-linux.jar"
+                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3-natives-linux.jar"
                     },
                     "natives-windows": {
-                        "path": "com/mojang/text2speech/1.10.1/text2speech-1.10.1-natives-windows.jar",
-                        "sha1": "168d84077b984900edf52e260b7ca1ef57a3e56a",
+                        "path": "com/mojang/text2speech/1.10.3/text2speech-1.10.3-natives-windows.jar",
+                        "sha1": "84a4b856389cc4f485275b1f63497a95a857a443",
                         "size": 81217,
-                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.1/text2speech-1.10.1-natives-windows.jar"
+                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3-natives-windows.jar"
                     }
                 }
             },
@@ -634,7 +634,7 @@
                     "META-INF/"
                 ]
             },
-            "name": "com.mojang:text2speech:1.10.1",
+            "name": "com.mojang:text2speech:1.10.3",
             "natives": {
                 "linux": "natives-linux",
                 "windows": "natives-windows"
@@ -718,7 +718,7 @@
     "mainClass": "net.minecraft.client.main.Main",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "minimumLauncherVersion": 18,
-    "releaseTime": "2017-05-11T12:11:12+00:00",
+    "releaseTime": "2017-06-02T13:50:27+00:00",
     "time": "2017-06-07T11:50:36+00:00",
-    "type": "snapshot"
+    "type": "release"
 }
