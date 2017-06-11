@@ -768,7 +768,8 @@
         ],
         "1.12": [
             2320,
-            2321
+            2321,
+            2322
         ],
         "1.2.3": [
             30,
@@ -55370,6 +55371,45 @@
             "modified": 1497149850.0,
             "version": "14.21.0.2321"
         },
+        "2322": {
+            "branch": null,
+            "build": 2322,
+            "files": [
+                [
+                    "zip",
+                    "mdk",
+                    "b39243a44fa098fe444fecfb4f1a699c"
+                ],
+                [
+                    "txt",
+                    "changelog",
+                    "64a752205e03ff533a48e3ff9d23101d"
+                ],
+                [
+                    "jar",
+                    "universal",
+                    "b7a2d03bbf728f43fc28e85475148a7e"
+                ],
+                [
+                    "jar",
+                    "userdev",
+                    "d2460a4f7c948b7cfff04b13e0223de3"
+                ],
+                [
+                    "exe",
+                    "installer-win",
+                    "d50d99e85942db9348f9ad19e94e2b2c"
+                ],
+                [
+                    "jar",
+                    "installer",
+                    "183d36ff71d8680426227d244dea1f39"
+                ]
+            ],
+            "mcversion": "1.12",
+            "modified": 1497206784.0,
+            "version": "14.21.0.2322"
+        },
         "233": {
             "branch": null,
             "build": 233,
@@ -76224,7 +76264,7 @@
         "1.11-recommended": 2189,
         "1.11.2-latest": 2315,
         "1.11.2-recommended": 2228,
-        "1.12-latest": 2321,
+        "1.12-latest": 2322,
         "1.5.2-latest": 738,
         "1.5.2-recommended": 737,
         "1.6.1-latest": 775,
@@ -76246,7 +76286,7 @@
         "1.9-recommended": 1887,
         "1.9.4-latest": 2051,
         "1.9.4-recommended": 1976,
-        "latest": 2321,
+        "latest": 2322,
         "latest-1.7.10": 1343,
         "recommended": 2228
     },
