@@ -2,8 +2,8 @@
     "meta": {
         "authors": "Mumfrey",
         "description": "LiteLoader is a lightweight mod bootstrap designed to provide basic loader functionality for mods which don't need to modify game mechanics.",
-        "updated": "2017-06-10T15:14:10+01:00",
-        "updatedTime": 1497104050,
+        "updated": "2017-06-12T17:09:54+01:00",
+        "updatedTime": 1497283794,
         "url": "http://dl.liteloader.com"
     },
     "versions": {
@@ -272,9 +272,9 @@
             },
             "snapshots": {
                 "com.mumfrey:liteloader": {
-                    "24413c6cc63a80119486d460c90fd12b": {
+                    "668d48b15794dcd1f31b041749d92361": {
                         "file": "liteloader-1.12-SNAPSHOT.jar",
-                        "lastSuccessfulBuild": null,
+                        "lastSuccessfulBuild": 1,
                         "libraries": [
                             {
                                 "name": "net.minecraft:launchwrapper:1.12"
@@ -283,15 +283,15 @@
                                 "name": "org.ow2.asm:asm-all:5.0.3"
                             }
                         ],
-                        "md5": "24413c6cc63a80119486d460c90fd12b",
+                        "md5": "668d48b15794dcd1f31b041749d92361",
                         "stream": "SNAPSHOT",
-                        "timestamp": "1497100446",
+                        "timestamp": "1497280192",
                         "tweakClass": "com.mumfrey.liteloader.launch.LiteLoaderTweaker",
                         "version": "1.12-SNAPSHOT"
                     },
                     "latest": {
                         "file": "liteloader-1.12-SNAPSHOT.jar",
-                        "lastSuccessfulBuild": null,
+                        "lastSuccessfulBuild": 1,
                         "libraries": [
                             {
                                 "name": "net.minecraft:launchwrapper:1.12"
@@ -300,9 +300,9 @@
                                 "name": "org.ow2.asm:asm-all:5.0.3"
                             }
                         ],
-                        "md5": "24413c6cc63a80119486d460c90fd12b",
+                        "md5": "668d48b15794dcd1f31b041749d92361",
                         "stream": "SNAPSHOT",
-                        "timestamp": "1497100446",
+                        "timestamp": "1497280192",
                         "tweakClass": "com.mumfrey.liteloader.launch.LiteLoaderTweaker",
                         "version": "1.12-SNAPSHOT"
                     }
