@@ -765,7 +765,8 @@
             2313,
             2314,
             2315,
-            2345
+            2345,
+            2366
         ],
         "1.12": [
             2320,
@@ -57186,6 +57187,45 @@
             "modified": 1498419180.0,
             "version": "14.21.0.2365"
         },
+        "2366": {
+            "branch": null,
+            "build": 2366,
+            "files": [
+                [
+                    "zip",
+                    "mdk",
+                    "e404ef6d5ddce48de159a861076055b0"
+                ],
+                [
+                    "txt",
+                    "changelog",
+                    "2e0b9ece531e898caf8baf08b1a773c4"
+                ],
+                [
+                    "jar",
+                    "universal",
+                    "2cd5120cf5755ad907b22ed3046acb93"
+                ],
+                [
+                    "jar",
+                    "userdev",
+                    "f06f60b95b96a575535806a924e4a8ef"
+                ],
+                [
+                    "exe",
+                    "installer-win",
+                    "e5445daf939ed5b276923a5ce262de18"
+                ],
+                [
+                    "jar",
+                    "installer",
+                    "7ac4513df7efaf872e6a919cba377d64"
+                ]
+            ],
+            "mcversion": "1.11.2",
+            "modified": 1498422420.0,
+            "version": "13.20.0.2366"
+        },
         "237": {
             "branch": null,
             "build": 237,
@@ -77942,6 +77982,7 @@
         "1.10.2-recommended": 2185,
         "1.11-latest": 2199,
         "1.11-recommended": 2189,
+        "1.11.2-latest": 2366,
         "1.11.2-recommended": 2228,
         "1.12-latest": 2365,
         "1.5.2-latest": 738,
@@ -77965,7 +78006,7 @@
         "1.9-recommended": 1887,
         "1.9.4-latest": 2051,
         "1.9.4-recommended": 1976,
-        "latest": 2365,
+        "latest": 2366,
         "latest-1.7.10": 1343,
         "recommended": 2228
     },
