@@ -766,7 +766,8 @@
             2314,
             2315,
             2345,
-            2366
+            2366,
+            2386
         ],
         "1.12": [
             2320,
@@ -831,7 +832,8 @@
             2382,
             2383,
             2384,
-            2385
+            2385,
+            2387
         ],
         "1.2.3": [
             30,
@@ -58034,6 +58036,84 @@
             "modified": 1498689180.0,
             "version": "14.21.0.2385"
         },
+        "2386": {
+            "branch": null,
+            "build": 2386,
+            "files": [
+                [
+                    "zip",
+                    "mdk",
+                    "71e48213b0095ac3925e32e0f3ca16c1"
+                ],
+                [
+                    "txt",
+                    "changelog",
+                    "eb1590b5dd197717b625f1f3cad14fad"
+                ],
+                [
+                    "jar",
+                    "universal",
+                    "f143b8cf3f2850e6232d6d288360f93c"
+                ],
+                [
+                    "jar",
+                    "userdev",
+                    "dd7f6bdb7bab497c4fe225e345cf269f"
+                ],
+                [
+                    "exe",
+                    "installer-win",
+                    "401a2b996e50538b2020b9e14459e2e3"
+                ],
+                [
+                    "jar",
+                    "installer",
+                    "722bbbfe9b95d520c04eda278b202e61"
+                ]
+            ],
+            "mcversion": "1.11.2",
+            "modified": 1498711380.0,
+            "version": "13.20.1.2386"
+        },
+        "2387": {
+            "branch": null,
+            "build": 2387,
+            "files": [
+                [
+                    "zip",
+                    "mdk",
+                    "f8ab9a09101ca4e58b52e273523a5530"
+                ],
+                [
+                    "txt",
+                    "changelog",
+                    "0bfa905def2827e0a1b2de6b43872784"
+                ],
+                [
+                    "jar",
+                    "universal",
+                    "a55ebf37b27ee3f8a7dd4751cd448d23"
+                ],
+                [
+                    "jar",
+                    "userdev",
+                    "793e614f9ae0e647532fa35a0ca59443"
+                ],
+                [
+                    "exe",
+                    "installer-win",
+                    "fba98f379530043352580884efd6a165"
+                ],
+                [
+                    "jar",
+                    "installer",
+                    "fad8762716ee63f7829e67093e49938c"
+                ]
+            ],
+            "mcversion": "1.12",
+            "modified": 1498711980.0,
+            "version": "14.21.1.2387"
+        },
         "239": {
             "branch": null,
             "build": 239,
@@ -78742,9 +78822,9 @@
         "1.10.2-recommended": 2185,
         "1.11-latest": 2199,
         "1.11-recommended": 2189,
-        "1.11.2-latest": 2366,
-        "1.11.2-recommended": 2228,
-        "1.12-latest": 2385,
+        "1.11.2-latest": 2386,
+        "1.11.2-recommended": 2386,
+        "1.12-latest": 2387,
         "1.5.2-latest": 738,
         "1.5.2-recommended": 737,
         "1.6.1-latest": 775,
@@ -78766,9 +78846,9 @@
         "1.9-recommended": 1887,
         "1.9.4-latest": 2051,
         "1.9.4-recommended": 1976,
-        "latest": 2385,
+        "latest": 2387,
         "latest-1.7.10": 1343,
-        "recommended": 2228
+        "recommended": 2386
     },
     "webpath": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/"
 }
