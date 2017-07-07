@@ -844,7 +844,8 @@
             2396,
             2397,
             2398,
-            2399
+            2399,
+            2400
         ],
         "1.2.3": [
             30,
@@ -58636,6 +58637,45 @@
             "modified": 1411978140.0,
             "version": "4.0.0.240"
         },
+        "2400": {
+            "branch": null,
+            "build": 2400,
+            "files": [
+                [
+                    "zip",
+                    "mdk",
+                    "bdbb85195d3120f2b405c4a93a438c67"
+                ],
+                [
+                    "txt",
+                    "changelog",
+                    "99c32d03572e3b865085bb5cfc32c6c4"
+                ],
+                [
+                    "jar",
+                    "universal",
+                    "aaa2c6b396387543cb473b608e75ad84"
+                ],
+                [
+                    "jar",
+                    "userdev",
+                    "c8ebdf683b67ec12ff32913b8d3b5856"
+                ],
+                [
+                    "exe",
+                    "installer-win",
+                    "66f860e37c702edfde8f9350a9b4e174"
+                ],
+                [
+                    "jar",
+                    "installer",
+                    "4de50e290420e5e686591adddf93f8aa"
+                ]
+            ],
+            "mcversion": "1.12",
+            "modified": 1499420940.0,
+            "version": "14.21.1.2400"
+        },
         "241": {
             "branch": null,
             "build": 241,
@@ -79264,7 +79304,7 @@
         "1.11-recommended": 2189,
         "1.11.2-latest": 2393,
         "1.11.2-recommended": 2386,
-        "1.12-latest": 2399,
+        "1.12-latest": 2400,
         "1.12-recommended": 2387,
         "1.5.2-latest": 738,
         "1.5.2-recommended": 737,
@@ -79287,7 +79327,7 @@
         "1.9-recommended": 1887,
         "1.9.4-latest": 2051,
         "1.9.4-recommended": 1976,
-        "latest": 2399,
+        "latest": 2400,
         "latest-1.7.10": 1343,
         "recommended": 2387
     },
