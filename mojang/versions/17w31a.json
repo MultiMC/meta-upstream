@@ -9,39 +9,39 @@
     "assets": "1.12",
     "downloads": {
         "client": {
-            "sha1": "d10320fe0a9bf0e86bbea792216bb0da4430b17a",
-            "size": 10118268,
-            "url": "https://launcher.mojang.com/mc/game/17w18b/client/d10320fe0a9bf0e86bbea792216bb0da4430b17a/client.jar"
+            "sha1": "67bfebbd0af5e7b7b4d089a7e9b63dbed2eeacd7",
+            "size": 10178129,
+            "url": "https://launcher.mojang.com/mc/game/17w31a/client/67bfebbd0af5e7b7b4d089a7e9b63dbed2eeacd7/client.jar"
         },
         "server": {
-            "sha1": "915c1833209d588ade3e064577700037093861da",
-            "size": 30158022,
-            "url": "https://launcher.mojang.com/mc/game/17w18b/server/915c1833209d588ade3e064577700037093861da/server.jar"
+            "sha1": "00b83b98c91dbe3531342325f72654ef6d7be6eb",
+            "size": 30210954,
+            "url": "https://launcher.mojang.com/mc/game/17w31a/server/00b83b98c91dbe3531342325f72654ef6d7be6eb/server.jar"
         }
     },
-    "id": "17w18b",
+    "id": "17w31a",
     "libraries": [
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/patchy/1.0/patchy-1.0.jar",
-                    "sha1": "41843d5f68c82b6a4211d4ebefcfbe9876df7b07",
-                    "size": 15736,
-                    "url": "https://libraries.minecraft.net/com/mojang/patchy/1.0/patchy-1.0.jar"
+                    "path": "com/mojang/patchy/1.1/patchy-1.1.jar",
+                    "sha1": "aef610b34a1be37fa851825f12372b78424d8903",
+                    "size": 15817,
+                    "url": "https://libraries.minecraft.net/com/mojang/patchy/1.1/patchy-1.1.jar"
                 }
             },
-            "name": "com.mojang:patchy:1.0"
+            "name": "com.mojang:patchy:1.1"
         },
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/github/oshi/oshi-core/3.4.2/oshi-core-3.4.2.jar",
-                    "sha1": "18dfa6fad54d8cebed5600a67aefa8c6601ebd77",
-                    "size": 344873,
-                    "url": "https://libraries.minecraft.net/com/github/oshi/oshi-core/3.4.2/oshi-core-3.4.2.jar"
+                    "path": "oshi-project/oshi-core/1.1/oshi-core-1.1.jar",
+                    "sha1": "9ddf7b048a8d701be231c0f4f95fd986198fd2d8",
+                    "size": 30973,
+                    "url": "https://libraries.minecraft.net/oshi-project/oshi-core/1.1/oshi-core-1.1.jar"
                 }
             },
-            "name": "com.github.oshi:oshi-core:3.4.2"
+            "name": "oshi-project:oshi-core:1.1"
         },
         {
             "downloads": {
@@ -57,13 +57,13 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "net/java/dev/jna/jna-platform/4.4.0/jna-platform-4.4.0.jar",
-                    "sha1": "f396b0ceb7ababb8b4a5ea25e6742ced81e3d86f",
-                    "size": 2281814,
-                    "url": "https://libraries.minecraft.net/net/java/dev/jna/jna-platform/4.4.0/jna-platform-4.4.0.jar"
+                    "path": "net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar",
+                    "sha1": "e3f70017be8100d3d6923f50b3d2ee17714e9c13",
+                    "size": 913436,
+                    "url": "https://libraries.minecraft.net/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar"
                 }
             },
-            "name": "net.java.dev.jna:jna-platform:4.4.0"
+            "name": "net.java.dev.jna:platform:3.4.0"
         },
         {
             "downloads": {
@@ -268,13 +268,13 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/realms/1.10.8/realms-1.10.8.jar",
-                    "sha1": "67560bbd6a83d48ae8b956f1feac09010bde879c",
-                    "size": 3025164,
-                    "url": "https://libraries.minecraft.net/com/mojang/realms/1.10.8/realms-1.10.8.jar"
+                    "path": "com/mojang/realms/1.10.17/realms-1.10.17.jar",
+                    "sha1": "e6a623bf93a230b503b0e3ae18c196fcd5aa3299",
+                    "size": 3257404,
+                    "url": "https://libraries.minecraft.net/com/mojang/realms/1.10.17/realms-1.10.17.jar"
                 }
             },
-            "name": "com.mojang:realms:1.10.8"
+            "name": "com.mojang:realms:1.10.17"
         },
         {
             "downloads": {
@@ -584,48 +584,48 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/text2speech/1.10.1/text2speech-1.10.1.jar",
-                    "sha1": "9fab79a2822f493b194c81f5c92d3466abc28f27",
-                    "size": 10810,
-                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.1/text2speech-1.10.1.jar"
+                    "path": "com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar",
+                    "sha1": "48fd510879dff266c3815947de66e3d4809f8668",
+                    "size": 11055,
+                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar"
                 },
                 "classifiers": {
                     "natives-linux": {
-                        "path": "com/mojang/text2speech/1.10.1/text2speech-1.10.1-natives-linux.jar",
-                        "sha1": "5ceb9acf93ad3e3f2c1487d9ee241804d2d0b65d",
+                        "path": "com/mojang/text2speech/1.10.3/text2speech-1.10.3-natives-linux.jar",
+                        "sha1": "ab7896aec3b3dd272b06194357f2d98f832c0cfc",
                         "size": 7833,
-                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.1/text2speech-1.10.1-natives-linux.jar"
+                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3-natives-linux.jar"
                     },
                     "natives-windows": {
-                        "path": "com/mojang/text2speech/1.10.1/text2speech-1.10.1-natives-windows.jar",
-                        "sha1": "168d84077b984900edf52e260b7ca1ef57a3e56a",
+                        "path": "com/mojang/text2speech/1.10.3/text2speech-1.10.3-natives-windows.jar",
+                        "sha1": "84a4b856389cc4f485275b1f63497a95a857a443",
                         "size": 81217,
-                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.1/text2speech-1.10.1-natives-windows.jar"
+                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3-natives-windows.jar"
                     }
                 }
             },
-            "name": "com.mojang:text2speech:1.10.1"
+            "name": "com.mojang:text2speech:1.10.3"
         },
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/text2speech/1.10.1/text2speech-1.10.1.jar",
-                    "sha1": "9fab79a2822f493b194c81f5c92d3466abc28f27",
-                    "size": 10810,
-                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.1/text2speech-1.10.1.jar"
+                    "path": "com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar",
+                    "sha1": "48fd510879dff266c3815947de66e3d4809f8668",
+                    "size": 11055,
+                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar"
                 },
                 "classifiers": {
                     "natives-linux": {
-                        "path": "com/mojang/text2speech/1.10.1/text2speech-1.10.1-natives-linux.jar",
-                        "sha1": "5ceb9acf93ad3e3f2c1487d9ee241804d2d0b65d",
+                        "path": "com/mojang/text2speech/1.10.3/text2speech-1.10.3-natives-linux.jar",
+                        "sha1": "ab7896aec3b3dd272b06194357f2d98f832c0cfc",
                         "size": 7833,
-                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.1/text2speech-1.10.1-natives-linux.jar"
+                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3-natives-linux.jar"
                     },
                     "natives-windows": {
-                        "path": "com/mojang/text2speech/1.10.1/text2speech-1.10.1-natives-windows.jar",
-                        "sha1": "168d84077b984900edf52e260b7ca1ef57a3e56a",
+                        "path": "com/mojang/text2speech/1.10.3/text2speech-1.10.3-natives-windows.jar",
+                        "sha1": "84a4b856389cc4f485275b1f63497a95a857a443",
                         "size": 81217,
-                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.1/text2speech-1.10.1-natives-windows.jar"
+                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3-natives-windows.jar"
                     }
                 }
             },
@@ -634,7 +634,7 @@
                     "META-INF/"
                 ]
             },
-            "name": "com.mojang:text2speech:1.10.1",
+            "name": "com.mojang:text2speech:1.10.3",
             "natives": {
                 "linux": "natives-linux",
                 "windows": "natives-windows"
@@ -718,7 +718,7 @@
     "mainClass": "net.minecraft.client.main.Main",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "minimumLauncherVersion": 18,
-    "releaseTime": "2017-05-04T13:40:22+00:00",
+    "releaseTime": "2017-08-01T09:41:23+00:00",
     "time": "2017-08-01T10:38:54+00:00",
     "type": "snapshot"
 }
