@@ -2,12 +2,16 @@
     "meta": {
         "authors": "Mumfrey",
         "description": "LiteLoader is a lightweight mod bootstrap designed to provide basic loader functionality for mods which don't need to modify game mechanics.",
-        "updated": "2017-07-27T16:57:33+01:00",
-        "updatedTime": 1501171053,
+        "updated": "2017-08-03T16:48:24+01:00",
+        "updatedTime": 1501775304,
         "url": "http://dl.liteloader.com"
     },
     "versions": {
         "1.10": {
+            "dev": {
+                "fgVersion": "2.2",
+                "mappings": "snapshot_custom"
+            },
             "repo": {
                 "classifier": "",
                 "stream": "SNAPSHOT",
@@ -101,6 +105,10 @@
                     }
                 }
             },
+            "dev": {
+                "fgVersion": "2.2",
+                "mappings": "snapshot_20160628"
+            },
             "repo": {
                 "classifier": "",
                 "stream": "RELEASE",
@@ -158,6 +166,10 @@
             }
         },
         "1.11": {
+            "dev": {
+                "fgVersion": "2.2",
+                "mappings": "snapshot_20161124"
+            },
             "repo": {
                 "classifier": "",
                 "stream": "SNAPSHOT",
@@ -215,6 +227,10 @@
             }
         },
         "1.11.2": {
+            "dev": {
+                "fgVersion": "2.2",
+                "mappings": "snapshot_20161224"
+            },
             "repo": {
                 "classifier": "",
                 "stream": "SNAPSHOT",
@@ -272,6 +288,10 @@
             }
         },
         "1.12": {
+            "dev": {
+                "fgVersion": "2.3",
+                "mappings": "snapshot_20170627"
+            },
             "repo": {
                 "classifier": "",
                 "stream": "SNAPSHOT",
@@ -280,10 +300,10 @@
             },
             "snapshots": {
                 "com.mumfrey:liteloader": {
-                    "d40ed5858503263e8a986137aece0ae9": {
-                        "build": "1.12-SNAPSHOT-r7940C00-b5-5",
+                    "95f773dc0efc3780496ad528fa95ac56": {
+                        "build": "1.12-SNAPSHOT-rD25AB60-b7-7",
                         "file": "liteloader-1.12-SNAPSHOT.jar",
-                        "lastSuccessfulBuild": 4,
+                        "lastSuccessfulBuild": 6,
                         "libraries": [
                             {
                                 "name": "net.minecraft:launchwrapper:1.12"
@@ -292,16 +312,16 @@
                                 "name": "org.ow2.asm:asm-all:5.0.3"
                             }
                         ],
-                        "md5": "d40ed5858503263e8a986137aece0ae9",
+                        "md5": "95f773dc0efc3780496ad528fa95ac56",
                         "stream": "SNAPSHOT",
-                        "timestamp": "1501167450",
+                        "timestamp": "1501771700",
                         "tweakClass": "com.mumfrey.liteloader.launch.LiteLoaderTweaker",
                         "version": "1.12-SNAPSHOT"
                     },
                     "latest": {
-                        "build": "1.12-SNAPSHOT-r7940C00-b5-5",
+                        "build": "1.12-SNAPSHOT-rD25AB60-b7-7",
                         "file": "liteloader-1.12-SNAPSHOT.jar",
-                        "lastSuccessfulBuild": 4,
+                        "lastSuccessfulBuild": 6,
                         "libraries": [
                             {
                                 "name": "net.minecraft:launchwrapper:1.12"
@@ -310,9 +330,9 @@
                                 "name": "org.ow2.asm:asm-all:5.0.3"
                             }
                         ],
-                        "md5": "d40ed5858503263e8a986137aece0ae9",
+                        "md5": "95f773dc0efc3780496ad528fa95ac56",
                         "stream": "SNAPSHOT",
-                        "timestamp": "1501167450",
+                        "timestamp": "1501771700",
                         "tweakClass": "com.mumfrey.liteloader.launch.LiteLoaderTweaker",
                         "version": "1.12-SNAPSHOT"
                     }
@@ -370,6 +390,9 @@
                         "version": "1.5.2_01"
                     }
                 }
+            },
+            "dev": {
+                "mcp": "true"
             },
             "repo": {
                 "classifier": "mcpnames",
@@ -448,6 +471,9 @@
                     }
                 }
             },
+            "dev": {
+                "mcp": "true"
+            },
             "repo": {
                 "classifier": "mcpnames",
                 "stream": "RELEASE",
@@ -498,6 +524,9 @@
                         "version": "1.6.4_01"
                     }
                 }
+            },
+            "dev": {
+                "mcp": "true"
             },
             "repo": {
                 "classifier": "mcpnames",
@@ -616,6 +645,9 @@
                     }
                 }
             },
+            "dev": {
+                "mcp": "true"
+            },
             "repo": {
                 "classifier": "mcpnames",
                 "stream": "RELEASE",
@@ -710,6 +742,9 @@
                     }
                 }
             },
+            "dev": {
+                "mcp": "true"
+            },
             "repo": {
                 "classifier": "mcpnames",
                 "stream": "RELEASE",
@@ -758,6 +793,10 @@
                     }
                 }
             },
+            "dev": {
+                "fgVersion": "2.1",
+                "mappings": "snapshot_20151124"
+            },
             "repo": {
                 "classifier": "mcpnames",
                 "stream": "RELEASE",
@@ -766,6 +805,10 @@
             }
         },
         "1.8.9": {
+            "dev": {
+                "fgVersion": "2.1",
+                "mappings": "snapshot_20160204"
+            },
             "repo": {
                 "classifier": "",
                 "stream": "SNAPSHOT",
@@ -823,6 +866,10 @@
             }
         },
         "1.9": {
+            "dev": {
+                "fgVersion": "2.1",
+                "mappings": "snapshot_20160411"
+            },
             "repo": {
                 "classifier": "",
                 "stream": "SNAPSHOT",
@@ -915,6 +962,10 @@
                         "version": "1.9.4"
                     }
                 }
+            },
+            "dev": {
+                "fgVersion": "2.1",
+                "mappings": "snapshot_20160517"
             },
             "repo": {
                 "classifier": "",
