@@ -2,8 +2,8 @@
     "meta": {
         "authors": "Mumfrey",
         "description": "LiteLoader is a lightweight mod bootstrap designed to provide basic loader functionality for mods which don't need to modify game mechanics.",
-        "updated": "2017-08-03T16:48:24+01:00",
-        "updatedTime": 1501775304,
+        "updated": "2017-08-04T11:26:42+01:00",
+        "updatedTime": 1501842402,
         "url": "http://dl.liteloader.com"
     },
     "versions": {
@@ -303,7 +303,7 @@
                     "95f773dc0efc3780496ad528fa95ac56": {
                         "build": "1.12-SNAPSHOT-rD25AB60-b7-7",
                         "file": "liteloader-1.12-SNAPSHOT.jar",
-                        "lastSuccessfulBuild": 6,
+                        "lastSuccessfulBuild": 7,
                         "libraries": [
                             {
                                 "name": "net.minecraft:launchwrapper:1.12"
@@ -321,7 +321,7 @@
                     "latest": {
                         "build": "1.12-SNAPSHOT-rD25AB60-b7-7",
                         "file": "liteloader-1.12-SNAPSHOT.jar",
-                        "lastSuccessfulBuild": 6,
+                        "lastSuccessfulBuild": 7,
                         "libraries": [
                             {
                                 "name": "net.minecraft:launchwrapper:1.12"
@@ -342,7 +342,7 @@
                         "name": "net.minecraft:launchwrapper:1.12"
                     },
                     {
-                        "name": "org.spongepowered:mixin:0.7-SNAPSHOT",
+                        "name": "org.spongepowered:mixin:0.7.1-SNAPSHOT",
                         "url": "https://repo.spongepowered.org/maven/"
                     }
                 ]
