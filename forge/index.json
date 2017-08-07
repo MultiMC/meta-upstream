@@ -892,7 +892,8 @@
         ],
         "1.12.1": [
             2444,
-            2445
+            2445,
+            2446
         ],
         "1.2.3": [
             30,
@@ -60565,6 +60566,45 @@
             "modified": 1502043840.0,
             "version": "14.22.0.2445"
         },
+        "2446": {
+            "branch": null,
+            "build": 2446,
+            "files": [
+                [
+                    "zip",
+                    "mdk",
+                    "d0a64a77c4ac9c8a49b8275b44921efa"
+                ],
+                [
+                    "txt",
+                    "changelog",
+                    "af1ac9b23355a8ba374983f97f76e44c"
+                ],
+                [
+                    "jar",
+                    "universal",
+                    "c6758f98e38a83b6f05d70370666e6f9"
+                ],
+                [
+                    "jar",
+                    "userdev",
+                    "2a7820842c68d3a3edc8687a9f254ac1"
+                ],
+                [
+                    "exe",
+                    "installer-win",
+                    "47742fc9ac1094537f4c954dd15feaf1"
+                ],
+                [
+                    "jar",
+                    "installer",
+                    "7e7a10511d2006d9062c8161baeba51c"
+                ]
+            ],
+            "mcversion": "1.12.1",
+            "modified": 1502061000.0,
+            "version": "14.22.0.2446"
+        },
         "245": {
             "branch": null,
             "build": 245,
@@ -81108,7 +81148,7 @@
         "1.11.2-recommended": 2386,
         "1.12-latest": 2443,
         "1.12-recommended": 2387,
-        "1.12.1-latest": 2445,
+        "1.12.1-latest": 2446,
         "1.5.2-latest": 738,
         "1.5.2-recommended": 737,
         "1.6.1-latest": 775,
@@ -81130,7 +81170,7 @@
         "1.9-recommended": 1887,
         "1.9.4-latest": 2051,
         "1.9.4-recommended": 1976,
-        "latest": 2445,
+        "latest": 2446,
         "latest-1.7.10": 1343,
         "recommended": 2387
     },
