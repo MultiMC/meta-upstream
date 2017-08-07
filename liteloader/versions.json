@@ -2,8 +2,8 @@
     "meta": {
         "authors": "Mumfrey",
         "description": "LiteLoader is a lightweight mod bootstrap designed to provide basic loader functionality for mods which don't need to modify game mechanics.",
-        "updated": "2017-08-04T12:43:16+01:00",
-        "updatedTime": 1501846996,
+        "updated": "2017-08-07T15:01:15+01:00",
+        "updatedTime": 1502114475,
         "url": "http://dl.liteloader.com"
     },
     "versions": {
@@ -239,8 +239,8 @@
             },
             "snapshots": {
                 "com.mumfrey:liteloader": {
-                    "14ad24bfce6f4820778a6f964fc1168b": {
-                        "build": "1.11.2-SNAPSHOT-r5388132-b10-10",
+                    "c68fe59abb103426bb630d708db3e649": {
+                        "build": "1.11.2-SNAPSHOT-rE13E19A-b11-11",
                         "file": "liteloader-1.11.2-SNAPSHOT.jar",
                         "lastSuccessfulBuild": 10,
                         "libraries": [
@@ -251,14 +251,14 @@
                                 "name": "org.ow2.asm:asm-all:5.0.3"
                             }
                         ],
-                        "md5": "14ad24bfce6f4820778a6f964fc1168b",
+                        "md5": "c68fe59abb103426bb630d708db3e649",
                         "stream": "SNAPSHOT",
-                        "timestamp": "1487763244",
+                        "timestamp": "1502110873",
                         "tweakClass": "com.mumfrey.liteloader.launch.LiteLoaderTweaker",
                         "version": "1.11.2-SNAPSHOT"
                     },
                     "latest": {
-                        "build": "1.11.2-SNAPSHOT-r5388132-b10-10",
+                        "build": "1.11.2-SNAPSHOT-rE13E19A-b11-11",
                         "file": "liteloader-1.11.2-SNAPSHOT.jar",
                         "lastSuccessfulBuild": 10,
                         "libraries": [
@@ -269,9 +269,9 @@
                                 "name": "org.ow2.asm:asm-all:5.0.3"
                             }
                         ],
-                        "md5": "14ad24bfce6f4820778a6f964fc1168b",
+                        "md5": "c68fe59abb103426bb630d708db3e649",
                         "stream": "SNAPSHOT",
-                        "timestamp": "1487763244",
+                        "timestamp": "1502110873",
                         "tweakClass": "com.mumfrey.liteloader.launch.LiteLoaderTweaker",
                         "version": "1.11.2-SNAPSHOT"
                     }
@@ -364,7 +364,7 @@
                     "32f3f839607df123129a8c66a3566b6f": {
                         "build": "1.12.1-SNAPSHOT-r0BC7907-b1-1",
                         "file": "liteloader-1.12.1-SNAPSHOT.jar",
-                        "lastSuccessfulBuild": null,
+                        "lastSuccessfulBuild": 1,
                         "libraries": [
                             {
                                 "name": "net.minecraft:launchwrapper:1.12"
@@ -382,7 +382,7 @@
                     "latest": {
                         "build": "1.12.1-SNAPSHOT-r0BC7907-b1-1",
                         "file": "liteloader-1.12.1-SNAPSHOT.jar",
-                        "lastSuccessfulBuild": null,
+                        "lastSuccessfulBuild": 1,
                         "libraries": [
                             {
                                 "name": "net.minecraft:launchwrapper:1.12"
