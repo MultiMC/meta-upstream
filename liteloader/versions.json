@@ -2,8 +2,8 @@
     "meta": {
         "authors": "Mumfrey",
         "description": "LiteLoader is a lightweight mod bootstrap designed to provide basic loader functionality for mods which don't need to modify game mechanics.",
-        "updated": "2017-08-14T12:59:42+01:00",
-        "updatedTime": 1502711982,
+        "updated": "2017-09-04T18:49:39+01:00",
+        "updatedTime": 1504547379,
         "url": "http://dl.liteloader.com"
     },
     "versions": {
@@ -239,10 +239,10 @@
             },
             "snapshots": {
                 "com.mumfrey:liteloader": {
-                    "ecbc450989dde09bf1e8689f0b92808e": {
-                        "build": "1.11.2-SNAPSHOT-r434901F-b12-12",
+                    "3a98b5ed95810bf164e71c1a53be568d": {
+                        "build": "1.11.2-SNAPSHOT-r09AB166-b13-13",
                         "file": "liteloader-1.11.2-SNAPSHOT.jar",
-                        "lastSuccessfulBuild": 12,
+                        "lastSuccessfulBuild": 13,
                         "libraries": [
                             {
                                 "name": "net.minecraft:launchwrapper:1.12"
@@ -251,16 +251,16 @@
                                 "name": "org.ow2.asm:asm-all:5.0.3"
                             }
                         ],
-                        "md5": "ecbc450989dde09bf1e8689f0b92808e",
+                        "md5": "3a98b5ed95810bf164e71c1a53be568d",
                         "stream": "SNAPSHOT",
-                        "timestamp": "1502707991",
+                        "timestamp": "1504543390",
                         "tweakClass": "com.mumfrey.liteloader.launch.LiteLoaderTweaker",
                         "version": "1.11.2-SNAPSHOT"
                     },
                     "latest": {
-                        "build": "1.11.2-SNAPSHOT-r434901F-b12-12",
+                        "build": "1.11.2-SNAPSHOT-r09AB166-b13-13",
                         "file": "liteloader-1.11.2-SNAPSHOT.jar",
-                        "lastSuccessfulBuild": 12,
+                        "lastSuccessfulBuild": 13,
                         "libraries": [
                             {
                                 "name": "net.minecraft:launchwrapper:1.12"
@@ -269,9 +269,9 @@
                                 "name": "org.ow2.asm:asm-all:5.0.3"
                             }
                         ],
-                        "md5": "ecbc450989dde09bf1e8689f0b92808e",
+                        "md5": "3a98b5ed95810bf164e71c1a53be568d",
                         "stream": "SNAPSHOT",
-                        "timestamp": "1502707991",
+                        "timestamp": "1504543390",
                         "tweakClass": "com.mumfrey.liteloader.launch.LiteLoaderTweaker",
                         "version": "1.11.2-SNAPSHOT"
                     }
@@ -300,10 +300,10 @@
             },
             "snapshots": {
                 "com.mumfrey:liteloader": {
-                    "e46d74b6cee34adee1a9682cc9079281": {
-                        "build": "1.12-SNAPSHOT-r5C199CB-b8-8",
+                    "61179803bcd5fb7790789b790908663d": {
+                        "build": "1.12-SNAPSHOT-r4CA9C4E-b9-9",
                         "file": "liteloader-1.12-SNAPSHOT.jar",
-                        "lastSuccessfulBuild": 7,
+                        "lastSuccessfulBuild": 9,
                         "libraries": [
                             {
                                 "name": "net.minecraft:launchwrapper:1.12"
@@ -312,16 +312,16 @@
                                 "name": "org.ow2.asm:asm-all:5.0.3"
                             }
                         ],
-                        "md5": "e46d74b6cee34adee1a9682cc9079281",
+                        "md5": "61179803bcd5fb7790789b790908663d",
                         "stream": "SNAPSHOT",
-                        "timestamp": "1502708380",
+                        "timestamp": "1504543585",
                         "tweakClass": "com.mumfrey.liteloader.launch.LiteLoaderTweaker",
                         "version": "1.12-SNAPSHOT"
                     },
                     "latest": {
-                        "build": "1.12-SNAPSHOT-r5C199CB-b8-8",
+                        "build": "1.12-SNAPSHOT-r4CA9C4E-b9-9",
                         "file": "liteloader-1.12-SNAPSHOT.jar",
-                        "lastSuccessfulBuild": 7,
+                        "lastSuccessfulBuild": 9,
                         "libraries": [
                             {
                                 "name": "net.minecraft:launchwrapper:1.12"
@@ -330,9 +330,9 @@
                                 "name": "org.ow2.asm:asm-all:5.0.3"
                             }
                         ],
-                        "md5": "e46d74b6cee34adee1a9682cc9079281",
+                        "md5": "61179803bcd5fb7790789b790908663d",
                         "stream": "SNAPSHOT",
-                        "timestamp": "1502708380",
+                        "timestamp": "1504543585",
                         "tweakClass": "com.mumfrey.liteloader.launch.LiteLoaderTweaker",
                         "version": "1.12-SNAPSHOT"
                     }
@@ -361,8 +361,8 @@
             },
             "snapshots": {
                 "com.mumfrey:liteloader": {
-                    "9260f44e1d8b10e65e9c04fe7a78e062": {
-                        "build": "1.12.1-SNAPSHOT-r801CEBB-b2-2",
+                    "b9bef8abc8dc309069aeba6fbbe58980": {
+                        "build": "1.12.1-SNAPSHOT-r98DC04C-b3-3",
                         "file": "liteloader-1.12.1-SNAPSHOT.jar",
                         "lastSuccessfulBuild": 2,
                         "libraries": [
@@ -373,14 +373,14 @@
                                 "name": "org.ow2.asm:asm-all:5.0.3"
                             }
                         ],
-                        "md5": "9260f44e1d8b10e65e9c04fe7a78e062",
+                        "md5": "b9bef8abc8dc309069aeba6fbbe58980",
                         "stream": "SNAPSHOT",
-                        "timestamp": "1502708194",
+                        "timestamp": "1504543777",
                         "tweakClass": "com.mumfrey.liteloader.launch.LiteLoaderTweaker",
                         "version": "1.12.1-SNAPSHOT"
                     },
                     "latest": {
-                        "build": "1.12.1-SNAPSHOT-r801CEBB-b2-2",
+                        "build": "1.12.1-SNAPSHOT-r98DC04C-b3-3",
                         "file": "liteloader-1.12.1-SNAPSHOT.jar",
                         "lastSuccessfulBuild": 2,
                         "libraries": [
@@ -391,9 +391,9 @@
                                 "name": "org.ow2.asm:asm-all:5.0.3"
                             }
                         ],
-                        "md5": "9260f44e1d8b10e65e9c04fe7a78e062",
+                        "md5": "b9bef8abc8dc309069aeba6fbbe58980",
                         "stream": "SNAPSHOT",
-                        "timestamp": "1502708194",
+                        "timestamp": "1504543777",
                         "tweakClass": "com.mumfrey.liteloader.launch.LiteLoaderTweaker",
                         "version": "1.12.1-SNAPSHOT"
                     }
