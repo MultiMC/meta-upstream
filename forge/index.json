@@ -924,7 +924,8 @@
             2472,
             2473,
             2474,
-            2475
+            2475,
+            2478
         ],
         "1.2.3": [
             30,
@@ -61932,6 +61933,45 @@
             "modified": 1505080320.0,
             "version": "12.18.3.2477"
         },
+        "2478": {
+            "branch": null,
+            "build": 2478,
+            "files": [
+                [
+                    "zip",
+                    "mdk",
+                    "578b7472c01b78ad56e843ff2fc2257d"
+                ],
+                [
+                    "txt",
+                    "changelog",
+                    "5998746a1461525a23a348040fba9545"
+                ],
+                [
+                    "jar",
+                    "universal",
+                    "2896776c08d2371a55af0f4e0e9de0c8"
+                ],
+                [
+                    "jar",
+                    "userdev",
+                    "909e17d88021cad974f0eb17e1ef230a"
+                ],
+                [
+                    "exe",
+                    "installer-win",
+                    "7f03a82c51855f31352073e9db4ca4c2"
+                ],
+                [
+                    "jar",
+                    "installer",
+                    "0a96b911ac1131481ceccd769f080902"
+                ]
+            ],
+            "mcversion": "1.12.1",
+            "modified": 1505174940.0,
+            "version": "14.22.1.2478"
+        },
         "248": {
             "branch": null,
             "build": 248,
@@ -82388,7 +82428,8 @@
         "1.11.2-recommended": 2386,
         "1.12-latest": 2443,
         "1.12-recommended": 2387,
-        "1.12.1-latest": 2475,
+        "1.12.1-latest": 2478,
+        "1.12.1-recommended": 2478,
         "1.5.2-latest": 738,
         "1.5.2-recommended": 737,
         "1.6.1-latest": 775,
@@ -82410,9 +82451,9 @@
         "1.9-recommended": 1887,
         "1.9.4-latest": 2051,
         "1.9.4-recommended": 1976,
-        "latest": 2477,
+        "latest": 2478,
         "latest-1.7.10": 1343,
-        "recommended": 2387
+        "recommended": 2478
     },
     "webpath": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/"
 }
