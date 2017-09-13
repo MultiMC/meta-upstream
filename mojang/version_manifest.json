@@ -1,22 +1,22 @@
 {
     "latest": {
         "release": "1.12.1",
-        "snapshot": "1.12.1"
+        "snapshot": "1.12.2-pre1"
     },
     "versions": [
+        {
+            "id": "1.12.2-pre1",
+            "releaseTime": "2017-09-13T13:33:31+00:00",
+            "time": "2017-09-13T13:34:48+00:00",
+            "type": "snapshot",
+            "url": "https://launchermeta.mojang.com/mc/game/9d3c562a0b158211ebc790d61ab54151d591129e/1.12.2-pre1.json"
+        },
         {
             "id": "1.12.1",
             "releaseTime": "2017-08-03T12:40:39+00:00",
             "time": "2017-08-03T12:41:21+00:00",
             "type": "release",
             "url": "https://launchermeta.mojang.com/mc/game/2ce9731e5bafdf69014e4e6db1cc56149958c5a8/1.12.1.json"
-        },
-        {
-            "id": "1.12.1-pre1",
-            "releaseTime": "2017-08-02T10:53:55+00:00",
-            "time": "2017-08-02T10:54:33+00:00",
-            "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/mc/game/f3d3a9256ec130d299eab75cf44f8b7826caf98f/1.12.1-pre1.json"
         },
         {
             "id": "17w31a",
@@ -73,13 +73,6 @@
             "time": "2017-08-02T10:51:18+00:00",
             "type": "snapshot",
             "url": "https://launchermeta.mojang.com/mc/game/ba59e4831cfa0afc2fba4658f6d86d5599cfaa9c/17w13b.json"
-        },
-        {
-            "id": "17w06a",
-            "releaseTime": "2017-02-08T13:16:29+00:00",
-            "time": "2017-02-08T13:17:20+00:00",
-            "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/mc/game/7db0c61afa278d016cf1dae2fba0146edfbf2f8e/17w06a.json"
         },
         {
             "id": "1.11.2",
