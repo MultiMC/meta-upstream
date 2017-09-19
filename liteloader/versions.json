@@ -2,8 +2,8 @@
     "meta": {
         "authors": "Mumfrey",
         "description": "LiteLoader is a lightweight mod bootstrap designed to provide basic loader functionality for mods which don't need to modify game mechanics.",
-        "updated": "2017-09-04T18:49:39+01:00",
-        "updatedTime": 1504547379,
+        "updated": "2017-09-19T13:31:16+01:00",
+        "updatedTime": 1505824276,
         "url": "http://dl.liteloader.com"
     },
     "versions": {
@@ -281,7 +281,7 @@
                         "name": "net.minecraft:launchwrapper:1.12"
                     },
                     {
-                        "name": "org.spongepowered:mixin:0.7.1-SNAPSHOT",
+                        "name": "org.spongepowered:mixin:0.7.3-SNAPSHOT",
                         "url": "https://repo.spongepowered.org/maven/"
                     }
                 ]
@@ -342,7 +342,7 @@
                         "name": "net.minecraft:launchwrapper:1.12"
                     },
                     {
-                        "name": "org.spongepowered:mixin:0.7.1-SNAPSHOT",
+                        "name": "org.spongepowered:mixin:0.7.3-SNAPSHOT",
                         "url": "https://repo.spongepowered.org/maven/"
                     }
                 ]
@@ -364,7 +364,7 @@
                     "b9bef8abc8dc309069aeba6fbbe58980": {
                         "build": "1.12.1-SNAPSHOT-r98DC04C-b3-3",
                         "file": "liteloader-1.12.1-SNAPSHOT.jar",
-                        "lastSuccessfulBuild": 2,
+                        "lastSuccessfulBuild": 3,
                         "libraries": [
                             {
                                 "name": "net.minecraft:launchwrapper:1.12"
@@ -382,7 +382,7 @@
                     "latest": {
                         "build": "1.12.1-SNAPSHOT-r98DC04C-b3-3",
                         "file": "liteloader-1.12.1-SNAPSHOT.jar",
-                        "lastSuccessfulBuild": 2,
+                        "lastSuccessfulBuild": 3,
                         "libraries": [
                             {
                                 "name": "net.minecraft:launchwrapper:1.12"
@@ -403,7 +403,68 @@
                         "name": "net.minecraft:launchwrapper:1.12"
                     },
                     {
-                        "name": "org.spongepowered:mixin:0.7.1-SNAPSHOT",
+                        "name": "org.spongepowered:mixin:0.7.3-SNAPSHOT",
+                        "url": "https://repo.spongepowered.org/maven/"
+                    }
+                ]
+            }
+        },
+        "1.12.2": {
+            "dev": {
+                "fgVersion": "2.3",
+                "mappings": "snapshot_20170919"
+            },
+            "repo": {
+                "classifier": "",
+                "stream": "SNAPSHOT",
+                "type": "m2",
+                "url": "http://repo.mumfrey.com/content/repositories/snapshots/"
+            },
+            "snapshots": {
+                "com.mumfrey:liteloader": {
+                    "70bdc8e4cd4b3c0b83d4af879c1918d2": {
+                        "build": "1.12.2-SNAPSHOT-r0B584FF-b2-2",
+                        "file": "liteloader-1.12.2-SNAPSHOT.jar",
+                        "lastSuccessfulBuild": 1,
+                        "libraries": [
+                            {
+                                "name": "net.minecraft:launchwrapper:1.12"
+                            },
+                            {
+                                "name": "org.ow2.asm:asm-all:5.0.3"
+                            }
+                        ],
+                        "md5": "70bdc8e4cd4b3c0b83d4af879c1918d2",
+                        "stream": "SNAPSHOT",
+                        "timestamp": "1505820674",
+                        "tweakClass": "com.mumfrey.liteloader.launch.LiteLoaderTweaker",
+                        "version": "1.12.2-SNAPSHOT"
+                    },
+                    "latest": {
+                        "build": "1.12.2-SNAPSHOT-r0B584FF-b2-2",
+                        "file": "liteloader-1.12.2-SNAPSHOT.jar",
+                        "lastSuccessfulBuild": 1,
+                        "libraries": [
+                            {
+                                "name": "net.minecraft:launchwrapper:1.12"
+                            },
+                            {
+                                "name": "org.ow2.asm:asm-all:5.0.3"
+                            }
+                        ],
+                        "md5": "70bdc8e4cd4b3c0b83d4af879c1918d2",
+                        "stream": "SNAPSHOT",
+                        "timestamp": "1505820674",
+                        "tweakClass": "com.mumfrey.liteloader.launch.LiteLoaderTweaker",
+                        "version": "1.12.2-SNAPSHOT"
+                    }
+                },
+                "libraries": [
+                    {
+                        "name": "net.minecraft:launchwrapper:1.12"
+                    },
+                    {
+                        "name": "org.spongepowered:mixin:0.7.4-SNAPSHOT",
                         "url": "https://repo.spongepowered.org/maven/"
                     }
                 ]
