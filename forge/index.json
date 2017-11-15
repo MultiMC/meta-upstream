@@ -991,7 +991,9 @@
             2539,
             2540,
             2541,
-            2542
+            2542,
+            2543,
+            2544
         ],
         "1.2.3": [
             30,
@@ -64737,6 +64739,84 @@
             "modified": 1510647600.0,
             "version": "14.23.0.2542"
         },
+        "2543": {
+            "branch": null,
+            "build": 2543,
+            "files": [
+                [
+                    "zip",
+                    "mdk",
+                    "427acb62d8727135d2d3f5cbef557347"
+                ],
+                [
+                    "txt",
+                    "changelog",
+                    "cf6b40bff8e9507df97ed878a08cece8"
+                ],
+                [
+                    "jar",
+                    "universal",
+                    "d321386beeb562fd6bfbaffcb962572b"
+                ],
+                [
+                    "jar",
+                    "userdev",
+                    "a3a706a27afe1051f966dc449ca80445"
+                ],
+                [
+                    "exe",
+                    "installer-win",
+                    "43841ba64a747aa78259b316a018e18d"
+                ],
+                [
+                    "jar",
+                    "installer",
+                    "7e9d6323b11459186bf24be9be7e97d8"
+                ]
+            ],
+            "mcversion": "1.12.2",
+            "modified": 1510780500.0,
+            "version": "14.23.0.2543"
+        },
+        "2544": {
+            "branch": null,
+            "build": 2544,
+            "files": [
+                [
+                    "zip",
+                    "mdk",
+                    "64e37efdcab1e952e5e9d16f853eacf4"
+                ],
+                [
+                    "txt",
+                    "changelog",
+                    "6bc72f0a31f3a7ecf70bc56a5052a3cf"
+                ],
+                [
+                    "jar",
+                    "universal",
+                    "4ae5dcfbc61b33ff2a3c1ffc61f3ed41"
+                ],
+                [
+                    "jar",
+                    "userdev",
+                    "a9820e6a53d1166bb239db99e2e0e154"
+                ],
+                [
+                    "exe",
+                    "installer-win",
+                    "0fef350767e6acbadcb9e61b4ee5d33b"
+                ],
+                [
+                    "jar",
+                    "installer",
+                    "0ad3394f16b834ff7d21cd627f3b76af"
+                ]
+            ],
+            "mcversion": "1.12.2",
+            "modified": 1510782120.0,
+            "version": "14.23.0.2544"
+        },
         "255": {
             "branch": null,
             "build": 255,
@@ -84992,7 +85072,7 @@
         "1.12-recommended": 2387,
         "1.12.1-latest": 2485,
         "1.12.1-recommended": 2478,
-        "1.12.2-latest": 2542,
+        "1.12.2-latest": 2544,
         "1.12.2-recommended": 2491,
         "1.5.2-latest": 738,
         "1.5.2-recommended": 737,
@@ -85015,7 +85095,7 @@
         "1.9-recommended": 1887,
         "1.9.4-latest": 2051,
         "1.9.4-recommended": 1976,
-        "latest": 2542,
+        "latest": 2544,
         "latest-1.7.10": 1343,
         "recommended": 2491
     },
