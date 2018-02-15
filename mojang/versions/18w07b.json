@@ -104,17 +104,17 @@
     "assets": "1.13",
     "downloads": {
         "client": {
-            "sha1": "39b958dd8e4ab25c6b6522ce9c83d4bd45173738",
-            "size": 10788746,
-            "url": "https://launcher.mojang.com/mc/game/18w03b/client/39b958dd8e4ab25c6b6522ce9c83d4bd45173738/client.jar"
+            "sha1": "e1aeafe25aa454e35e53bd489523bed51aa5e826",
+            "size": 11318009,
+            "url": "https://launcher.mojang.com/mc/game/18w07b/client/e1aeafe25aa454e35e53bd489523bed51aa5e826/client.jar"
         },
         "server": {
-            "sha1": "ef8c70a7c9b88c02c64ea01d050614929b7152f6",
-            "size": 30753945,
-            "url": "https://launcher.mojang.com/mc/game/18w03b/server/ef8c70a7c9b88c02c64ea01d050614929b7152f6/server.jar"
+            "sha1": "669811c0df3fedef8a15f1b31c96df966b9aee79",
+            "size": 31204289,
+            "url": "https://launcher.mojang.com/mc/game/18w07b/server/669811c0df3fedef8a15f1b31c96df966b9aee79/server.jar"
         }
     },
-    "id": "18w03b",
+    "id": "18w07b",
     "libraries": [
         {
             "downloads": {
@@ -330,13 +330,13 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/brigadier/0.1.20/brigadier-0.1.20.jar",
-                    "sha1": "0c94a878d143ea5e77f00e1d8f05fc6d96814920",
-                    "size": 61789,
-                    "url": "https://libraries.minecraft.net/com/mojang/brigadier/0.1.20/brigadier-0.1.20.jar"
+                    "path": "com/mojang/brigadier/0.1.24/brigadier-0.1.24.jar",
+                    "sha1": "4ce2a6a19befbd7672138adad5b2656da95fa1cb",
+                    "size": 65227,
+                    "url": "https://libraries.minecraft.net/com/mojang/brigadier/0.1.24/brigadier-0.1.24.jar"
                 }
             },
-            "name": "com.mojang:brigadier:0.1.20"
+            "name": "com.mojang:brigadier:0.1.24"
         },
         {
             "downloads": {
@@ -991,7 +991,7 @@
     },
     "mainClass": "net.minecraft.client.main.Main",
     "minimumLauncherVersion": 21,
-    "releaseTime": "2018-01-17T15:09:14+00:00",
-    "time": "2018-02-15T12:08:57+00:00",
+    "releaseTime": "2018-02-15T14:28:42+00:00",
+    "time": "2018-02-15T14:29:38+00:00",
     "type": "snapshot"
 }
