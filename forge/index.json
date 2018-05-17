@@ -1139,7 +1139,10 @@
             2690,
             2691,
             2692,
-            2693
+            2693,
+            2694,
+            2695,
+            2696
         ],
         "1.2.3": [
             30,
@@ -71121,6 +71124,123 @@
             "modified": 1526536440.0,
             "version": "14.23.3.2693"
         },
+        "2694": {
+            "branch": null,
+            "build": 2694,
+            "files": [
+                [
+                    "zip",
+                    "mdk",
+                    "a801d50ac1918995e2c0ad0e83cf86cd"
+                ],
+                [
+                    "txt",
+                    "changelog",
+                    "9e67b37cc5b0cfa7c6c7f7a9b581cab6"
+                ],
+                [
+                    "jar",
+                    "universal",
+                    "bf4f0c83471bcb4cf0097d06d466d2a3"
+                ],
+                [
+                    "jar",
+                    "userdev",
+                    "200452c1e8f5d0238accaf6acfc86a7d"
+                ],
+                [
+                    "exe",
+                    "installer-win",
+                    "ca05437f9af1ab3a0c158483745a8393"
+                ],
+                [
+                    "jar",
+                    "installer",
+                    "2d2915d588aea72d39a0a12f25019766"
+                ]
+            ],
+            "mcversion": "1.12.2",
+            "modified": 1526537100.0,
+            "version": "14.23.3.2694"
+        },
+        "2695": {
+            "branch": null,
+            "build": 2695,
+            "files": [
+                [
+                    "zip",
+                    "mdk",
+                    "8fd17f96fbe488f419543290c5afaf13"
+                ],
+                [
+                    "txt",
+                    "changelog",
+                    "6e2b710e10af83beb3d9ee9c63a15944"
+                ],
+                [
+                    "jar",
+                    "universal",
+                    "b0cb30519bc692db6556825c78b51ecd"
+                ],
+                [
+                    "jar",
+                    "userdev",
+                    "1b10a972f35327ecc04067344a5ec9e3"
+                ],
+                [
+                    "exe",
+                    "installer-win",
+                    "0276312e6015c8565da7db121415170e"
+                ],
+                [
+                    "jar",
+                    "installer",
+                    "66db950dde397cd6addeb77996252f9e"
+                ]
+            ],
+            "mcversion": "1.12.2",
+            "modified": 1526537760.0,
+            "version": "14.23.3.2695"
+        },
+        "2696": {
+            "branch": null,
+            "build": 2696,
+            "files": [
+                [
+                    "zip",
+                    "mdk",
+                    "b73a0ca2bcd0bac931f2782da1221c9d"
+                ],
+                [
+                    "txt",
+                    "changelog",
+                    "08af0a496f1d4f4e4ec9cbe1fbf5e5f0"
+                ],
+                [
+                    "jar",
+                    "universal",
+                    "5bf0ae2dddf565fa5d4e01272bb70b62"
+                ],
+                [
+                    "jar",
+                    "userdev",
+                    "79fdd0017656c74194aed6a80ba98475"
+                ],
+                [
+                    "exe",
+                    "installer-win",
+                    "6c170e8a027287ae47a8095233b7121e"
+                ],
+                [
+                    "jar",
+                    "installer",
+                    "6b430dc7a37fc574ed81e928359c99de"
+                ]
+            ],
+            "mcversion": "1.12.2",
+            "modified": 1526538420.0,
+            "version": "14.23.3.2696"
+        },
         "27": {
             "branch": null,
             "build": 27,
@@ -90912,7 +91032,7 @@
         "1.12-recommended": 2387,
         "1.12.1-latest": 2485,
         "1.12.1-recommended": 2478,
-        "1.12.2-latest": 2693,
+        "1.12.2-latest": 2696,
         "1.12.2-recommended": 2655,
         "1.5.2-latest": 738,
         "1.5.2-recommended": 737,
@@ -90935,7 +91055,7 @@
         "1.9-recommended": 1887,
         "1.9.4-latest": 2051,
         "1.9.4-recommended": 1976,
-        "latest": 2693,
+        "latest": 2696,
         "latest-1.7.10": 1343,
         "recommended": 2655
     },
