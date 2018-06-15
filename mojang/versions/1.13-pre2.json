@@ -87,6 +87,17 @@
                     "-Dos.version=10.0"
                 ]
             },
+            {
+                "rules": [
+                    {
+                        "action": "allow",
+                        "os": {
+                            "arch": "x86"
+                        }
+                    }
+                ],
+                "value": "-Xss1M"
+            },
             "-Djava.library.path=${natives_directory}",
             "-Dminecraft.launcher.brand=${launcher_name}",
             "-Dminecraft.launcher.version=${launcher_version}",
@@ -104,17 +115,17 @@
     "assets": "1.13",
     "downloads": {
         "client": {
-            "sha1": "f9b3302a997e52af71efc3904d805957430e4820",
-            "size": 16064526,
-            "url": "https://launcher.mojang.com/mc/game/1.13-pre1/client/f9b3302a997e52af71efc3904d805957430e4820/client.jar"
+            "sha1": "b833d32e1846989a61c6c3faa40232bb72bd59de",
+            "size": 16104067,
+            "url": "https://launcher.mojang.com/mc/game/1.13-pre2/client/b833d32e1846989a61c6c3faa40232bb72bd59de/client.jar"
         },
         "server": {
-            "sha1": "e031e58e1d9e745877404530d39775bf9ffa9a56",
-            "size": 32032049,
-            "url": "https://launcher.mojang.com/mc/game/1.13-pre1/server/e031e58e1d9e745877404530d39775bf9ffa9a56/server.jar"
+            "sha1": "5b312060d457a1f75846afd3935ec3f140da3942",
+            "size": 32045980,
+            "url": "https://launcher.mojang.com/mc/game/1.13-pre2/server/5b312060d457a1f75846afd3935ec3f140da3942/server.jar"
         }
     },
-    "id": "1.13-pre1",
+    "id": "1.13-pre2",
     "libraries": [
         {
             "downloads": {
@@ -991,7 +1002,7 @@
     },
     "mainClass": "net.minecraft.client.main.Main",
     "minimumLauncherVersion": 21,
-    "releaseTime": "2018-06-04T15:17:34+00:00",
+    "releaseTime": "2018-06-15T09:20:00+00:00",
     "time": "2018-06-15T10:48:00+00:00",
     "type": "snapshot"
 }
