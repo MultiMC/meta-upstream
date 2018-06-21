@@ -87,6 +87,17 @@
                     "-Dos.version=10.0"
                 ]
             },
+            {
+                "rules": [
+                    {
+                        "action": "allow",
+                        "os": {
+                            "arch": "x86"
+                        }
+                    }
+                ],
+                "value": "-Xss1M"
+            },
             "-Djava.library.path=${natives_directory}",
             "-Dminecraft.launcher.brand=${launcher_name}",
             "-Dminecraft.launcher.version=${launcher_version}",
@@ -104,17 +115,17 @@
     "assets": "1.13",
     "downloads": {
         "client": {
-            "sha1": "e4abfe0c5e7f490a1071e7c99cb1cef81ffd89dc",
-            "size": 11794373,
-            "url": "https://launcher.mojang.com/mc/game/18w11a/client/e4abfe0c5e7f490a1071e7c99cb1cef81ffd89dc/client.jar"
+            "sha1": "94f2e86f94d7d80c19ec1d3d637b1ef2d862be9e",
+            "size": 16196489,
+            "url": "https://launcher.mojang.com/mc/game/1.13-pre3/client/94f2e86f94d7d80c19ec1d3d637b1ef2d862be9e/client.jar"
         },
         "server": {
-            "sha1": "4286b7cbc4709c8f61c93a77b42c70918376cac3",
-            "size": 31508060,
-            "url": "https://launcher.mojang.com/mc/game/18w11a/server/4286b7cbc4709c8f61c93a77b42c70918376cac3/server.jar"
+            "sha1": "5406f31cb5274ae48938851de697b32976ecb499",
+            "size": 32105663,
+            "url": "https://launcher.mojang.com/mc/game/1.13-pre3/server/5406f31cb5274ae48938851de697b32976ecb499/server.jar"
         }
     },
-    "id": "18w11a",
+    "id": "1.13-pre3",
     "libraries": [
         {
             "downloads": {
@@ -330,13 +341,13 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/brigadier/0.1.24/brigadier-0.1.24.jar",
-                    "sha1": "4ce2a6a19befbd7672138adad5b2656da95fa1cb",
-                    "size": 65227,
-                    "url": "https://libraries.minecraft.net/com/mojang/brigadier/0.1.24/brigadier-0.1.24.jar"
+                    "path": "com/mojang/brigadier/0.1.27/brigadier-0.1.27.jar",
+                    "sha1": "0ed2d029ff8ca1cc68533e48f1242d0314554b4a",
+                    "size": 72932,
+                    "url": "https://libraries.minecraft.net/com/mojang/brigadier/0.1.27/brigadier-0.1.27.jar"
                 }
             },
-            "name": "com.mojang:brigadier:0.1.24"
+            "name": "com.mojang:brigadier:0.1.27"
         },
         {
             "downloads": {
@@ -991,7 +1002,7 @@
     },
     "mainClass": "net.minecraft.client.main.Main",
     "minimumLauncherVersion": 21,
-    "releaseTime": "2018-03-13T15:10:59+00:00",
-    "time": "2018-06-21T12:53:31+00:00",
+    "releaseTime": "2018-06-21T12:57:11+00:00",
+    "time": "2018-06-21T13:05:44+00:00",
     "type": "snapshot"
 }
