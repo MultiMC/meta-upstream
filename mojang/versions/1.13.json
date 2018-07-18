@@ -115,17 +115,17 @@
     "assets": "1.13",
     "downloads": {
         "client": {
-            "sha1": "0b5d9df7bc2d0e4fd00d0bf7cf4409b999567497",
-            "size": 15952624,
-            "url": "https://launcher.mojang.com/mc/game/1.13-pre7/client/0b5d9df7bc2d0e4fd00d0bf7cf4409b999567497/client.jar"
+            "sha1": "c0b970952cdd279912da384cdbfc0c26e6c6090b",
+            "size": 16033625,
+            "url": "https://launcher.mojang.com/mc/game/1.13/client/c0b970952cdd279912da384cdbfc0c26e6c6090b/client.jar"
         },
         "server": {
-            "sha1": "6cd8348fadedaa1de5851f449b995c835bb569eb",
-            "size": 32623536,
-            "url": "https://launcher.mojang.com/mc/game/1.13-pre7/server/6cd8348fadedaa1de5851f449b995c835bb569eb/server.jar"
+            "sha1": "d0caafb8438ebd206f99930cfaecfa6c9a13dca0",
+            "size": 32649675,
+            "url": "https://launcher.mojang.com/mc/game/1.13/server/d0caafb8438ebd206f99930cfaecfa6c9a13dca0/server.jar"
         }
     },
-    "id": "1.13-pre7",
+    "id": "1.13",
     "libraries": [
         {
             "downloads": {
@@ -352,13 +352,13 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/datafixerupper/1.0.13/datafixerupper-1.0.13.jar",
-                    "sha1": "438b523f1c8de3c2286d6cc616a9907b7b6fd89c",
-                    "size": 429766,
-                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/1.0.13/datafixerupper-1.0.13.jar"
+                    "path": "com/mojang/datafixerupper/1.0.16/datafixerupper-1.0.16.jar",
+                    "sha1": "963a1367041aa1394154092fb8c01f9c2b918841",
+                    "size": 430750,
+                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/1.0.16/datafixerupper-1.0.16.jar"
                 }
             },
-            "name": "com.mojang:datafixerupper:1.0.13"
+            "name": "com.mojang:datafixerupper:1.0.16"
         },
         {
             "downloads": {
@@ -660,6 +660,17 @@
                 }
             },
             "name": "org.lwjgl:lwjgl-stb:3.1.6"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "path": "com/mojang/realms/1.13.0/realms-1.13.0.jar",
+                    "sha1": "dc572f4a2b51ef5ee31ff1dee2840230ecfcfccb",
+                    "size": 6383503,
+                    "url": "https://libraries.minecraft.net/com/mojang/realms/1.13.0/realms-1.13.0.jar"
+                }
+            },
+            "name": "com.mojang:realms:1.13.0"
         },
         {
             "downloads": {
@@ -1013,7 +1024,7 @@
     },
     "mainClass": "net.minecraft.client.main.Main",
     "minimumLauncherVersion": 21,
-    "releaseTime": "2018-07-10T14:21:42+00:00",
+    "releaseTime": "2018-07-18T15:11:46+00:00",
     "time": "2018-07-18T16:27:09+00:00",
-    "type": "snapshot"
+    "type": "release"
 }
