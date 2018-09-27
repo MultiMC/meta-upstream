@@ -1208,7 +1208,8 @@
             2758,
             2759,
             2760,
-            2761
+            2761,
+            2762
         ],
         "1.2.3": [
             30,
@@ -74006,6 +74007,45 @@
             "modified": 1537986000.0,
             "version": "14.23.4.2761"
         },
+        "2762": {
+            "branch": null,
+            "build": 2762,
+            "files": [
+                [
+                    "zip",
+                    "mdk",
+                    "6e6f1eadfb15c70938644a717bd1cd6c"
+                ],
+                [
+                    "txt",
+                    "changelog",
+                    "ad8bffb4a0cead8c0dd8d73a415f65a5"
+                ],
+                [
+                    "jar",
+                    "universal",
+                    "87dd36e5632acdab68ba06c5f77f4f76"
+                ],
+                [
+                    "jar",
+                    "userdev",
+                    "ee3046c559f3e73cb81d31796e1b51f6"
+                ],
+                [
+                    "exe",
+                    "installer-win",
+                    "8cd629474d56900fab5827a26f67fd16"
+                ],
+                [
+                    "jar",
+                    "installer",
+                    "27ce6319b2cdcede19c3c13397b35bbb"
+                ]
+            ],
+            "mcversion": "1.12.2",
+            "modified": 1538022900.0,
+            "version": "14.23.4.2762"
+        },
         "277": {
             "branch": null,
             "build": 277,
@@ -93583,7 +93623,7 @@
         }
     },
     "promos": {
-        "1.1-latest": 3,
+        "1.1-latest": 4,
         "1.10-latest": 2000,
         "1.10.2-latest": 2511,
         "1.10.2-recommended": 2185,
@@ -93618,7 +93658,7 @@
         "1.9-recommended": 1887,
         "1.9.4-latest": 2051,
         "1.9.4-recommended": 1976,
-        "latest": 3,
+        "latest": 4,
         "latest-1.7.10": 1343,
         "recommended": 2705
     },
