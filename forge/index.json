@@ -1210,7 +1210,8 @@
             2760,
             2761,
             2762,
-            2763
+            2763,
+            2764
         ],
         "1.2.3": [
             30,
@@ -74086,6 +74087,45 @@
             "modified": 1538084220.0,
             "version": "14.23.4.2763"
         },
+        "2764": {
+            "branch": null,
+            "build": 2764,
+            "files": [
+                [
+                    "zip",
+                    "mdk",
+                    "3bb9bfa18ef028ca1e84521cc4db32cc"
+                ],
+                [
+                    "txt",
+                    "changelog",
+                    "2f81b7a32720e782bd134626b5721f12"
+                ],
+                [
+                    "jar",
+                    "universal",
+                    "f49ed0022d75bc51eda4693b28fdd443"
+                ],
+                [
+                    "jar",
+                    "userdev",
+                    "5ff5ee4fcafda2879395b507104bdf9f"
+                ],
+                [
+                    "exe",
+                    "installer-win",
+                    "51939a2862f1052ba139673d806dac66"
+                ],
+                [
+                    "jar",
+                    "installer",
+                    "e5f49c0fd93e013760a7935b7ee9f4e3"
+                ]
+            ],
+            "mcversion": "1.12.2",
+            "modified": 1538099460.0,
+            "version": "14.23.4.2764"
+        },
         "277": {
             "branch": null,
             "build": 277,
@@ -93663,7 +93703,7 @@
         }
     },
     "promos": {
-        "1.1-latest": 5,
+        "1.1-latest": 6,
         "1.10-latest": 2000,
         "1.10.2-latest": 2511,
         "1.10.2-recommended": 2185,
@@ -93675,7 +93715,7 @@
         "1.12-recommended": 2387,
         "1.12.1-latest": 2485,
         "1.12.1-recommended": 2478,
-        "1.12.2-latest": 2759,
+        "1.12.2-latest": 2764,
         "1.12.2-recommended": 2705,
         "1.5.2-latest": 738,
         "1.5.2-recommended": 737,
@@ -93698,7 +93738,7 @@
         "1.9-recommended": 1887,
         "1.9.4-latest": 2051,
         "1.9.4-recommended": 1976,
-        "latest": 5,
+        "latest": 2764,
         "latest-1.7.10": 1343,
         "recommended": 2705
     },
