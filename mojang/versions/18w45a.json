@@ -115,17 +115,17 @@
     "assets": "1.14",
     "downloads": {
         "client": {
-            "sha1": "6f0fa604e9c8b1996c985aceb9b589fa4e583671",
-            "size": 16828251,
-            "url": "https://launcher.mojang.com/v1/objects/6f0fa604e9c8b1996c985aceb9b589fa4e583671/client.jar"
+            "sha1": "e03e8d27b07cccc85ae669e666bc3e4e2036c374",
+            "size": 16970823,
+            "url": "https://launcher.mojang.com/v1/objects/e03e8d27b07cccc85ae669e666bc3e4e2036c374/client.jar"
         },
         "server": {
-            "sha1": "08ca3aaa7ff61d4ae06d5d63476724a1f32cb6b0",
-            "size": 34470058,
-            "url": "https://launcher.mojang.com/v1/objects/08ca3aaa7ff61d4ae06d5d63476724a1f32cb6b0/server.jar"
+            "sha1": "a004069d93ebfd9a6d93c57b66becac29f876d4c",
+            "size": 34525186,
+            "url": "https://launcher.mojang.com/v1/objects/a004069d93ebfd9a6d93c57b66becac29f876d4c/server.jar"
         }
     },
-    "id": "18w43a",
+    "id": "18w45a",
     "libraries": [
         {
             "downloads": {
@@ -438,13 +438,13 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/realms/1.13.3/realms-1.13.3.jar",
-                    "sha1": "117db94ce2d7726275000df2b6dd60ac0f76e480",
-                    "size": 6384965,
-                    "url": "https://libraries.minecraft.net/com/mojang/realms/1.13.3/realms-1.13.3.jar"
+                    "path": "com/mojang/realms/1.14.0/realms-1.14.0.jar",
+                    "sha1": "92c452fbfe1e203779d0c044ee81c0bdebebfa0b",
+                    "size": 6384622,
+                    "url": "https://libraries.minecraft.net/com/mojang/realms/1.14.0/realms-1.14.0.jar"
                 }
             },
-            "name": "com.mojang:realms:1.13.3"
+            "name": "com.mojang:realms:1.14.0"
         },
         {
             "downloads": {
@@ -932,7 +932,7 @@
     },
     "mainClass": "net.minecraft.client.main.Main",
     "minimumLauncherVersion": 21,
-    "releaseTime": "2018-10-24T10:52:16+00:00",
-    "time": "2018-10-24T10:52:16+00:00",
+    "releaseTime": "2018-11-07T14:40:06+00:00",
+    "time": "2018-11-07T14:40:06+00:00",
     "type": "snapshot"
 }
