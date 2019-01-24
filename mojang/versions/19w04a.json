@@ -115,17 +115,17 @@
     "assets": "1.14",
     "downloads": {
         "client": {
-            "sha1": "20ea61f07e34b3e81ca356b6a71cc98cc4e571a9",
-            "size": 16972378,
-            "url": "https://launcher.mojang.com/v1/objects/20ea61f07e34b3e81ca356b6a71cc98cc4e571a9/client.jar"
+            "sha1": "4a075e5ceae3fc15efd36222daeb832c94e16946",
+            "size": 18112868,
+            "url": "https://launcher.mojang.com/v1/objects/4a075e5ceae3fc15efd36222daeb832c94e16946/client.jar"
         },
         "server": {
-            "sha1": "e70221701d85ad9ed8be35e042f4c8e52fb627ec",
-            "size": 34533113,
-            "url": "https://launcher.mojang.com/v1/objects/e70221701d85ad9ed8be35e042f4c8e52fb627ec/server.jar"
+            "sha1": "261edfd76c32c9f675c12264b6fa03f670c3325c",
+            "size": 35431261,
+            "url": "https://launcher.mojang.com/v1/objects/261edfd76c32c9f675c12264b6fa03f670c3325c/server.jar"
         }
     },
-    "id": "18w44a",
+    "id": "19w04a",
     "libraries": [
         {
             "downloads": {
@@ -181,6 +181,17 @@
                 }
             },
             "name": "com.ibm.icu:icu4j-core-mojang:51.2"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "path": "com/mojang/javabridge/1.0.22/javabridge-1.0.22.jar",
+                    "sha1": "6aa6453aa99a52a5cd91749da1af6ab70e082ab3",
+                    "size": 5111,
+                    "url": "https://libraries.minecraft.net/com/mojang/javabridge/1.0.22/javabridge-1.0.22.jar"
+                }
+            },
+            "name": "com.mojang:javabridge:1.0.22"
         },
         {
             "downloads": {
@@ -328,13 +339,13 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/datafixerupper/1.0.21/datafixerupper-1.0.21.jar",
-                    "sha1": "1b6555e15d9ee9d96dd1dd354d629972bc92e009",
-                    "size": 432133,
-                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/1.0.21/datafixerupper-1.0.21.jar"
+                    "path": "com/mojang/datafixerupper/2.0.23/datafixerupper-2.0.23.jar",
+                    "sha1": "dfd38f37b52df28f056726c765c547a42f966b0f",
+                    "size": 437308,
+                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/2.0.23/datafixerupper-2.0.23.jar"
                 }
             },
-            "name": "com.mojang:datafixerupper:1.0.21"
+            "name": "com.mojang:datafixerupper:2.0.23"
         },
         {
             "downloads": {
@@ -438,13 +449,13 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/realms/1.14.0/realms-1.14.0.jar",
-                    "sha1": "92c452fbfe1e203779d0c044ee81c0bdebebfa0b",
-                    "size": 6384622,
-                    "url": "https://libraries.minecraft.net/com/mojang/realms/1.14.0/realms-1.14.0.jar"
+                    "path": "com/mojang/realms/1.14.1/realms-1.14.1.jar",
+                    "sha1": "4b5fabbdf723522e998c7498219d1e5a547428a9",
+                    "size": 6383869,
+                    "url": "https://libraries.minecraft.net/com/mojang/realms/1.14.1/realms-1.14.1.jar"
                 }
             },
-            "name": "com.mojang:realms:1.14.0"
+            "name": "com.mojang:realms:1.14.1"
         },
         {
             "downloads": {
@@ -932,7 +943,7 @@
     },
     "mainClass": "net.minecraft.client.main.Main",
     "minimumLauncherVersion": 21,
-    "releaseTime": "2018-10-31T15:29:16+00:00",
-    "time": "2018-10-31T15:29:16+00:00",
+    "releaseTime": "2019-01-24T15:31:52+00:00",
+    "time": "2019-01-24T15:31:52+00:00",
     "type": "snapshot"
 }
