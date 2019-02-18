@@ -1258,7 +1258,8 @@
             2811,
             2812,
             2813,
-            2814
+            2814,
+	    2815
         ],
         "1.2.3": [
             30,
@@ -76180,6 +76181,45 @@
             "modified": 1550095920.0,
             "version": "14.23.5.2814"
         },
+        "2815": {
+            "branch": null,
+            "build": 2815,
+            "files": [
+                [
+                    "zip",
+                    "mdk",
+                    "29a78564f47cfb3990341547b65726a7"
+                ],
+                [
+                    "txt",
+                    "changelog",
+                    "30755cb0f23808fe2f66ca278f06b8fe"
+                ],
+                [
+                    "jar",
+                    "universal",
+                    ""
+                ],
+                [
+                    "jar",
+                    "userdev",
+                    ""
+                ],
+                [
+                    "exe",
+                    "installer-win",
+                    "57ba0b8bf294d5e5bf8a5d23d562f822"
+                ],
+                [
+                    "jar",
+                    "installer",
+                    "3e81f9925413e52d13ea48a820494f1d"
+                ]
+            ],
+            "mcversion": "1.12.2",
+            "modified": 1550213700.0,
+            "version": "14.23.5.2815"
+        },
         "282": {
             "branch": null,
             "build": 282,
@@ -95595,7 +95635,7 @@
         "1.12-recommended": 2387,
         "1.12.1-latest": 2485,
         "1.12.1-recommended": 2478,
-        "1.12.2-latest": 2814,
+        "1.12.2-latest": 2815,
         "1.12.2-recommended": 2768,
         "1.5.2-latest": 738,
         "1.5.2-recommended": 737,
