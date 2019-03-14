@@ -115,17 +115,17 @@
     "assets": "1.14",
     "downloads": {
         "client": {
-            "sha1": "656fcedd90336e82678d260e4fa20df958926474",
-            "size": 18525015,
-            "url": "https://launcher.mojang.com/v1/objects/656fcedd90336e82678d260e4fa20df958926474/client.jar"
+            "sha1": "fba44eb056f80480832482cf7788f725a727e3c3",
+            "size": 18665504,
+            "url": "https://launcher.mojang.com/v1/objects/fba44eb056f80480832482cf7788f725a727e3c3/client.jar"
         },
         "server": {
-            "sha1": "d370db01d591576477c3efc940a42926f43bc98f",
-            "size": 35708909,
-            "url": "https://launcher.mojang.com/v1/objects/d370db01d591576477c3efc940a42926f43bc98f/server.jar"
+            "sha1": "1c453ba8ccaabc38d924e7c11fe73c65a1978a33",
+            "size": 35795701,
+            "url": "https://launcher.mojang.com/v1/objects/1c453ba8ccaabc38d924e7c11fe73c65a1978a33/server.jar"
         }
     },
-    "id": "19w07a",
+    "id": "19w11b",
     "libraries": [
         {
             "downloads": {
@@ -328,13 +328,13 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/brigadier/1.0.14/brigadier-1.0.14.jar",
-                    "sha1": "a18df0522b577ca364b87019c1efa0b8faa12fe5",
-                    "size": 73350,
-                    "url": "https://libraries.minecraft.net/com/mojang/brigadier/1.0.14/brigadier-1.0.14.jar"
+                    "path": "com/mojang/brigadier/1.0.17/brigadier-1.0.17.jar",
+                    "sha1": "c6b7dc51dd44379cc751b7504816006e9be4b1e6",
+                    "size": 77392,
+                    "url": "https://libraries.minecraft.net/com/mojang/brigadier/1.0.17/brigadier-1.0.17.jar"
                 }
             },
-            "name": "com.mojang:brigadier:1.0.14"
+            "name": "com.mojang:brigadier:1.0.17"
         },
         {
             "downloads": {
@@ -814,40 +814,40 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar",
-                    "sha1": "48fd510879dff266c3815947de66e3d4809f8668",
-                    "size": 11055,
-                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar"
+                    "path": "com/mojang/text2speech/1.11.2/text2speech-1.11.2.jar",
+                    "sha1": "172fe3ccf0e7143cbbfba006554412c8e6fc81f2",
+                    "size": 12952,
+                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.11.2/text2speech-1.11.2.jar"
                 }
             },
-            "name": "com.mojang:text2speech:1.10.3"
+            "name": "com.mojang:text2speech:1.11.2"
         },
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar",
-                    "sha1": "48fd510879dff266c3815947de66e3d4809f8668",
-                    "size": 11055,
-                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar"
+                    "path": "com/mojang/text2speech/1.11.2/text2speech-1.11.2.jar",
+                    "sha1": "172fe3ccf0e7143cbbfba006554412c8e6fc81f2",
+                    "size": 12952,
+                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.11.2/text2speech-1.11.2.jar"
                 },
                 "classifiers": {
                     "natives-linux": {
-                        "path": "com/mojang/text2speech/1.10.3/text2speech-1.10.3-natives-linux.jar",
-                        "sha1": "ab7896aec3b3dd272b06194357f2d98f832c0cfc",
+                        "path": "com/mojang/text2speech/1.11.2/text2speech-1.11.2-natives-linux.jar",
+                        "sha1": "f6b27d5ee4a6877ca19182684c51eba45bd6a782",
                         "size": 7833,
-                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3-natives-linux.jar"
+                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.11.2/text2speech-1.11.2-natives-linux.jar"
                     },
                     "natives-windows": {
-                        "path": "com/mojang/text2speech/1.10.3/text2speech-1.10.3-natives-windows.jar",
-                        "sha1": "84a4b856389cc4f485275b1f63497a95a857a443",
-                        "size": 81217,
-                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3-natives-windows.jar"
+                        "path": "com/mojang/text2speech/1.11.2/text2speech-1.11.2-natives-windows.jar",
+                        "sha1": "73e36a0422aacf7d62a16062cb719584d617bc30",
+                        "size": 81379,
+                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.11.2/text2speech-1.11.2-natives-windows.jar"
                     },
                     "sources": {
-                        "path": "com/mojang/text2speech/1.10.3/text2speech-1.10.3-sources.jar",
-                        "sha1": "404339fe43d1011ee046a249b0ec7ae9ce04a834",
-                        "size": 4632,
-                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3-sources.jar"
+                        "path": "com/mojang/text2speech/1.11.2/text2speech-1.11.2-sources.jar",
+                        "sha1": "25ce7ef0473ea68db3f51c5681cf7b4d81905828",
+                        "size": 5258,
+                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.11.2/text2speech-1.11.2-sources.jar"
                     }
                 }
             },
@@ -856,7 +856,7 @@
                     "META-INF/"
                 ]
             },
-            "name": "com.mojang:text2speech:1.10.3",
+            "name": "com.mojang:text2speech:1.11.2",
             "natives": {
                 "linux": "natives-linux",
                 "windows": "natives-windows"
@@ -943,7 +943,7 @@
     },
     "mainClass": "net.minecraft.client.main.Main",
     "minimumLauncherVersion": 21,
-    "releaseTime": "2019-02-13T16:12:08+00:00",
-    "time": "2019-02-13T16:12:08+00:00",
+    "releaseTime": "2019-03-14T14:26:23+00:00",
+    "time": "2019-03-14T14:26:23+00:00",
     "type": "snapshot"
 }
