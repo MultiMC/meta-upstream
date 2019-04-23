@@ -1,57 +1,64 @@
 {
     "latest": {
-        "release": "1.13.2",
-        "snapshot": "1.14 Pre-Release 5"
+        "release": "1.14",
+        "snapshot": "1.14"
     },
     "versions": [
         {
+            "id": "1.14",
+            "releaseTime": "2019-04-23T14:52:44+00:00",
+            "time": "2019-04-23T14:55:13+00:00",
+            "type": "release",
+            "url": "https://launchermeta.mojang.com/v1/packages/d3c54d6469145f7c918537209660bf20e9207057/1.14.json"
+        },
+        {
             "id": "1.14 Pre-Release 5",
             "releaseTime": "2019-04-18T11:05:19+00:00",
-            "time": "2019-04-18T11:07:39+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/c122c7e15e90ffcfee53c642c9ba601e4365df20/1.14_Pre-Release_5.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/f9e1aa04d8979a7a336c7a550fbf0216e95a7768/1.14_Pre-Release_5.json"
         },
         {
             "id": "1.14 Pre-Release 4",
             "releaseTime": "2019-04-17T15:31:12+00:00",
-            "time": "2019-04-18T10:40:17+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/6dbf537a538a71771ed9f4e67aba7e3ba28a18d9/1.14_Pre-Release_4.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/d9871a57f3eeff5eecc71f2b757a6c9b4c2ebf8b/1.14_Pre-Release_4.json"
         },
         {
             "id": "1.14 Pre-Release 3",
             "releaseTime": "2019-04-16T13:57:10+00:00",
-            "time": "2019-04-18T10:40:17+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/af6f20bdcdb07f8aea37654d38dee2646c11536b/1.14_Pre-Release_3.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/e9c8e86105b87415f593d459d672499ef602137d/1.14_Pre-Release_3.json"
         },
         {
             "id": "1.14 Pre-Release 2",
             "releaseTime": "2019-04-12T11:38:53+00:00",
-            "time": "2019-04-18T10:40:17+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/1b0b9c4675db53a20b2645aea2538b4ae3c16a98/1.14_Pre-Release_2.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/419641ddb99180ca04b275b65b77641042d49a26/1.14_Pre-Release_2.json"
         },
         {
             "id": "1.14 Pre-Release 1",
             "releaseTime": "2019-04-10T14:24:16+00:00",
-            "time": "2019-04-18T10:40:17+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/3fdfea71a89bc7c2483db8ec5c230c3e3112da5d/1.14_Pre-Release_1.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/3a26dd2d4cc83d3aab7990ebac616b39df3a0192/1.14_Pre-Release_1.json"
         },
         {
             "id": "19w14b",
             "releaseTime": "2019-04-05T10:33:58+00:00",
-            "time": "2019-04-18T10:40:17+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/6138c08bbf07c6588905417b1ec885c00b1366e6/19w14b.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/a5e89d462fa1cc0a33bea7b51e9d924ac8b7a82c/19w14b.json"
         },
         {
             "id": "19w14a",
             "releaseTime": "2019-04-03T13:45:00+00:00",
-            "time": "2019-04-18T10:40:17+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/66baa4108ac5ef6661e14d982335fa2a84de6153/19w14a.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/87b488dc930da50322b75a2cd1c52c3c56cb3264/19w14a.json"
         },
         {
             "id": "3D Shareware v1.34",
@@ -63,212 +70,212 @@
         {
             "id": "19w13b",
             "releaseTime": "2019-03-29T16:53:22+00:00",
-            "time": "2019-04-18T10:40:17+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/0c42c7210659ecebddbeeb3c13a8ca9a53d215d6/19w13b.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/d332fb3b320430720925c7aa3593e28ce3011bed/19w13b.json"
         },
         {
             "id": "19w13a",
             "releaseTime": "2019-03-27T15:15:31+00:00",
-            "time": "2019-04-18T10:40:17+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/db58a9fb1f7fc036da9c0daf11abb8586c7de412/19w13a.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/e9826ea63475b8cd137ebc8b1a40dd960f3fe22f/19w13a.json"
         },
         {
             "id": "19w12b",
             "releaseTime": "2019-03-21T15:20:01+00:00",
-            "time": "2019-04-18T10:40:17+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/65d218bc9e7b734f34d30b8afe9b8022a98c2a68/19w12b.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/f3d919cf9d11c700901fbc4de3ec2b7a76a7b901/19w12b.json"
         },
         {
             "id": "19w12a",
             "releaseTime": "2019-03-20T16:47:34+00:00",
-            "time": "2019-04-18T10:40:17+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/88a2ebb4d56cf79afa40b6425a70fb1146496822/19w12a.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/96a9e77ee98a58fa0099885d4ae1864dde5f2e7a/19w12a.json"
         },
         {
             "id": "19w11b",
             "releaseTime": "2019-03-14T14:26:23+00:00",
-            "time": "2019-04-18T10:40:17+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/2eef5831c16d5d7af87306dde4c7610f7e041293/19w11b.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/f59947520688f4707c399694bb49625eb3da9d6b/19w11b.json"
         },
         {
             "id": "19w11a",
             "releaseTime": "2019-03-13T13:59:29+00:00",
-            "time": "2019-04-18T10:40:17+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/6eee8053744d7c028406134d63fde7636149ab6b/19w11a.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/bcb41bab203deba1370adade42c7dc09277dba69/19w11a.json"
         },
         {
             "id": "19w09a",
             "releaseTime": "2019-02-27T14:44:30+00:00",
-            "time": "2019-04-18T10:40:17+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/5130c2cf2fc8a24c35d6c886e1172b6161823271/19w09a.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/54c33b58138f551fde7d4b520366f4dd9cafd9ff/19w09a.json"
         },
         {
             "id": "19w08b",
             "releaseTime": "2019-02-21T13:38:09+00:00",
-            "time": "2019-04-18T10:40:17+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/c2490963739eb7015d931b315c3d4bb3055c32d5/19w08b.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/2b838174a416900840aba574fbd2192efceef29f/19w08b.json"
         },
         {
             "id": "19w08a",
             "releaseTime": "2019-02-20T14:56:58+00:00",
-            "time": "2019-04-18T10:40:17+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/aa9bf28c785ae5843a6e768b374bfcf9f87b3294/19w08a.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/3d47834c5bf5d472cd0e96d83d9ad5e60cdf9688/19w08a.json"
         },
         {
             "id": "19w07a",
             "releaseTime": "2019-02-13T16:12:08+00:00",
-            "time": "2019-04-18T10:40:17+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/188bc3afb0cb91a6866a0f1e7d003e0f49308a1c/19w07a.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/1496200ea8a8b40baba8cc3f2ab4fb4fbf9de9b2/19w07a.json"
         },
         {
             "id": "19w06a",
             "releaseTime": "2019-02-06T16:24:13+00:00",
-            "time": "2019-04-18T10:40:17+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/c42b499e4c5373bf6355b36c788a3c382e4c3cbe/19w06a.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/3201d7be084e9d4cb691d8cdaa9ab255d9459daf/19w06a.json"
         },
         {
             "id": "19w05a",
             "releaseTime": "2019-01-30T15:16:49+00:00",
-            "time": "2019-04-18T10:40:17+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/263274c82b1ba9374e23e6bcc6cb0f32762f11de/19w05a.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/bba81cf38cb7415fe777f37a43d82e6665fbebc2/19w05a.json"
         },
         {
             "id": "19w04b",
             "releaseTime": "2019-01-25T12:20:15+00:00",
-            "time": "2019-04-18T10:40:17+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/e17f6d7710d83464c187c5090d2570af55dea600/19w04b.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/455907b37c1dc4391107b655b13f4426970856d6/19w04b.json"
         },
         {
             "id": "19w04a",
             "releaseTime": "2019-01-24T15:31:52+00:00",
-            "time": "2019-04-18T10:40:17+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/09a868b4783d635c3a9928695c9ecd373aea7159/19w04a.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/22b948522cdf196802a8fd775dcf252375b5a57c/19w04a.json"
         },
         {
             "id": "19w03c",
             "releaseTime": "2019-01-18T11:27:13+00:00",
-            "time": "2019-04-18T10:40:17+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/5c741a49bee1caf7520457bcafea9d44ebc69e49/19w03c.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/03e80f29e26f588067793ee4df496fa8fa9a77f4/19w03c.json"
         },
         {
             "id": "19w03b",
             "releaseTime": "2019-01-17T16:43:27+00:00",
-            "time": "2019-04-18T10:40:17+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/93769b65725f45a78db51ba52f5131b6542b37ae/19w03b.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/26471db31a84c222453b96be59c4ffec21d82f75/19w03b.json"
         },
         {
             "id": "19w03a",
             "releaseTime": "2019-01-16T16:45:02+00:00",
-            "time": "2019-04-18T10:40:17+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/7b97bb41457375384583f4806663f7ed11b48384/19w03a.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/7d84be945d9c5cf81648326331833da9da8daf5c/19w03a.json"
         },
         {
             "id": "19w02a",
             "releaseTime": "2019-01-09T15:52:07+00:00",
-            "time": "2019-04-18T10:40:17+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/9ac21be2118ab2c007723fd8fcc98b2556c8232a/19w02a.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/27707f6092d568d01e40da12704b66065a3e50a7/19w02a.json"
         },
         {
             "id": "18w50a",
             "releaseTime": "2018-12-12T14:58:13+00:00",
-            "time": "2019-04-18T10:40:17+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/29cf98a94e19a4b22b58ef79547df9af5cbf744c/18w50a.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/603b6a270e48e0d8028ec2783eb0269247e1d91d/18w50a.json"
         },
         {
             "id": "18w49a",
             "releaseTime": "2018-12-05T12:24:30+00:00",
-            "time": "2019-04-18T10:40:17+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/c1ad5d9317d5ac54259c005e0896f846c1cdd1c0/18w49a.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/51a76e588c581e47a25dc0ef56a08389b6e0a6bb/18w49a.json"
         },
         {
             "id": "18w48b",
             "releaseTime": "2018-11-30T10:37:31+00:00",
-            "time": "2019-04-18T10:40:17+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/52d1807aaad4a33a860384f88855171a0543280a/18w48b.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/25d2b4195871f0d3fcbc2b376b93dbc1f08d10aa/18w48b.json"
         },
         {
             "id": "18w48a",
             "releaseTime": "2018-11-29T13:11:38+00:00",
-            "time": "2019-04-18T10:40:17+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/7358ba60b1747ef5f9bf05140e721c1b996329a0/18w48a.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/dff02100696032dc8d5ab46248e64f5964a44ea7/18w48a.json"
         },
         {
             "id": "18w47b",
             "releaseTime": "2018-11-23T10:46:41+00:00",
-            "time": "2019-04-18T10:40:17+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/30240ce64dad2cf14b5dcb01e7edb29511a7e035/18w47b.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/956375b823259cc31265ca8304e37c3ad45dda64/18w47b.json"
         },
         {
             "id": "18w47a",
             "releaseTime": "2018-11-21T15:45:22+00:00",
-            "time": "2019-04-18T10:40:17+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/eb28588e78c964fe210f1c4a50df4411b46550fe/18w47a.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/21d44876221506b660f5f3bc6e6c65bb933a0e85/18w47a.json"
         },
         {
             "id": "18w46a",
             "releaseTime": "2018-11-15T13:43:14+00:00",
-            "time": "2019-04-18T10:40:17+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/4a1bbf0e080608f0ed9deaf688cb132258a09fec/18w46a.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/66434672b0e621ff395da32b410c255889a03e07/18w46a.json"
         },
         {
             "id": "18w45a",
             "releaseTime": "2018-11-07T14:40:06+00:00",
-            "time": "2019-04-18T10:40:17+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/db7ac8e176ea85b8f5992bca0e69b7e2f8176cb3/18w45a.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/03d2bdf1d8cfad339b2e7066a4ffdea1a84bb2b7/18w45a.json"
         },
         {
             "id": "18w44a",
             "releaseTime": "2018-10-31T15:29:16+00:00",
-            "time": "2019-04-18T10:40:17+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/46a15ba16bdef8d89e87dc62697c0eec6c349ef9/18w44a.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/dc95227afbc44ac42379d852890cd21bdbedbc19/18w44a.json"
         },
         {
             "id": "18w43c",
             "releaseTime": "2018-10-26T08:40:46+00:00",
-            "time": "2019-04-18T10:40:17+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/15f8cdc85cb903a43669e6f03d87703034ecde42/18w43c.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/cfa31f6d75f849cde3790e04ba04d0da0cad130e/18w43c.json"
         },
         {
             "id": "18w43b",
             "releaseTime": "2018-10-24T15:02:30+00:00",
-            "time": "2019-04-18T10:40:17+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/39ae38f596c81f5d76bca4e50731f8129d28b518/18w43b.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/ad448a38580e5a259bc7495a8479b20e113bf501/18w43b.json"
         },
         {
             "id": "18w43a",
             "releaseTime": "2018-10-24T10:52:16+00:00",
-            "time": "2019-04-18T10:40:17+00:00",
+            "time": "2019-04-23T14:20:29+00:00",
             "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/d7d8c4145132d17eaefc42eb77aca2937acdead9/18w43a.json"
+            "url": "https://launchermeta.mojang.com/v1/packages/4752d5675de20d11c99e83c7370f16bcfd9b317c/18w43a.json"
         },
         {
             "id": "1.13.2",
@@ -2406,18 +2413,18 @@
             "url": "https://launchermeta.mojang.com/v1/packages/b71bae449192fbbe1582ff32fb3765edf0b9b0a8/1.6.4.json"
         },
         {
-            "id": "1.6.3",
-            "releaseTime": "2013-09-13T10:54:41+00:00",
-            "time": "2019-02-14T12:57:32+00:00",
-            "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/903d6ba1bc87c301d88fa418f8b33446201c7d4e/1.6.3.json"
-        },
-        {
             "id": "13w37b",
             "releaseTime": "2013-09-13T10:54:41+00:00",
             "time": "2019-02-14T12:57:59+00:00",
             "type": "snapshot",
             "url": "https://launchermeta.mojang.com/v1/packages/b8d28154ee056af6af3c8c37815418fe0e9f34f8/13w37b.json"
+        },
+        {
+            "id": "1.6.3",
+            "releaseTime": "2013-09-13T10:54:41+00:00",
+            "time": "2019-02-14T12:57:32+00:00",
+            "type": "snapshot",
+            "url": "https://launchermeta.mojang.com/v1/packages/903d6ba1bc87c301d88fa418f8b33446201c7d4e/1.6.3.json"
         },
         {
             "id": "13w37a",
@@ -2616,18 +2623,18 @@
             "url": "https://launchermeta.mojang.com/v1/packages/89802d57ccee3d03ec59d2ab1f44386234adb399/1.4.7.json"
         },
         {
-            "id": "1.4.5",
-            "releaseTime": "2012-12-19T22:00:00+00:00",
-            "time": "2019-02-14T12:57:23+00:00",
-            "type": "release",
-            "url": "https://launchermeta.mojang.com/v1/packages/19555cce1f6d04e2b417ac2e9e06b6b752d5a2de/1.4.5.json"
-        },
-        {
             "id": "1.4.6",
             "releaseTime": "2012-12-19T22:00:00+00:00",
             "time": "2019-02-14T12:57:23+00:00",
             "type": "release",
             "url": "https://launchermeta.mojang.com/v1/packages/a7d02971582fcdf14ea275cc549cb57604a37079/1.4.6.json"
+        },
+        {
+            "id": "1.4.5",
+            "releaseTime": "2012-12-19T22:00:00+00:00",
+            "time": "2019-02-14T12:57:23+00:00",
+            "type": "release",
+            "url": "https://launchermeta.mojang.com/v1/packages/19555cce1f6d04e2b417ac2e9e06b6b752d5a2de/1.4.5.json"
         },
         {
             "id": "1.4.4",
