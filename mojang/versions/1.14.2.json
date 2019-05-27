@@ -115,17 +115,17 @@
     "assets": "1.14",
     "downloads": {
         "client": {
-            "sha1": "8107282674163f5bb025548fef3ec26d6c5cd6ba",
-            "size": 18560784,
-            "url": "https://launcher.mojang.com/v1/objects/8107282674163f5bb025548fef3ec26d6c5cd6ba/client.jar"
+            "sha1": "ca6c5a139045967229975c0c0b7f93e78b4314c2",
+            "size": 18794327,
+            "url": "https://launcher.mojang.com/v1/objects/ca6c5a139045967229975c0c0b7f93e78b4314c2/client.jar"
         },
         "server": {
-            "sha1": "f337f8dfb765f152388d5038a6e0e8830782e5ed",
-            "size": 35725491,
-            "url": "https://launcher.mojang.com/v1/objects/f337f8dfb765f152388d5038a6e0e8830782e5ed/server.jar"
+            "sha1": "808be3869e2ca6b62378f9f4b33c946621620019",
+            "size": 35932967,
+            "url": "https://launcher.mojang.com/v1/objects/808be3869e2ca6b62378f9f4b33c946621620019/server.jar"
         }
     },
-    "id": "19w08a",
+    "id": "1.14.2",
     "libraries": [
         {
             "downloads": {
@@ -203,50 +203,6 @@
                 }
             },
             "name": "net.sf.jopt-simple:jopt-simple:5.0.3"
-        },
-        {
-            "downloads": {
-                "artifact": {
-                    "path": "com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar",
-                    "sha1": "c73b5636faf089d9f00e8732a829577de25237ee",
-                    "size": 103871,
-                    "url": "https://libraries.minecraft.net/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar"
-                }
-            },
-            "name": "com.paulscode:codecjorbis:20101023"
-        },
-        {
-            "downloads": {
-                "artifact": {
-                    "path": "com/paulscode/codecwav/20101023/codecwav-20101023.jar",
-                    "sha1": "12f031cfe88fef5c1dd36c563c0a3a69bd7261da",
-                    "size": 5618,
-                    "url": "https://libraries.minecraft.net/com/paulscode/codecwav/20101023/codecwav-20101023.jar"
-                }
-            },
-            "name": "com.paulscode:codecwav:20101023"
-        },
-        {
-            "downloads": {
-                "artifact": {
-                    "path": "com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar",
-                    "sha1": "5c5e304366f75f9eaa2e8cca546a1fb6109348b3",
-                    "size": 21679,
-                    "url": "https://libraries.minecraft.net/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar"
-                }
-            },
-            "name": "com.paulscode:libraryjavasound:20101123"
-        },
-        {
-            "downloads": {
-                "artifact": {
-                    "path": "com/paulscode/soundsystem/20120107/soundsystem-20120107.jar",
-                    "sha1": "419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6",
-                    "size": 65020,
-                    "url": "https://libraries.minecraft.net/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar"
-                }
-            },
-            "name": "com.paulscode:soundsystem:20120107"
         },
         {
             "downloads": {
@@ -339,13 +295,13 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/datafixerupper/2.0.23/datafixerupper-2.0.23.jar",
-                    "sha1": "dfd38f37b52df28f056726c765c547a42f966b0f",
-                    "size": 437308,
-                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/2.0.23/datafixerupper-2.0.23.jar"
+                    "path": "com/mojang/datafixerupper/2.0.24/datafixerupper-2.0.24.jar",
+                    "sha1": "0944c24a8519981847ffb36c6dcd059d96fcb4b0",
+                    "size": 436066,
+                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/2.0.24/datafixerupper-2.0.24.jar"
                 }
             },
-            "name": "com.mojang:datafixerupper:2.0.23"
+            "name": "com.mojang:datafixerupper:2.0.24"
         },
         {
             "downloads": {
@@ -449,13 +405,13 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/realms/1.14.1/realms-1.14.1.jar",
-                    "sha1": "4b5fabbdf723522e998c7498219d1e5a547428a9",
-                    "size": 6383869,
-                    "url": "https://libraries.minecraft.net/com/mojang/realms/1.14.1/realms-1.14.1.jar"
+                    "path": "com/mojang/realms/1.14.16/realms-1.14.16.jar",
+                    "sha1": "c471ed4220097ec622a6b035395a5ad4abedec9e",
+                    "size": 6364656,
+                    "url": "https://libraries.minecraft.net/com/mojang/realms/1.14.16/realms-1.14.16.jar"
                 }
             },
-            "name": "com.mojang:realms:1.14.1"
+            "name": "com.mojang:realms:1.14.16"
         },
         {
             "downloads": {
@@ -814,40 +770,40 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar",
-                    "sha1": "48fd510879dff266c3815947de66e3d4809f8668",
-                    "size": 11055,
-                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar"
+                    "path": "com/mojang/text2speech/1.11.3/text2speech-1.11.3.jar",
+                    "sha1": "f378f889797edd7df8d32272c06ca80a1b6b0f58",
+                    "size": 13164,
+                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.11.3/text2speech-1.11.3.jar"
                 }
             },
-            "name": "com.mojang:text2speech:1.10.3"
+            "name": "com.mojang:text2speech:1.11.3"
         },
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar",
-                    "sha1": "48fd510879dff266c3815947de66e3d4809f8668",
-                    "size": 11055,
-                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar"
+                    "path": "com/mojang/text2speech/1.11.3/text2speech-1.11.3.jar",
+                    "sha1": "f378f889797edd7df8d32272c06ca80a1b6b0f58",
+                    "size": 13164,
+                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.11.3/text2speech-1.11.3.jar"
                 },
                 "classifiers": {
                     "natives-linux": {
-                        "path": "com/mojang/text2speech/1.10.3/text2speech-1.10.3-natives-linux.jar",
-                        "sha1": "ab7896aec3b3dd272b06194357f2d98f832c0cfc",
+                        "path": "com/mojang/text2speech/1.11.3/text2speech-1.11.3-natives-linux.jar",
+                        "sha1": "ac641755a2a841d1fca9e660194f42523ee5cfe0",
                         "size": 7833,
-                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3-natives-linux.jar"
+                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.11.3/text2speech-1.11.3-natives-linux.jar"
                     },
                     "natives-windows": {
-                        "path": "com/mojang/text2speech/1.10.3/text2speech-1.10.3-natives-windows.jar",
-                        "sha1": "84a4b856389cc4f485275b1f63497a95a857a443",
-                        "size": 81217,
-                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3-natives-windows.jar"
+                        "path": "com/mojang/text2speech/1.11.3/text2speech-1.11.3-natives-windows.jar",
+                        "sha1": "c0b242c0091be5acbf303263c7eeeaedd70544c7",
+                        "size": 81379,
+                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.11.3/text2speech-1.11.3-natives-windows.jar"
                     },
                     "sources": {
-                        "path": "com/mojang/text2speech/1.10.3/text2speech-1.10.3-sources.jar",
-                        "sha1": "404339fe43d1011ee046a249b0ec7ae9ce04a834",
-                        "size": 4632,
-                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3-sources.jar"
+                        "path": "com/mojang/text2speech/1.11.3/text2speech-1.11.3-sources.jar",
+                        "sha1": "772a37dd77417571e6f119a8d306f0c14c2ee410",
+                        "size": 5332,
+                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.11.3/text2speech-1.11.3-sources.jar"
                     }
                 }
             },
@@ -856,7 +812,7 @@
                     "META-INF/"
                 ]
             },
-            "name": "com.mojang:text2speech:1.10.3",
+            "name": "com.mojang:text2speech:1.11.3",
             "natives": {
                 "linux": "natives-linux",
                 "windows": "natives-windows"
@@ -943,7 +899,7 @@
     },
     "mainClass": "net.minecraft.client.main.Main",
     "minimumLauncherVersion": 21,
-    "releaseTime": "2019-02-20T14:56:58+00:00",
-    "time": "2019-02-20T14:56:58+00:00",
-    "type": "snapshot"
+    "releaseTime": "2019-05-27T11:48:25+00:00",
+    "time": "2019-05-27T11:48:25+00:00",
+    "type": "release"
 }
