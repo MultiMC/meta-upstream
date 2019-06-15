@@ -1,0 +1,57 @@
+{
+    "arguments": {
+        "client": [],
+        "common": [],
+        "server": []
+    },
+    "launchwrapper": {
+        "tweakers": {
+            "client": [
+                "net.fabricmc.loader.launch.FabricClientTweaker"
+            ],
+            "common": [],
+            "server": [
+                "net.fabricmc.loader.launch.FabricServerTweaker"
+            ]
+        }
+    },
+    "libraries": {
+        "client": [],
+        "common": [
+            {
+                "name": "net.minecraft:launchwrapper:1.12"
+            },
+            {
+                "name": "net.fabricmc:sponge-mixin:0.7.11.10",
+                "url": "https://maven.modmuss50.me/"
+            },
+            {
+                "name": "net.fabricmc:tiny-remapper:0.1.0.20",
+                "url": "https://maven.modmuss50.me/"
+            },
+            {
+                "name": "org.ow2.asm:asm:7.0",
+                "url": "http://repo.maven.apache.org/maven2/"
+            },
+            {
+                "name": "org.ow2.asm:asm-analysis:7.0",
+                "url": "http://repo.maven.apache.org/maven2/"
+            },
+            {
+                "name": "org.ow2.asm:asm-commons:7.0",
+                "url": "http://repo.maven.apache.org/maven2/"
+            },
+            {
+                "name": "org.ow2.asm:asm-tree:7.0",
+                "url": "http://repo.maven.apache.org/maven2/"
+            },
+            {
+                "name": "org.ow2.asm:asm-util:7.0",
+                "url": "http://repo.maven.apache.org/maven2/"
+            }
+        ],
+        "server": []
+    },
+    "mainClass": "net.minecraft.launchwrapper.Launch",
+    "version": 1
+}
