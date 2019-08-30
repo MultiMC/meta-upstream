@@ -1139,7 +1139,7 @@
             ]
         },
         "1.14.4": {
-            "latest": "1.14.4-28.0.74",
+            "latest": "1.14.4-28.0.75",
             "recommended": null,
             "versions": [
                 "1.14.4-28.0.1",
@@ -1192,7 +1192,8 @@
                 "1.14.4-28.0.69",
                 "1.14.4-28.0.70",
                 "1.14.4-28.0.73",
-                "1.14.4-28.0.74"
+                "1.14.4-28.0.74",
+                "1.14.4-28.0.75"
             ]
         },
         "1.2.3": {
@@ -50106,11 +50107,57 @@
                     "hash": "3d52b1d3069e707c4bb021ff1c1526fd"
                 }
             },
-            "latest": true,
+            "latest": false,
             "longversion": "1.14.4-28.0.74",
             "mcversion": "1.14.4",
             "recommended": false,
             "version": "28.0.74"
+        },
+        "1.14.4-28.0.75": {
+            "branch": null,
+            "build": 75,
+            "files": {
+                "changelog": {
+                    "classifier": "changelog",
+                    "extension": "txt",
+                    "hash": "96298f18709cedd486e823eff55286a4"
+                },
+                "installer": {
+                    "classifier": "installer",
+                    "extension": "jar",
+                    "hash": "54bc8fb8d0c85fe0b8e01b654b2cf4b4"
+                },
+                "launcher": {
+                    "classifier": "launcher",
+                    "extension": "jar",
+                    "hash": "be07637cf0a5675e445480d655fd2c4f"
+                },
+                "mdk": {
+                    "classifier": "mdk",
+                    "extension": "zip",
+                    "hash": "b12bdce7503e812ee64efc2cee53ae72"
+                },
+                "sources": {
+                    "classifier": "sources",
+                    "extension": "jar",
+                    "hash": "add9b0b22ba3a4c5f14a5a63cb681f85"
+                },
+                "universal": {
+                    "classifier": "universal",
+                    "extension": "jar",
+                    "hash": "24c72f95dc4bd5c796ea4bfe8665a046"
+                },
+                "userdev": {
+                    "classifier": "userdev",
+                    "extension": "jar",
+                    "hash": "099d1e8abe98c1ef754c6e0251dadfbd"
+                }
+            },
+            "latest": true,
+            "longversion": "1.14.4-28.0.75",
+            "mcversion": "1.14.4",
+            "recommended": false,
+            "version": "28.0.75"
         },
         "1.14.4-28.0.9": {
             "branch": null,
