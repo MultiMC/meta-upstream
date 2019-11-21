@@ -115,27 +115,27 @@
     "assets": "1.15",
     "downloads": {
         "client": {
-            "sha1": "0fd25a522c2faef517aeb55fb9472d7ac4141efc",
-            "size": 25323030,
-            "url": "https://launcher.mojang.com/v1/objects/0fd25a522c2faef517aeb55fb9472d7ac4141efc/client.jar"
+            "sha1": "6e9fe5ad18470fd1b3318f337fca18cd94d7b9e6",
+            "size": 15497203,
+            "url": "https://launcher.mojang.com/v1/objects/6e9fe5ad18470fd1b3318f337fca18cd94d7b9e6/client.jar"
         },
         "client_mappings": {
-            "sha1": "2d04f5a09ea6d59b8c098a14f4dd583b923f1067",
-            "size": 4789180,
-            "url": "https://launcher.mojang.com/v1/objects/2d04f5a09ea6d59b8c098a14f4dd583b923f1067/client.txt"
+            "sha1": "03aacaabee208a109c80a04299a2f040115b0460",
+            "size": 4953520,
+            "url": "https://launcher.mojang.com/v1/objects/03aacaabee208a109c80a04299a2f040115b0460/client.txt"
         },
         "server": {
-            "sha1": "e2c6923d9e06f6b98460f0f584567848a70bf71b",
-            "size": 36070380,
-            "url": "https://launcher.mojang.com/v1/objects/e2c6923d9e06f6b98460f0f584567848a70bf71b/server.jar"
+            "sha1": "332b3382108e5bdb0b23717082c9b97c54ffc8ad",
+            "size": 36153622,
+            "url": "https://launcher.mojang.com/v1/objects/332b3382108e5bdb0b23717082c9b97c54ffc8ad/server.jar"
         },
         "server_mappings": {
-            "sha1": "495aeb15f430d7d9846ee3fd0b07ba4f89a37394",
-            "size": 3634495,
-            "url": "https://launcher.mojang.com/v1/objects/495aeb15f430d7d9846ee3fd0b07ba4f89a37394/server.txt"
+            "sha1": "a04e21b4063b92a003786402079f6d2414b1b693",
+            "size": 3723413,
+            "url": "https://launcher.mojang.com/v1/objects/a04e21b4063b92a003786402079f6d2414b1b693/server.txt"
         }
     },
-    "id": "19w37a",
+    "id": "1.15-pre1",
     "libraries": [
         {
             "downloads": {
@@ -646,6 +646,47 @@
                 }
             },
             "name": "org.lwjgl:lwjgl-stb:3.2.2",
+            "rules": [
+                {
+                    "action": "allow"
+                },
+                {
+                    "action": "disallow",
+                    "os": {
+                        "name": "osx"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "path": "org/lwjgl/lwjgl-tinyfd/3.2.1/lwjgl-tinyfd-3.2.1.jar",
+                    "sha1": "259f1dbddb921e27e01b32458d6f584eb8bba13a",
+                    "size": 7088,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.2.1/lwjgl-tinyfd-3.2.1.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-tinyfd:3.2.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "osx"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "path": "org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2.jar",
+                    "sha1": "fcbe606c8f8da6f8f9a05e2c540eb1ee8632b0e9",
+                    "size": 7092,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-tinyfd:3.2.2",
             "rules": [
                 {
                     "action": "allow"
@@ -1215,6 +1256,118 @@
         {
             "downloads": {
                 "artifact": {
+                    "path": "org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2.jar",
+                    "sha1": "fcbe606c8f8da6f8f9a05e2c540eb1ee8632b0e9",
+                    "size": 7092,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2.jar"
+                },
+                "classifiers": {
+                    "javadoc": {
+                        "path": "org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2-javadoc.jar",
+                        "sha1": "ba657a222ee267b75fa81ae5ab29ae29b50f725f",
+                        "size": 368913,
+                        "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2-javadoc.jar"
+                    },
+                    "natives-linux": {
+                        "path": "org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2-natives-linux.jar",
+                        "sha1": "39e35b161c130635d9c8918ce04e887a30c5b687",
+                        "size": 38804,
+                        "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2-natives-linux.jar"
+                    },
+                    "natives-macos": {
+                        "path": "org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2-natives-macos.jar",
+                        "sha1": "46d0798228b8a28e857a2a0f02310fd6ba2a4eab",
+                        "size": 42136,
+                        "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2-natives-macos.jar"
+                    },
+                    "natives-windows": {
+                        "path": "org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2-natives-windows.jar",
+                        "sha1": "e9115958773644e863332a6a06488d26f9e1fc9f",
+                        "size": 208314,
+                        "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2-natives-windows.jar"
+                    },
+                    "sources": {
+                        "path": "org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2-sources.jar",
+                        "sha1": "2fe76dcf2ca02ae0e64ac7c69eb251c09df0e922",
+                        "size": 5034,
+                        "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2-sources.jar"
+                    }
+                }
+            },
+            "name": "org.lwjgl:lwjgl-tinyfd:3.2.2",
+            "natives": {
+                "linux": "natives-linux",
+                "windows": "natives-windows"
+            },
+            "rules": [
+                {
+                    "action": "allow"
+                },
+                {
+                    "action": "disallow",
+                    "os": {
+                        "name": "osx"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "path": "org/lwjgl/lwjgl-tinyfd/3.2.1/lwjgl-tinyfd-3.2.1.jar",
+                    "sha1": "259f1dbddb921e27e01b32458d6f584eb8bba13a",
+                    "size": 7088,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.2.1/lwjgl-tinyfd-3.2.1.jar"
+                },
+                "classifiers": {
+                    "javadoc": {
+                        "path": "org/lwjgl/lwjgl-tinyfd/3.2.1/lwjgl-tinyfd-3.2.1-javadoc.jar",
+                        "sha1": "0a85d995178cdab6b94d9a172dd9e7d2a0d70cfb",
+                        "size": 368913,
+                        "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.2.1/lwjgl-tinyfd-3.2.1-javadoc.jar"
+                    },
+                    "natives-linux": {
+                        "path": "org/lwjgl/lwjgl-tinyfd/3.2.1/lwjgl-tinyfd-3.2.1-natives-linux.jar",
+                        "sha1": "4ad49108397322596d7b85c2c687e5de6ee52157",
+                        "size": 38192,
+                        "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.2.1/lwjgl-tinyfd-3.2.1-natives-linux.jar"
+                    },
+                    "natives-macos": {
+                        "path": "org/lwjgl/lwjgl-tinyfd/3.2.1/lwjgl-tinyfd-3.2.1-natives-macos.jar",
+                        "sha1": "759c2fd9cc5c6ce0b5b7af77ac8200483b7fb660",
+                        "size": 41962,
+                        "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.2.1/lwjgl-tinyfd-3.2.1-natives-macos.jar"
+                    },
+                    "natives-windows": {
+                        "path": "org/lwjgl/lwjgl-tinyfd/3.2.1/lwjgl-tinyfd-3.2.1-natives-windows.jar",
+                        "sha1": "85750d2ca022852e15f58c0b94b3d1d4e7f0ba52",
+                        "size": 207577,
+                        "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.2.1/lwjgl-tinyfd-3.2.1-natives-windows.jar"
+                    },
+                    "sources": {
+                        "path": "org/lwjgl/lwjgl-tinyfd/3.2.1/lwjgl-tinyfd-3.2.1-sources.jar",
+                        "sha1": "c375699fd794c4c87d935e0f9a84e7d80d0de77e",
+                        "size": 5034,
+                        "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.2.1/lwjgl-tinyfd-3.2.1-sources.jar"
+                    }
+                }
+            },
+            "name": "org.lwjgl:lwjgl-tinyfd:3.2.1",
+            "natives": {
+                "osx": "natives-macos"
+            },
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "osx"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
                     "path": "org/lwjgl/lwjgl-stb/3.2.2/lwjgl-stb-3.2.2.jar",
                     "sha1": "3b8e6ebc5851dd3d17e37e5cadce2eff2a429f0f",
                     "size": 104469,
@@ -1390,7 +1543,7 @@
     },
     "mainClass": "net.minecraft.client.main.Main",
     "minimumLauncherVersion": 21,
-    "releaseTime": "2019-09-11T11:46:44+00:00",
-    "time": "2019-09-11T11:46:44+00:00",
+    "releaseTime": "2019-11-21T17:01:17+00:00",
+    "time": "2019-11-21T17:01:17+00:00",
     "type": "snapshot"
 }
