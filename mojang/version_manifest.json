@@ -1,9 +1,16 @@
 {
     "latest": {
         "release": "1.15.2",
-        "snapshot": "20w13b"
+        "snapshot": "20w14infinite"
     },
     "versions": [
+        {
+            "id": "20w14infinite",
+            "releaseTime": "2020-04-01T12:47:08+00:00",
+            "time": "2020-04-01T12:51:39+00:00",
+            "type": "snapshot",
+            "url": "https://launchermeta.mojang.com/v1/packages/6815be8283f2d1466a49ab99ae2f1d3611058bc9/20w14infinite.json"
+        },
         {
             "id": "20w13b",
             "releaseTime": "2020-03-26T13:00:34+00:00",
@@ -2819,18 +2826,18 @@
             "url": "https://launchermeta.mojang.com/v1/packages/b71bae449192fbbe1582ff32fb3765edf0b9b0a8/1.6.4.json"
         },
         {
-            "id": "13w37b",
-            "releaseTime": "2013-09-13T10:54:41+00:00",
-            "time": "2019-06-28T07:08:08+00:00",
-            "type": "snapshot",
-            "url": "https://launchermeta.mojang.com/v1/packages/b8d28154ee056af6af3c8c37815418fe0e9f34f8/13w37b.json"
-        },
-        {
             "id": "1.6.3",
             "releaseTime": "2013-09-13T10:54:41+00:00",
             "time": "2019-06-28T07:07:47+00:00",
             "type": "snapshot",
             "url": "https://launchermeta.mojang.com/v1/packages/903d6ba1bc87c301d88fa418f8b33446201c7d4e/1.6.3.json"
+        },
+        {
+            "id": "13w37b",
+            "releaseTime": "2013-09-13T10:54:41+00:00",
+            "time": "2019-06-28T07:08:08+00:00",
+            "type": "snapshot",
+            "url": "https://launchermeta.mojang.com/v1/packages/b8d28154ee056af6af3c8c37815418fe0e9f34f8/13w37b.json"
         },
         {
             "id": "13w37a",
