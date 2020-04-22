@@ -115,27 +115,27 @@
     "assets": "1.16",
     "downloads": {
         "client": {
-            "sha1": "cb36abdee528372522f52ae41ccc0609fd9c4038",
-            "size": 16148541,
-            "url": "https://launcher.mojang.com/v1/objects/cb36abdee528372522f52ae41ccc0609fd9c4038/client.jar"
+            "sha1": "0f9a4d6f9bc5b8fe3a3b5e1d6787f856de3d4f72",
+            "size": 16938976,
+            "url": "https://launcher.mojang.com/v1/objects/0f9a4d6f9bc5b8fe3a3b5e1d6787f856de3d4f72/client.jar"
         },
         "client_mappings": {
-            "sha1": "12f4cb49fd6071ca5cdb5cd312bf18fc6830a217",
-            "size": 5244034,
-            "url": "https://launcher.mojang.com/v1/objects/12f4cb49fd6071ca5cdb5cd312bf18fc6830a217/client.txt"
+            "sha1": "4154bab4c16af203c027c51646a87e17034cd096",
+            "size": 5377027,
+            "url": "https://launcher.mojang.com/v1/objects/4154bab4c16af203c027c51646a87e17034cd096/client.txt"
         },
         "server": {
-            "sha1": "affcf966ca903156070aa90b63417793a78b2165",
-            "size": 36618749,
-            "url": "https://launcher.mojang.com/v1/objects/affcf966ca903156070aa90b63417793a78b2165/server.jar"
+            "sha1": "0b7e36b084577fb26148c6341d590ac14606db21",
+            "size": 37288874,
+            "url": "https://launcher.mojang.com/v1/objects/0b7e36b084577fb26148c6341d590ac14606db21/server.jar"
         },
         "server_mappings": {
-            "sha1": "125e3266627fab5b165becd2a78770660c2fc78d",
-            "size": 4054010,
-            "url": "https://launcher.mojang.com/v1/objects/125e3266627fab5b165becd2a78770660c2fc78d/server.txt"
+            "sha1": "073daf6a9d136b57c63a11460761d59ec8ed93f4",
+            "size": 4138097,
+            "url": "https://launcher.mojang.com/v1/objects/073daf6a9d136b57c63a11460761d59ec8ed93f4/server.txt"
         }
     },
-    "id": "20w14a",
+    "id": "20w17a",
     "libraries": [
         {
             "downloads": {
@@ -184,13 +184,13 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar",
-                    "sha1": "63d216a9311cca6be337c1e458e587f99d382b84",
-                    "size": 1634692,
-                    "url": "https://libraries.minecraft.net/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar"
+                    "path": "com/ibm/icu/icu4j/66.1/icu4j-66.1.jar",
+                    "sha1": "72c7519b6d91f7a1f993bd44a99fe95d67211b27",
+                    "size": 12935630,
+                    "url": "https://libraries.minecraft.net/com/ibm/icu/icu4j/66.1/icu4j-66.1.jar"
                 }
             },
-            "name": "com.ibm.icu:icu4j-core-mojang:51.2"
+            "name": "com.ibm.icu:icu4j:66.1"
         },
         {
             "downloads": {
@@ -327,13 +327,13 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/authlib/1.5.25/authlib-1.5.25.jar",
-                    "sha1": "9834cdf236c22e84b946bba989e2f94ef5897c3c",
-                    "size": 65621,
-                    "url": "https://libraries.minecraft.net/com/mojang/authlib/1.5.25/authlib-1.5.25.jar"
+                    "path": "com/mojang/authlib/1.6.25/authlib-1.6.25.jar",
+                    "sha1": "5bd0ce00c1e1f483641f85bccb02d1956dd77ec0",
+                    "size": 70197,
+                    "url": "https://libraries.minecraft.net/com/mojang/authlib/1.6.25/authlib-1.6.25.jar"
                 }
             },
-            "name": "com.mojang:authlib:1.5.25"
+            "name": "com.mojang:authlib:1.6.25"
         },
         {
             "downloads": {
@@ -1543,7 +1543,7 @@
     },
     "mainClass": "net.minecraft.client.main.Main",
     "minimumLauncherVersion": 21,
-    "releaseTime": "2020-04-02T14:28:06+00:00",
-    "time": "2020-04-02T14:28:06+00:00",
+    "releaseTime": "2020-04-22T13:47:50+00:00",
+    "time": "2020-04-22T13:47:50+00:00",
     "type": "snapshot"
 }
