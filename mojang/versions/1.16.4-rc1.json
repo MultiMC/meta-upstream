@@ -113,30 +113,30 @@
         "url": "https://launchermeta.mojang.com/v1/packages/26f3568767e145673affd68ce29c52de838380a3/1.16.json"
     },
     "assets": "1.16",
-    "complianceLevel": 0,
+    "complianceLevel": 1,
     "downloads": {
         "client": {
-            "sha1": "ff70a84c9cdc99a866c4b06410ec46f541dcf988",
-            "size": 17234567,
-            "url": "https://launcher.mojang.com/v1/objects/ff70a84c9cdc99a866c4b06410ec46f541dcf988/client.jar"
+            "sha1": "1fcf6ddd5ee925d19eadc4b7ef7278365979c7fd",
+            "size": 17546678,
+            "url": "https://launcher.mojang.com/v1/objects/1fcf6ddd5ee925d19eadc4b7ef7278365979c7fd/client.jar"
         },
         "client_mappings": {
-            "sha1": "6f20bbe4218c895f621aeb60e9874674891a21b5",
-            "size": 5425299,
-            "url": "https://launcher.mojang.com/v1/objects/6f20bbe4218c895f621aeb60e9874674891a21b5/client.txt"
+            "sha1": "23a0bc36490545566a79ea5345f37283f61eeaa5",
+            "size": 5746047,
+            "url": "https://launcher.mojang.com/v1/objects/23a0bc36490545566a79ea5345f37283f61eeaa5/client.txt"
         },
         "server": {
-            "sha1": "0393774fb1f9db8288a56dbbcf45022b71f7939f",
-            "size": 37554531,
-            "url": "https://launcher.mojang.com/v1/objects/0393774fb1f9db8288a56dbbcf45022b71f7939f/server.jar"
+            "sha1": "daf2d997bd6b1725b6d59b48f533a6804d43db33",
+            "size": 37961600,
+            "url": "https://launcher.mojang.com/v1/objects/daf2d997bd6b1725b6d59b48f533a6804d43db33/server.jar"
         },
         "server_mappings": {
-            "sha1": "940a087b56105319bd32960a8241c68c55cf9aea",
-            "size": 4163637,
-            "url": "https://launcher.mojang.com/v1/objects/940a087b56105319bd32960a8241c68c55cf9aea/server.txt"
+            "sha1": "0413b5c8bb13c62f81c1336c58c09e29d8b43cb6",
+            "size": 4400926,
+            "url": "https://launcher.mojang.com/v1/objects/0413b5c8bb13c62f81c1336c58c09e29d8b43cb6/server.txt"
         }
     },
-    "id": "20w20b",
+    "id": "1.16.4-rc1",
     "libraries": [
         {
             "downloads": {
@@ -306,13 +306,13 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/datafixerupper/2.0.24/datafixerupper-2.0.24.jar",
-                    "sha1": "0944c24a8519981847ffb36c6dcd059d96fcb4b0",
-                    "size": 436066,
-                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/2.0.24/datafixerupper-2.0.24.jar"
+                    "path": "com/mojang/datafixerupper/4.0.26/datafixerupper-4.0.26.jar",
+                    "sha1": "ebd6690f33871ccee9b6132c6480668ee2e35020",
+                    "size": 673183,
+                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/4.0.26/datafixerupper-4.0.26.jar"
                 }
             },
-            "name": "com.mojang:datafixerupper:2.0.24"
+            "name": "com.mojang:datafixerupper:4.0.26"
         },
         {
             "downloads": {
@@ -328,13 +328,13 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/authlib/1.6.25/authlib-1.6.25.jar",
-                    "sha1": "5bd0ce00c1e1f483641f85bccb02d1956dd77ec0",
-                    "size": 70197,
-                    "url": "https://libraries.minecraft.net/com/mojang/authlib/1.6.25/authlib-1.6.25.jar"
+                    "path": "com/mojang/authlib/2.0.27/authlib-2.0.27.jar",
+                    "sha1": "cc36c2be8b0de3e200efbb23f0eb2d28055cd98f",
+                    "size": 76014,
+                    "url": "https://libraries.minecraft.net/com/mojang/authlib/2.0.27/authlib-2.0.27.jar"
                 }
             },
-            "name": "com.mojang:authlib:1.6.25"
+            "name": "com.mojang:authlib:2.0.27"
         },
         {
             "downloads": {
@@ -1544,7 +1544,7 @@
     },
     "mainClass": "net.minecraft.client.main.Main",
     "minimumLauncherVersion": 21,
-    "releaseTime": "2020-05-14T08:16:26+00:00",
-    "time": "2020-05-14T08:16:26+00:00",
+    "releaseTime": "2020-10-27T16:31:08+00:00",
+    "time": "2020-10-27T16:31:08+00:00",
     "type": "snapshot"
 }
