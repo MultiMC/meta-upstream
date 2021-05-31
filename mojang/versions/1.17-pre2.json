@@ -116,27 +116,27 @@
     "complianceLevel": 1,
     "downloads": {
         "client": {
-            "sha1": "ec029994171ba8e3d9a68458d7d307a67a84faac",
-            "size": 19346626,
-            "url": "https://launcher.mojang.com/v1/objects/ec029994171ba8e3d9a68458d7d307a67a84faac/client.jar"
+            "sha1": "72ebf53f36151a9c2657dca80f72a97c0917d3ce",
+            "size": 19517845,
+            "url": "https://launcher.mojang.com/v1/objects/72ebf53f36151a9c2657dca80f72a97c0917d3ce/client.jar"
         },
         "client_mappings": {
-            "sha1": "7de88c6a5342a640d905ea008a1ad364bdcd63a5",
-            "size": 6366456,
-            "url": "https://launcher.mojang.com/v1/objects/7de88c6a5342a640d905ea008a1ad364bdcd63a5/client.txt"
+            "sha1": "c3fc5f17f6a63498078cbcc72872e78c500120f6",
+            "size": 6425983,
+            "url": "https://launcher.mojang.com/v1/objects/c3fc5f17f6a63498078cbcc72872e78c500120f6/client.txt"
         },
         "server": {
-            "sha1": "d0a9151432af384f5f2ca72e8e43422772158d0e",
-            "size": 39185936,
-            "url": "https://launcher.mojang.com/v1/objects/d0a9151432af384f5f2ca72e8e43422772158d0e/server.jar"
+            "sha1": "d8756c67ce3b3fe20d0510afb3e22fa16310b2e6",
+            "size": 43611016,
+            "url": "https://launcher.mojang.com/v1/objects/d8756c67ce3b3fe20d0510afb3e22fa16310b2e6/server.jar"
         },
         "server_mappings": {
-            "sha1": "8d8524fd057a410dbc680f8f46b967b39ad3f1d8",
-            "size": 4901519,
-            "url": "https://launcher.mojang.com/v1/objects/8d8524fd057a410dbc680f8f46b967b39ad3f1d8/server.txt"
+            "sha1": "f79c9cad034152d13c8fab69c441eb06138aacc6",
+            "size": 4943429,
+            "url": "https://launcher.mojang.com/v1/objects/f79c9cad034152d13c8fab69c441eb06138aacc6/server.txt"
         }
     },
-    "id": "21w19a",
+    "id": "1.17-pre2",
     "javaVersion": {
         "component": "java-runtime-alpha",
         "majorVersion": 16
@@ -156,46 +156,68 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/patchy/2.0.5/patchy-2.0.5.jar",
-                    "sha1": "147f3989fa1db4412bf00167c5cd44d1ade2d9b9",
+                    "path": "com/mojang/patchy/2.1.6/patchy-2.1.6.jar",
+                    "sha1": "ce112c16c6275fdfff2d30208533ec906a191f71",
                     "size": 10090,
-                    "url": "https://libraries.minecraft.net/com/mojang/patchy/2.0.5/patchy-2.0.5.jar"
+                    "url": "https://libraries.minecraft.net/com/mojang/patchy/2.1.6/patchy-2.1.6.jar"
                 }
             },
-            "name": "com.mojang:patchy:2.0.5"
+            "name": "com.mojang:patchy:2.1.6"
         },
         {
             "downloads": {
                 "artifact": {
-                    "path": "oshi-project/oshi-core/1.1/oshi-core-1.1.jar",
-                    "sha1": "9ddf7b048a8d701be231c0f4f95fd986198fd2d8",
-                    "size": 30973,
-                    "url": "https://libraries.minecraft.net/oshi-project/oshi-core/1.1/oshi-core-1.1.jar"
+                    "path": "com/github/oshi/oshi-core/5.7.4/oshi-core-5.7.4.jar",
+                    "sha1": "7d46a42de1af8c81d401d50082f285853307b31d",
+                    "size": 835937,
+                    "url": "https://libraries.minecraft.net/com/github/oshi/oshi-core/5.7.4/oshi-core-5.7.4.jar"
                 }
             },
-            "name": "oshi-project:oshi-core:1.1"
+            "name": "com.github.oshi:oshi-core:5.7.4"
         },
         {
             "downloads": {
                 "artifact": {
-                    "path": "net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar",
-                    "sha1": "cb208278274bf12ebdb56c61bd7407e6f774d65a",
-                    "size": 1091208,
-                    "url": "https://libraries.minecraft.net/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar"
+                    "path": "net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar",
+                    "sha1": "3551d8d827e54858214107541d3aff9c615cb615",
+                    "size": 1729586,
+                    "url": "https://libraries.minecraft.net/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar"
                 }
             },
-            "name": "net.java.dev.jna:jna:4.4.0"
+            "name": "net.java.dev.jna:jna:5.8.0"
         },
         {
             "downloads": {
                 "artifact": {
-                    "path": "net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar",
-                    "sha1": "e3f70017be8100d3d6923f50b3d2ee17714e9c13",
-                    "size": 913436,
-                    "url": "https://libraries.minecraft.net/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar"
+                    "path": "net/java/dev/jna/jna-platform/5.8.0/jna-platform-5.8.0.jar",
+                    "sha1": "2f12f6d7f7652270d13624cef1b82d8cd9a5398e",
+                    "size": 1338206,
+                    "url": "https://libraries.minecraft.net/net/java/dev/jna/jna-platform/5.8.0/jna-platform-5.8.0.jar"
                 }
             },
-            "name": "net.java.dev.jna:platform:3.4.0"
+            "name": "net.java.dev.jna:jna-platform:5.8.0"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "path": "org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.jar",
+                    "sha1": "83b0359d847ee053d745be7ec0d8e9e8a44304b4",
+                    "size": 44213,
+                    "url": "https://libraries.minecraft.net/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.jar"
+                }
+            },
+            "name": "org.slf4j:slf4j-api:1.8.0-beta4"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "path": "org/apache/logging/log4j/log4j-slf4j18-impl/2.14.1/log4j-slf4j18-impl-2.14.1.jar",
+                    "sha1": "312b4d91b21160b9fab43600fa787f31e8cab930",
+                    "size": 20688,
+                    "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-slf4j18-impl/2.14.1/log4j-slf4j18-impl-2.14.1.jar"
+                }
+            },
+            "name": "org.apache.logging.log4j:log4j-slf4j18-impl:2.14.1"
         },
         {
             "downloads": {
@@ -343,13 +365,13 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/authlib/2.1.29/authlib-2.1.29.jar",
-                    "sha1": "cf8922b78a78492729f8dcc8ba878c1e7547f15b",
-                    "size": 86202,
-                    "url": "https://libraries.minecraft.net/com/mojang/authlib/2.1.29/authlib-2.1.29.jar"
+                    "path": "com/mojang/authlib/2.2.30/authlib-2.2.30.jar",
+                    "sha1": "d6e677199aa6b19c4a9a2e725034149eb3e746f8",
+                    "size": 87497,
+                    "url": "https://libraries.minecraft.net/com/mojang/authlib/2.2.30/authlib-2.2.30.jar"
                 }
             },
-            "name": "com.mojang:authlib:2.1.29"
+            "name": "com.mojang:authlib:2.2.30"
         },
         {
             "downloads": {
@@ -409,24 +431,24 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar",
-                    "sha1": "e801d13612e22cad62a3f4f3fe7fdbe6334a8e72",
-                    "size": 228859,
-                    "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar"
+                    "path": "org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.jar",
+                    "sha1": "cd8858fbbde69f46bce8db1152c18a43328aae78",
+                    "size": 300365,
+                    "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.jar"
                 }
             },
-            "name": "org.apache.logging.log4j:log4j-api:2.8.1"
+            "name": "org.apache.logging.log4j:log4j-api:2.14.1"
         },
         {
             "downloads": {
                 "artifact": {
-                    "path": "org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar",
-                    "sha1": "4ac28ff2f1ddf05dae3043a190451e8c46b73c31",
-                    "size": 1402925,
-                    "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar"
+                    "path": "org/apache/logging/log4j/log4j-core/2.14.1/log4j-core-2.14.1.jar",
+                    "sha1": "9141212b8507ab50a45525b545b39d224614528b",
+                    "size": 1745700,
+                    "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-core/2.14.1/log4j-core-2.14.1.jar"
                 }
             },
-            "name": "org.apache.logging.log4j:log4j-core:2.8.1"
+            "name": "org.apache.logging.log4j:log4j-core:2.14.1"
         },
         {
             "downloads": {
@@ -1559,7 +1581,7 @@
     },
     "mainClass": "net.minecraft.client.main.Main",
     "minimumLauncherVersion": 21,
-    "releaseTime": "2021-05-12T11:19:15+00:00",
-    "time": "2021-05-12T11:19:15+00:00",
+    "releaseTime": "2021-05-31T15:54:05+00:00",
+    "time": "2021-05-31T15:54:05+00:00",
     "type": "snapshot"
 }
