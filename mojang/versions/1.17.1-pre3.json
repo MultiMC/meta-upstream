@@ -116,27 +116,27 @@
     "complianceLevel": 1,
     "downloads": {
         "client": {
-            "sha1": "006320ab2a9969f0e0d3dc64a463e1816be5e225",
-            "size": 19535570,
-            "url": "https://launcher.mojang.com/v1/objects/006320ab2a9969f0e0d3dc64a463e1816be5e225/client.jar"
+            "sha1": "c9f26f45a9c18c27ef1dd3753057ce81401d742d",
+            "size": 19545112,
+            "url": "https://launcher.mojang.com/v1/objects/c9f26f45a9c18c27ef1dd3753057ce81401d742d/client.jar"
         },
         "client_mappings": {
-            "sha1": "f98bcfe6126153d862d072c574dbe48af778f5d9",
-            "size": 6431574,
-            "url": "https://launcher.mojang.com/v1/objects/f98bcfe6126153d862d072c574dbe48af778f5d9/client.txt"
+            "sha1": "11ef28414033c3010f9af6dadeef45a54b4026e9",
+            "size": 6436433,
+            "url": "https://launcher.mojang.com/v1/objects/11ef28414033c3010f9af6dadeef45a54b4026e9/client.txt"
         },
         "server": {
-            "sha1": "4de310c8c4f4a8ab4574246c1d63e3de3af1444d",
-            "size": 43620794,
-            "url": "https://launcher.mojang.com/v1/objects/4de310c8c4f4a8ab4574246c1d63e3de3af1444d/server.jar"
+            "sha1": "04750b5adff60610a5ba2cd3aa8102f7086c9301",
+            "size": 43625244,
+            "url": "https://launcher.mojang.com/v1/objects/04750b5adff60610a5ba2cd3aa8102f7086c9301/server.jar"
         },
         "server_mappings": {
-            "sha1": "98a1398dc4144f92e10dd6967a231763741952e7",
-            "size": 4948486,
-            "url": "https://launcher.mojang.com/v1/objects/98a1398dc4144f92e10dd6967a231763741952e7/server.txt"
+            "sha1": "e009a085ba97816e196060404ae2be280c4a6689",
+            "size": 4952624,
+            "url": "https://launcher.mojang.com/v1/objects/e009a085ba97816e196060404ae2be280c4a6689/server.txt"
         }
     },
-    "id": "1.17-rc1",
+    "id": "1.17.1-pre3",
     "javaVersion": {
         "component": "java-runtime-alpha",
         "majorVersion": 16
@@ -167,13 +167,13 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/github/oshi/oshi-core/5.7.4/oshi-core-5.7.4.jar",
-                    "sha1": "7d46a42de1af8c81d401d50082f285853307b31d",
-                    "size": 835937,
-                    "url": "https://libraries.minecraft.net/com/github/oshi/oshi-core/5.7.4/oshi-core-5.7.4.jar"
+                    "path": "com/github/oshi/oshi-core/5.7.5/oshi-core-5.7.5.jar",
+                    "sha1": "725374463734aacde70a3b20f018aca3f922655f",
+                    "size": 835738,
+                    "url": "https://libraries.minecraft.net/com/github/oshi/oshi-core/5.7.5/oshi-core-5.7.5.jar"
                 }
             },
-            "name": "com.github.oshi:oshi-core:5.7.4"
+            "name": "com.github.oshi:oshi-core:5.7.5"
         },
         {
             "downloads": {
@@ -365,13 +365,13 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/authlib/2.2.30/authlib-2.2.30.jar",
-                    "sha1": "d6e677199aa6b19c4a9a2e725034149eb3e746f8",
-                    "size": 87497,
-                    "url": "https://libraries.minecraft.net/com/mojang/authlib/2.2.30/authlib-2.2.30.jar"
+                    "path": "com/mojang/authlib/2.3.31/authlib-2.3.31.jar",
+                    "sha1": "bbd00ca33b052f73a6312254780fc580d2da3535",
+                    "size": 87662,
+                    "url": "https://libraries.minecraft.net/com/mojang/authlib/2.3.31/authlib-2.3.31.jar"
                 }
             },
-            "name": "com.mojang:authlib:2.2.30"
+            "name": "com.mojang:authlib:2.3.31"
         },
         {
             "downloads": {
@@ -1581,7 +1581,7 @@
     },
     "mainClass": "net.minecraft.client.main.Main",
     "minimumLauncherVersion": 21,
-    "releaseTime": "2021-06-04T13:24:48+00:00",
-    "time": "2021-06-04T13:24:48+00:00",
+    "releaseTime": "2021-06-30T15:43:16+00:00",
+    "time": "2021-06-30T15:43:16+00:00",
     "type": "snapshot"
 }
