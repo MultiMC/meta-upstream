@@ -84,20 +84,12 @@
       {
         "name": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2",
         "url": "https://maven.minecraftforge.net/",
-        "checksums": [
-          "87213338cd5a153a7712cb574c0ddd2edfee0386",
-          "0b4c1bf8d48993f138d6e10c0c144e50acfff581"
-        ],
         "serverreq": true,
         "clientreq": true
       },
       {
         "name": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2",
         "url": "https://maven.minecraftforge.net/",
-        "checksums": [
-          "1f7371605d4ba42aa26d3443440c0083c587b4e9",
-          "1ea655dda4504ae0a367327e2340cd3beaee6c73"
-        ],
         "serverreq": true,
         "clientreq": true
       },
@@ -178,8 +170,8 @@
       "server": true,
       "default": true,
       "inject": true,
-      "desc": "A mod that collects statistics about Minecraft and your system.\u003cbr\u003eUseful for Forge to understand how Minecraft/Forge are used.",
-      "url": "http://www.minecraftforge.net/forum/index.php?topic\u003d43278.0",
+      "desc": "A mod that collects statistics about Minecraft and your system.<br>Useful for Forge to understand how Minecraft/Forge are used.",
+      "url": "http://www.minecraftforge.net/forum/index.php?topic=43278.0",
       "artifact": "net.minecraftforge:MercuriusUpdater:1.11",
       "maven": "http://files.minecraftforge.net/maven/"
     }
