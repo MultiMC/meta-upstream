@@ -120,30 +120,30 @@
     "complianceLevel": 1,
     "downloads": {
         "client": {
-            "sha1": "6bf2feca56785edfddf308cbeef0fc3331155685",
-            "size": 19939394,
-            "url": "https://launcher.mojang.com/v1/objects/6bf2feca56785edfddf308cbeef0fc3331155685/client.jar"
+            "sha1": "6b88f1734c80775f59416db3599c2a4333558ca4",
+            "size": 19982080,
+            "url": "https://launcher.mojang.com/v1/objects/6b88f1734c80775f59416db3599c2a4333558ca4/client.jar"
         },
         "client_mappings": {
-            "sha1": "7e7ead13deb9d525c9764f933fb11cd76b7b79ae",
-            "size": 6556277,
-            "url": "https://launcher.mojang.com/v1/objects/7e7ead13deb9d525c9764f933fb11cd76b7b79ae/client.txt"
+            "sha1": "05dd4363ea8e18e8f6eb57a43e1a6e01b3a651da",
+            "size": 6577861,
+            "url": "https://launcher.mojang.com/v1/objects/05dd4363ea8e18e8f6eb57a43e1a6e01b3a651da/client.txt"
         },
         "server": {
-            "sha1": "ae583fd57a8c07f2d6fbadce1ce1e1379bf4b32d",
-            "size": 46233488,
-            "url": "https://launcher.mojang.com/v1/objects/ae583fd57a8c07f2d6fbadce1ce1e1379bf4b32d/server.jar"
+            "sha1": "c203586f5d2c02b417f0e104b65a8e5e7625b2f8",
+            "size": 46272002,
+            "url": "https://launcher.mojang.com/v1/objects/c203586f5d2c02b417f0e104b65a8e5e7625b2f8/server.jar"
         },
         "server_mappings": {
-            "sha1": "122dd671c989bd1f0247c0d2924f45ea41595c71",
-            "size": 5062474,
-            "url": "https://launcher.mojang.com/v1/objects/122dd671c989bd1f0247c0d2924f45ea41595c71/server.txt"
+            "sha1": "e1599803356325af029e806eb7db716c5047fc52",
+            "size": 5084545,
+            "url": "https://launcher.mojang.com/v1/objects/e1599803356325af029e806eb7db716c5047fc52/server.txt"
         }
     },
-    "id": "21w44a",
+    "id": "1.18-pre2",
     "javaVersion": {
-        "component": "java-runtime-alpha",
-        "majorVersion": 16
+        "component": "java-runtime-beta",
+        "majorVersion": 17
     },
     "libraries": [
         {
@@ -1574,7 +1574,7 @@
     },
     "mainClass": "net.minecraft.client.main.Main",
     "minimumLauncherVersion": 21,
-    "releaseTime": "2021-11-03T16:14:34+00:00",
-    "time": "2021-11-03T16:14:34+00:00",
+    "releaseTime": "2021-11-16T17:04:48+00:00",
+    "time": "2021-11-16T17:04:48+00:00",
     "type": "snapshot"
 }
