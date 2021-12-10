@@ -7,6 +7,7 @@
         "url": "https://launchermeta.mojang.com/v1/packages/770572e819335b6c0a053f8378ad88eda189fc14/legacy.json"
     },
     "assets": "legacy",
+    "complianceLevel": 0,
     "downloads": {
         "client": {
             "sha1": "17969ef3be3a8ca59d38cfc2e2401ceb1dd17abc",
@@ -25,6 +26,10 @@
         }
     },
     "id": "13w39b",
+    "javaVersion": {
+        "component": "jre-legacy",
+        "majorVersion": 8
+    },
     "libraries": [
         {
             "downloads": {
@@ -441,9 +446,9 @@
             "argument": "-Dlog4j.configurationFile=${path}",
             "file": {
                 "id": "client-1.7.xml",
-                "sha1": "6605d632a2399010c0085d3e4da58974d62ccdfe",
-                "size": 871,
-                "url": "https://launcher.mojang.com/v1/objects/6605d632a2399010c0085d3e4da58974d62ccdfe/client-1.7.xml"
+                "sha1": "14fedd49897b3f6160975bdf3a53e1e7eab71d29",
+                "size": 962,
+                "url": "https://launcher.mojang.com/v1/objects/14fedd49897b3f6160975bdf3a53e1e7eab71d29/client-1.7.xml"
             },
             "type": "log4j2-xml"
         }
