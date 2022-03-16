@@ -1,12 +1,13 @@
 {
     "assetIndex": {
         "id": "pre-1.6",
-        "sha1": "4759bad2824e419da9db32861fcdc3a274336532",
-        "size": 73813,
-        "totalSize": 49381897,
-        "url": "https://launchermeta.mojang.com/v1/packages/4759bad2824e419da9db32861fcdc3a274336532/pre-1.6.json"
+        "sha1": "3d8e55480977e32acd9844e545177e69a52f594b",
+        "size": 74091,
+        "totalSize": 49505710,
+        "url": "https://launchermeta.mojang.com/v1/packages/3d8e55480977e32acd9844e545177e69a52f594b/pre-1.6.json"
     },
     "assets": "pre-1.6",
+    "complianceLevel": 0,
     "downloads": {
         "client": {
             "sha1": "e4226f9ba622634e3101681bc641eec7ee9e72fd",
@@ -15,6 +16,10 @@
         }
     },
     "id": "a1.2.1",
+    "javaVersion": {
+        "component": "jre-legacy",
+        "majorVersion": 8
+    },
     "libraries": [
         {
             "downloads": {
