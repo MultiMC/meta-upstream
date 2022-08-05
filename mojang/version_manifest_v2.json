@@ -1,9 +1,18 @@
 {
     "latest": {
-        "release": "1.19.1",
-        "snapshot": "1.19.2-rc2"
+        "release": "1.19.2",
+        "snapshot": "1.19.2"
     },
     "versions": [
+        {
+            "complianceLevel": 1,
+            "id": "1.19.2",
+            "releaseTime": "2022-08-05T11:57:05+00:00",
+            "sha1": "68cded4616fba9fbefb3f895033c261126c5f89c",
+            "time": "2022-08-05T12:01:02+00:00",
+            "type": "release",
+            "url": "https://piston-meta.mojang.com/v1/packages/68cded4616fba9fbefb3f895033c261126c5f89c/1.19.2.json"
+        },
         {
             "complianceLevel": 1,
             "id": "1.19.2-rc2",
