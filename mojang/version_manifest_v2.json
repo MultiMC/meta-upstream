@@ -1,17 +1,26 @@
 {
     "latest": {
         "release": "1.19.2",
-        "snapshot": "22w42a"
+        "snapshot": "22w43a"
     },
     "versions": [
         {
             "complianceLevel": 1,
+            "id": "22w43a",
+            "releaseTime": "2022-10-26T11:55:59+00:00",
+            "sha1": "3df2e71658adfd995d97bf0d643790f2ed1c5fb9",
+            "time": "2022-10-26T12:01:21+00:00",
+            "type": "snapshot",
+            "url": "https://piston-meta.mojang.com/v1/packages/3df2e71658adfd995d97bf0d643790f2ed1c5fb9/22w43a.json"
+        },
+        {
+            "complianceLevel": 1,
             "id": "22w42a",
             "releaseTime": "2022-10-19T09:34:22+00:00",
-            "sha1": "484ddbed864fe50021283d08edafbb5fe96afc49",
-            "time": "2022-10-19T13:16:00+00:00",
+            "sha1": "440b76ef75eab8a7f453c4160c84c1bc310acb1d",
+            "time": "2022-10-26T11:45:12+00:00",
             "type": "snapshot",
-            "url": "https://piston-meta.mojang.com/v1/packages/484ddbed864fe50021283d08edafbb5fe96afc49/22w42a.json"
+            "url": "https://piston-meta.mojang.com/v1/packages/440b76ef75eab8a7f453c4160c84c1bc310acb1d/22w42a.json"
         },
         {
             "complianceLevel": 1,
@@ -5199,21 +5208,21 @@
         },
         {
             "complianceLevel": 0,
-            "id": "1.4.6",
-            "releaseTime": "2012-12-19T22:00:00+00:00",
-            "sha1": "09832797138da79745ade734da775f44c254066b",
-            "time": "2022-03-10T09:51:38+00:00",
-            "type": "release",
-            "url": "https://launchermeta.mojang.com/v1/packages/09832797138da79745ade734da775f44c254066b/1.4.6.json"
-        },
-        {
-            "complianceLevel": 0,
             "id": "1.4.5",
             "releaseTime": "2012-12-19T22:00:00+00:00",
             "sha1": "d64a902a48a6a618f9a0a82c183be454e7a1f23b",
             "time": "2022-03-10T09:51:38+00:00",
             "type": "release",
             "url": "https://launchermeta.mojang.com/v1/packages/d64a902a48a6a618f9a0a82c183be454e7a1f23b/1.4.5.json"
+        },
+        {
+            "complianceLevel": 0,
+            "id": "1.4.6",
+            "releaseTime": "2012-12-19T22:00:00+00:00",
+            "sha1": "09832797138da79745ade734da775f44c254066b",
+            "time": "2022-03-10T09:51:38+00:00",
+            "type": "release",
+            "url": "https://launchermeta.mojang.com/v1/packages/09832797138da79745ade734da775f44c254066b/1.4.6.json"
         },
         {
             "complianceLevel": 0,
