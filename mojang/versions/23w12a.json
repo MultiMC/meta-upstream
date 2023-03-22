@@ -120,27 +120,27 @@
     "complianceLevel": 1,
     "downloads": {
         "client": {
-            "sha1": "cfad9d86190d162fe8b06b82592f9974ebf97e2f",
-            "size": 23470982,
-            "url": "https://piston-data.mojang.com/v1/objects/cfad9d86190d162fe8b06b82592f9974ebf97e2f/client.jar"
+            "sha1": "ae5c2b421148e263f81720a1d5d14fbc3db45f53",
+            "size": 23573985,
+            "url": "https://piston-data.mojang.com/v1/objects/ae5c2b421148e263f81720a1d5d14fbc3db45f53/client.jar"
         },
         "client_mappings": {
-            "sha1": "a23d0bcd6b2dc27f3de832a37c2805811ab751ff",
-            "size": 7839903,
-            "url": "https://piston-data.mojang.com/v1/objects/a23d0bcd6b2dc27f3de832a37c2805811ab751ff/client.txt"
+            "sha1": "ce4b36810722e22e76c858dcf8edd09f15ea17a7",
+            "size": 7874251,
+            "url": "https://piston-data.mojang.com/v1/objects/ce4b36810722e22e76c858dcf8edd09f15ea17a7/client.txt"
         },
         "server": {
-            "sha1": "cedc29f7e4927bfe58c96e67495a73c7333c75cd",
-            "size": 47513179,
-            "url": "https://piston-data.mojang.com/v1/objects/cedc29f7e4927bfe58c96e67495a73c7333c75cd/server.jar"
+            "sha1": "92fdef90109e534d47e378124ab86e2d6d7b3a42",
+            "size": 47574904,
+            "url": "https://piston-data.mojang.com/v1/objects/92fdef90109e534d47e378124ab86e2d6d7b3a42/server.jar"
         },
         "server_mappings": {
-            "sha1": "e7b9e85d3f8c09a9d752d574ecc6ec4115f33150",
-            "size": 6040331,
-            "url": "https://piston-data.mojang.com/v1/objects/e7b9e85d3f8c09a9d752d574ecc6ec4115f33150/server.txt"
+            "sha1": "1e74e50869a8510dff62dc2d78d57c81ca7363f9",
+            "size": 6070542,
+            "url": "https://piston-data.mojang.com/v1/objects/1e74e50869a8510dff62dc2d78d57c81ca7363f9/server.txt"
         }
     },
-    "id": "1.19.4-pre3",
+    "id": "23w12a",
     "javaVersion": {
         "component": "java-runtime-gamma",
         "majorVersion": 17
@@ -223,13 +223,13 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/authlib/3.17.30/authlib-3.17.30.jar",
-                    "sha1": "bb15804fede65585ee5a7cfc6d66fe6f4441df97",
-                    "size": 117097,
-                    "url": "https://libraries.minecraft.net/com/mojang/authlib/3.17.30/authlib-3.17.30.jar"
+                    "path": "com/mojang/authlib/3.18.38/authlib-3.18.38.jar",
+                    "sha1": "016106b26bce62bda55bab42785b999e44d77ecb",
+                    "size": 118354,
+                    "url": "https://libraries.minecraft.net/com/mojang/authlib/3.18.38/authlib-3.18.38.jar"
                 }
             },
-            "name": "com.mojang:authlib:3.17.30"
+            "name": "com.mojang:authlib:3.18.38"
         },
         {
             "downloads": {
@@ -256,13 +256,13 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/datafixerupper/6.0.6/datafixerupper-6.0.6.jar",
-                    "sha1": "e38e20946530646e866db03b2b192883d0ea6e84",
-                    "size": 689986,
-                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/6.0.6/datafixerupper-6.0.6.jar"
+                    "path": "com/mojang/datafixerupper/6.0.8/datafixerupper-6.0.8.jar",
+                    "sha1": "3ba4a30557a9b057760af4011f909ba619fc5125",
+                    "size": 689960,
+                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/6.0.8/datafixerupper-6.0.8.jar"
                 }
             },
-            "name": "com.mojang:datafixerupper:6.0.6"
+            "name": "com.mojang:datafixerupper:6.0.8"
         },
         {
             "downloads": {
@@ -1394,7 +1394,7 @@
     },
     "mainClass": "net.minecraft.client.main.Main",
     "minimumLauncherVersion": 21,
-    "releaseTime": "2023-03-01T14:11:05+00:00",
-    "time": "2023-03-01T14:11:05+00:00",
+    "releaseTime": "2023-03-22T13:28:42+00:00",
+    "time": "2023-03-22T13:28:42+00:00",
     "type": "snapshot"
 }
