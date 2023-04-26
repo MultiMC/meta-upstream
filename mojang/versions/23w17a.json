@@ -49,6 +49,62 @@
                     "--height",
                     "${resolution_height}"
                 ]
+            },
+            {
+                "rules": [
+                    {
+                        "action": "allow",
+                        "features": {
+                            "has_quick_plays_support": true
+                        }
+                    }
+                ],
+                "value": [
+                    "--quickPlayPath",
+                    "${quickPlayPath}"
+                ]
+            },
+            {
+                "rules": [
+                    {
+                        "action": "allow",
+                        "features": {
+                            "is_quick_play_singleplayer": true
+                        }
+                    }
+                ],
+                "value": [
+                    "--quickPlaySingleplayer",
+                    "${quickPlaySingleplayer}"
+                ]
+            },
+            {
+                "rules": [
+                    {
+                        "action": "allow",
+                        "features": {
+                            "is_quick_play_multiplayer": true
+                        }
+                    }
+                ],
+                "value": [
+                    "--quickPlayMultiplayer",
+                    "${quickPlayMultiplayer}"
+                ]
+            },
+            {
+                "rules": [
+                    {
+                        "action": "allow",
+                        "features": {
+                            "is_quick_play_realms": true
+                        }
+                    }
+                ],
+                "value": [
+                    "--quickPlayRealms",
+                    "${quickPlayRealms}"
+                ]
             }
         ],
         "jvm": [
@@ -110,37 +166,37 @@
         ]
     },
     "assetIndex": {
-        "id": "2",
-        "sha1": "cd4ac47a18d44a9075e5ebfa23f8e0dd1a06df7f",
-        "size": 405671,
-        "totalSize": 554942027,
-        "url": "https://piston-meta.mojang.com/v1/packages/cd4ac47a18d44a9075e5ebfa23f8e0dd1a06df7f/2.json"
+        "id": "5",
+        "sha1": "a04f9b4ba1b61f5fac794e5ab56878a32fc72d98",
+        "size": 410886,
+        "totalSize": 612777841,
+        "url": "https://piston-meta.mojang.com/v1/packages/a04f9b4ba1b61f5fac794e5ab56878a32fc72d98/5.json"
     },
-    "assets": "2",
+    "assets": "5",
     "complianceLevel": 1,
     "downloads": {
         "client": {
-            "sha1": "57a23e575a34f24aa84f3d54fbf4ddf9940a2c24",
-            "size": 22688308,
-            "url": "https://piston-data.mojang.com/v1/objects/57a23e575a34f24aa84f3d54fbf4ddf9940a2c24/client.jar"
+            "sha1": "670d97ddfe62983a7bfa7c6c6f502d6157735bf8",
+            "size": 22892644,
+            "url": "https://piston-data.mojang.com/v1/objects/670d97ddfe62983a7bfa7c6c6f502d6157735bf8/client.jar"
         },
         "client_mappings": {
-            "sha1": "a20bf6c75fb17e98812e01828c0ef47bf22e1c88",
-            "size": 7565182,
-            "url": "https://piston-data.mojang.com/v1/objects/a20bf6c75fb17e98812e01828c0ef47bf22e1c88/client.txt"
+            "sha1": "6b39b26446b6c239df9365dfc89c0b06f9d7e6de",
+            "size": 7925762,
+            "url": "https://piston-data.mojang.com/v1/objects/6b39b26446b6c239df9365dfc89c0b06f9d7e6de/client.txt"
         },
         "server": {
-            "sha1": "046fee78cd174105cb9b958a8459c0405ab19959",
-            "size": 47154379,
-            "url": "https://piston-data.mojang.com/v1/objects/046fee78cd174105cb9b958a8459c0405ab19959/server.jar"
+            "sha1": "96e1b9db0f3d90309db34e8ce4fd39b52f6ddaa0",
+            "size": 47694766,
+            "url": "https://piston-data.mojang.com/v1/objects/96e1b9db0f3d90309db34e8ce4fd39b52f6ddaa0/server.jar"
         },
         "server_mappings": {
-            "sha1": "b2cf842b08789a8ac4748969c2cec2eae48b6101",
-            "size": 5845793,
-            "url": "https://piston-data.mojang.com/v1/objects/b2cf842b08789a8ac4748969c2cec2eae48b6101/server.txt"
+            "sha1": "fa5f3188bb2d39796e83a7924edbf212edec8f4e",
+            "size": 6098494,
+            "url": "https://piston-data.mojang.com/v1/objects/fa5f3188bb2d39796e83a7924edbf212edec8f4e/server.txt"
         }
     },
-    "id": "1.19.3-pre1",
+    "id": "23w17a",
     "javaVersion": {
         "component": "java-runtime-gamma",
         "majorVersion": 17
@@ -223,13 +279,13 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/authlib/3.15.28/authlib-3.15.28.jar",
-                    "sha1": "a562f3bbe97501089e3fbe3b43d95ff69c60c723",
-                    "size": 118007,
-                    "url": "https://libraries.minecraft.net/com/mojang/authlib/3.15.28/authlib-3.15.28.jar"
+                    "path": "com/mojang/authlib/4.0.42/authlib-4.0.42.jar",
+                    "sha1": "3381044d57a291a541ca0836b0119abe063acb93",
+                    "size": 121603,
+                    "url": "https://libraries.minecraft.net/com/mojang/authlib/4.0.42/authlib-4.0.42.jar"
                 }
             },
-            "name": "com.mojang:authlib:3.15.28"
+            "name": "com.mojang:authlib:4.0.42"
         },
         {
             "downloads": {
@@ -245,35 +301,24 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar",
-                    "sha1": "c1ef1234282716483c92183f49bef47b1a89bfa9",
-                    "size": 77116,
-                    "url": "https://libraries.minecraft.net/com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar"
+                    "path": "com/mojang/brigadier/1.1.8/brigadier-1.1.8.jar",
+                    "sha1": "5244ce82c3337bba4a196a3ce858bfaecc74404a",
+                    "size": 77121,
+                    "url": "https://libraries.minecraft.net/com/mojang/brigadier/1.1.8/brigadier-1.1.8.jar"
                 }
             },
-            "name": "com.mojang:brigadier:1.0.18"
+            "name": "com.mojang:brigadier:1.1.8"
         },
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/datafixerupper/5.0.28/datafixerupper-5.0.28.jar",
-                    "sha1": "e2157e236e529aff80a5fc3ccb506e56d46b130b",
-                    "size": 684966,
-                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/5.0.28/datafixerupper-5.0.28.jar"
+                    "path": "com/mojang/datafixerupper/6.0.8/datafixerupper-6.0.8.jar",
+                    "sha1": "3ba4a30557a9b057760af4011f909ba619fc5125",
+                    "size": 689960,
+                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/6.0.8/datafixerupper-6.0.8.jar"
                 }
             },
-            "name": "com.mojang:datafixerupper:5.0.28"
-        },
-        {
-            "downloads": {
-                "artifact": {
-                    "path": "com/mojang/javabridge/2.0.25/javabridge-2.0.25.jar",
-                    "sha1": "bfa589b0bd71588fa7e594640114b0cda0cff5f6",
-                    "size": 5884,
-                    "url": "https://libraries.minecraft.net/com/mojang/javabridge/2.0.25/javabridge-2.0.25.jar"
-                }
-            },
-            "name": "com.mojang:javabridge:2.0.25"
+            "name": "com.mojang:datafixerupper:6.0.8"
         },
         {
             "downloads": {
@@ -1500,7 +1545,7 @@
     },
     "mainClass": "net.minecraft.client.main.Main",
     "minimumLauncherVersion": 21,
-    "releaseTime": "2022-11-22T13:59:37+00:00",
-    "time": "2022-11-22T13:59:37+00:00",
+    "releaseTime": "2023-04-26T12:09:48+00:00",
+    "time": "2023-04-26T12:09:48+00:00",
     "type": "snapshot"
 }

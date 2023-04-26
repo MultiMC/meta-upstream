@@ -167,10 +167,10 @@
     },
     "assetIndex": {
         "id": "4",
-        "sha1": "3fc99ddd33a73d35874a5bf47b983e3ffecaf5b9",
-        "size": 410084,
-        "totalSize": 554492056,
-        "url": "https://piston-meta.mojang.com/v1/packages/3fc99ddd33a73d35874a5bf47b983e3ffecaf5b9/4.json"
+        "sha1": "cbb710d11b893c6f877d8188f86b783b4adcde22",
+        "size": 410678,
+        "totalSize": 611613767,
+        "url": "https://piston-meta.mojang.com/v1/packages/cbb710d11b893c6f877d8188f86b783b4adcde22/4.json"
     },
     "assets": "4",
     "complianceLevel": 1,
@@ -345,51 +345,13 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/text2speech/1.13.9/text2speech-1.13.9.jar",
-                    "sha1": "5f4e3a6ef86cb021f7ca87ca192cddb50c26eb59",
-                    "size": 12123,
-                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.13.9/text2speech-1.13.9.jar"
+                    "path": "com/mojang/text2speech/1.16.7/text2speech-1.16.7.jar",
+                    "sha1": "ee4095669061d1fe4bce5fea23d69d1520bc2d58",
+                    "size": 12279,
+                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.16.7/text2speech-1.16.7.jar"
                 }
             },
-            "name": "com.mojang:text2speech:1.13.9"
-        },
-        {
-            "downloads": {
-                "artifact": {
-                    "path": "com/mojang/text2speech/1.13.9/text2speech-1.13.9-natives-linux.jar",
-                    "sha1": "6c63ecb3b6408dcfdde6440c9ee62c060542af33",
-                    "size": 7833,
-                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.13.9/text2speech-1.13.9-natives-linux.jar"
-                }
-            },
-            "name": "com.mojang:text2speech:1.13.9:natives-linux",
-            "rules": [
-                {
-                    "action": "allow",
-                    "os": {
-                        "name": "linux"
-                    }
-                }
-            ]
-        },
-        {
-            "downloads": {
-                "artifact": {
-                    "path": "com/mojang/text2speech/1.13.9/text2speech-1.13.9-natives-windows.jar",
-                    "sha1": "7a90898b29e5c72f90ba6ebe86fa78a6afd7d3eb",
-                    "size": 81379,
-                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.13.9/text2speech-1.13.9-natives-windows.jar"
-                }
-            },
-            "name": "com.mojang:text2speech:1.13.9:natives-windows",
-            "rules": [
-                {
-                    "action": "allow",
-                    "os": {
-                        "name": "windows"
-                    }
-                }
-            ]
+            "name": "com.mojang:text2speech:1.16.7"
         },
         {
             "downloads": {
@@ -772,6 +734,25 @@
         {
             "downloads": {
                 "artifact": {
+                    "path": "org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1-natives-windows-arm64.jar",
+                    "sha1": "beda65ee503443e60aa196d58ed31f8d001dc22a",
+                    "size": 123808,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1-natives-windows-arm64.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-glfw:3.3.1:natives-windows-arm64",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "windows"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
                     "path": "org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1-natives-windows-x86.jar",
                     "sha1": "b997e3391d6ce8f05487e7335d95c606043884a1",
                     "size": 139251,
@@ -866,6 +847,25 @@
                 }
             },
             "name": "org.lwjgl:lwjgl-jemalloc:3.3.1:natives-windows",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "windows"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "path": "org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1-natives-windows-arm64.jar",
+                    "sha1": "cae85c4edb219c88b6a0c26a87955ad98dc9519d",
+                    "size": 114250,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1-natives-windows-arm64.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-jemalloc:3.3.1:natives-windows-arm64",
             "rules": [
                 {
                     "action": "allow",
@@ -984,6 +984,25 @@
         {
             "downloads": {
                 "artifact": {
+                    "path": "org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1-natives-windows-arm64.jar",
+                    "sha1": "40d65f1a7368a2aa47336f9cb69f5a190cf9975a",
+                    "size": 505234,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1-natives-windows-arm64.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-openal:3.3.1:natives-windows-arm64",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "windows"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
                     "path": "org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1-natives-windows-x86.jar",
                     "sha1": "888349f7b1be6fbae58bf8edfb9ef12def04c4e3",
                     "size": 520313,
@@ -1078,6 +1097,25 @@
                 }
             },
             "name": "org.lwjgl:lwjgl-opengl:3.3.1:natives-windows",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "windows"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "path": "org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1-natives-windows-arm64.jar",
+                    "sha1": "527d78f1e9056aff3ed02ce93019c73c5e8f1721",
+                    "size": 82445,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1-natives-windows-arm64.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-opengl:3.3.1:natives-windows-arm64",
             "rules": [
                 {
                     "action": "allow",
@@ -1196,6 +1234,25 @@
         {
             "downloads": {
                 "artifact": {
+                    "path": "org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1-natives-windows-arm64.jar",
+                    "sha1": "fde63cdd2605c00636721a6c8b961e41d1f6b247",
+                    "size": 216848,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1-natives-windows-arm64.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-stb:3.3.1:natives-windows-arm64",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "windows"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
                     "path": "org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1-natives-windows-x86.jar",
                     "sha1": "a8d41f419eecb430b7c91ea2ce2c5c451cae2091",
                     "size": 225147,
@@ -1302,6 +1359,25 @@
         {
             "downloads": {
                 "artifact": {
+                    "path": "org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1-natives-windows-arm64.jar",
+                    "sha1": "83a5e780df610829ff3a737822b4f931cffecd91",
+                    "size": 109139,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1-natives-windows-arm64.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-tinyfd:3.3.1:natives-windows-arm64",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "windows"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
                     "path": "org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1-natives-windows-x86.jar",
                     "sha1": "842eedd876fae354abc308c98a263f6bbc9e8a4d",
                     "size": 110042,
@@ -1396,6 +1472,25 @@
                 }
             },
             "name": "org.lwjgl:lwjgl:3.3.1:natives-windows",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "windows"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "path": "org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1-natives-windows-arm64.jar",
+                    "sha1": "0f46cadcf95675908fd3a550d63d9d709cb68998",
+                    "size": 130064,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1-natives-windows-arm64.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl:3.3.1:natives-windows-arm64",
             "rules": [
                 {
                     "action": "allow",
