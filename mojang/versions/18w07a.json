@@ -96,10 +96,10 @@
     },
     "assetIndex": {
         "id": "1.13",
-        "sha1": "23981354446ddc141dcf03cc4bfa6b2a9492aa90",
-        "size": 181401,
-        "totalSize": 185608465,
-        "url": "https://launchermeta.mojang.com/v1/packages/23981354446ddc141dcf03cc4bfa6b2a9492aa90/1.13.json"
+        "sha1": "2175b85e150c64f7ed285e7624b87c18cd992497",
+        "size": 181399,
+        "totalSize": 186115857,
+        "url": "https://piston-meta.mojang.com/v1/packages/2175b85e150c64f7ed285e7624b87c18cd992497/1.13.json"
     },
     "assets": "1.13",
     "complianceLevel": 0,
@@ -107,12 +107,12 @@
         "client": {
             "sha1": "fa2960642589fc7bd3e14049ffe7d84a4d2bac1d",
             "size": 11316554,
-            "url": "https://launcher.mojang.com/v1/objects/fa2960642589fc7bd3e14049ffe7d84a4d2bac1d/client.jar"
+            "url": "https://piston-data.mojang.com/v1/objects/fa2960642589fc7bd3e14049ffe7d84a4d2bac1d/client.jar"
         },
         "server": {
             "sha1": "e90255faadbb7f009fa38a507f62f751dcc56c9b",
             "size": 31202781,
-            "url": "https://launcher.mojang.com/v1/objects/e90255faadbb7f009fa38a507f62f751dcc56c9b/server.jar"
+            "url": "https://piston-data.mojang.com/v1/objects/e90255faadbb7f009fa38a507f62f751dcc56c9b/server.jar"
         }
     },
     "id": "18w07a",
@@ -510,12 +510,6 @@
                         "sha1": "0af9c28e4cc38f58ef34131ca3d300b985b2e265",
                         "size": 229565,
                         "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/3.1.2/lwjgl-3.1.2-natives-windows.jar"
-                    },
-                    "sources": {
-                        "path": "org/lwjgl/lwjgl/3.1.2/lwjgl-3.1.2-sources.jar",
-                        "sha1": "dcbb8a93025d205ac73614404159dc48e5ce9657",
-                        "size": 225533,
-                        "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/3.1.2/lwjgl-3.1.2-sources.jar"
                     }
                 }
             },
@@ -552,12 +546,6 @@
                         "sha1": "4dfc918bf703180493e2fb113c9ba2256bcc80e2",
                         "size": 180857,
                         "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-jemalloc/3.1.2/lwjgl-jemalloc-3.1.2-natives-windows.jar"
-                    },
-                    "sources": {
-                        "path": "org/lwjgl/lwjgl-jemalloc/3.1.2/lwjgl-jemalloc-3.1.2-sources.jar",
-                        "sha1": "4e291a359788c6949479f4c0da5f175c75dd9a32",
-                        "size": 24719,
-                        "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-jemalloc/3.1.2/lwjgl-jemalloc-3.1.2-sources.jar"
                     }
                 }
             },
@@ -594,12 +582,6 @@
                         "sha1": "c0781595de8dbc3df03f7abae00e86e6a8c2a32b",
                         "size": 1060873,
                         "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-openal/3.1.2/lwjgl-openal-3.1.2-natives-windows.jar"
-                    },
-                    "sources": {
-                        "path": "org/lwjgl/lwjgl-openal/3.1.2/lwjgl-openal-3.1.2-sources.jar",
-                        "sha1": "2b3e8a0592d8befa9dbbaf919e64a0849c2c7716",
-                        "size": 73353,
-                        "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-openal/3.1.2/lwjgl-openal-3.1.2-sources.jar"
                     }
                 }
             },
@@ -636,12 +618,6 @@
                         "sha1": "338a71484a931f938cdbefdd7348440c54d1183e",
                         "size": 172213,
                         "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-opengl/3.1.2/lwjgl-opengl-3.1.2-natives-windows.jar"
-                    },
-                    "sources": {
-                        "path": "org/lwjgl/lwjgl-opengl/3.1.2/lwjgl-opengl-3.1.2-sources.jar",
-                        "sha1": "8b7f07af914efbe15dcc25c6ab679f2e7ffb94ca",
-                        "size": 997373,
-                        "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-opengl/3.1.2/lwjgl-opengl-3.1.2-sources.jar"
                     }
                 }
             },
@@ -678,12 +654,6 @@
                         "sha1": "987e3151840ee1ed028f242dfd0894ceb0ab1073",
                         "size": 228364,
                         "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.1.2/lwjgl-glfw-3.1.2-natives-windows.jar"
-                    },
-                    "sources": {
-                        "path": "org/lwjgl/lwjgl-glfw/3.1.2/lwjgl-glfw-3.1.2-sources.jar",
-                        "sha1": "df0c17ead04a7fec7efa1ada00d2ba4a274da7b7",
-                        "size": 82232,
-                        "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.1.2/lwjgl-glfw-3.1.2-sources.jar"
                     }
                 }
             },
@@ -720,12 +690,6 @@
                         "sha1": "376b97a7cabe1ff5f46ff9f30da9361f25ba529f",
                         "size": 453942,
                         "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-stb/3.1.2/lwjgl-stb-3.1.2-natives-windows.jar"
-                    },
-                    "sources": {
-                        "path": "org/lwjgl/lwjgl-stb/3.1.2/lwjgl-stb-3.1.2-sources.jar",
-                        "sha1": "fe0887fa02d06a6260c673cb62e4a0714c4a8feb",
-                        "size": 79126,
-                        "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-stb/3.1.2/lwjgl-stb-3.1.2-sources.jar"
                     }
                 }
             },
@@ -767,12 +731,6 @@
                         "sha1": "84a4b856389cc4f485275b1f63497a95a857a443",
                         "size": 81217,
                         "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3-natives-windows.jar"
-                    },
-                    "sources": {
-                        "path": "com/mojang/text2speech/1.10.3/text2speech-1.10.3-sources.jar",
-                        "sha1": "404339fe43d1011ee046a249b0ec7ae9ce04a834",
-                        "size": 4632,
-                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3-sources.jar"
                     }
                 }
             },
@@ -796,23 +754,11 @@
                     "url": "https://libraries.minecraft.net/ca/weblite/java-objc-bridge/1.0.0/java-objc-bridge-1.0.0.jar"
                 },
                 "classifiers": {
-                    "javadoc": {
-                        "path": "ca/weblite/java-objc-bridge/1.0.0/java-objc-bridge-1.0.0-javadoc.jar",
-                        "sha1": "fb0092f22cb4fe8e631452f577b7a238778abf2a",
-                        "size": 174060,
-                        "url": "https://libraries.minecraft.net/ca/weblite/java-objc-bridge/1.0.0/java-objc-bridge-1.0.0-javadoc.jar"
-                    },
                     "natives-osx": {
                         "path": "ca/weblite/java-objc-bridge/1.0.0/java-objc-bridge-1.0.0-natives-osx.jar",
                         "sha1": "08befab4894d55875f33c3d300f4f71e6e828f64",
                         "size": 5629,
                         "url": "https://libraries.minecraft.net/ca/weblite/java-objc-bridge/1.0.0/java-objc-bridge-1.0.0-natives-osx.jar"
-                    },
-                    "sources": {
-                        "path": "ca/weblite/java-objc-bridge/1.0.0/java-objc-bridge-1.0.0-sources.jar",
-                        "sha1": "865837a198189aee737019561ece842827f24278",
-                        "size": 43283,
-                        "url": "https://libraries.minecraft.net/ca/weblite/java-objc-bridge/1.0.0/java-objc-bridge-1.0.0-sources.jar"
                     }
                 }
             },
@@ -861,7 +807,7 @@
                 "id": "client-1.12.xml",
                 "sha1": "bd65e7d2e3c237be76cfbef4c2405033d7f91521",
                 "size": 888,
-                "url": "https://launcher.mojang.com/v1/objects/bd65e7d2e3c237be76cfbef4c2405033d7f91521/client-1.12.xml"
+                "url": "https://piston-data.mojang.com/v1/objects/bd65e7d2e3c237be76cfbef4c2405033d7f91521/client-1.12.xml"
             },
             "type": "log4j2-xml"
         }

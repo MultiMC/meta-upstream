@@ -111,10 +111,10 @@
     },
     "assetIndex": {
         "id": "1.18",
-        "sha1": "92aa15a18127b6f9e3f0e5a7d018be7ebb389703",
-        "size": 348726,
-        "totalSize": 468385313,
-        "url": "https://piston-meta.mojang.com/v1/packages/92aa15a18127b6f9e3f0e5a7d018be7ebb389703/1.18.json"
+        "sha1": "d31a2e85ae149dd1b1a7070b22cb8887892fda6c",
+        "size": 348724,
+        "totalSize": 468892705,
+        "url": "https://piston-meta.mojang.com/v1/packages/d31a2e85ae149dd1b1a7070b22cb8887892fda6c/1.18.json"
     },
     "assets": "1.18",
     "complianceLevel": 1,
@@ -122,22 +122,22 @@
         "client": {
             "sha1": "813b1bfe9158a3b553e44e33c8ba0a6babc6fff2",
             "size": 20056911,
-            "url": "https://launcher.mojang.com/v1/objects/813b1bfe9158a3b553e44e33c8ba0a6babc6fff2/client.jar"
+            "url": "https://piston-data.mojang.com/v1/objects/813b1bfe9158a3b553e44e33c8ba0a6babc6fff2/client.jar"
         },
         "client_mappings": {
             "sha1": "5617ef79eb0bbe6977f7c49346e54a6eb6b0f11c",
             "size": 6617729,
-            "url": "https://launcher.mojang.com/v1/objects/5617ef79eb0bbe6977f7c49346e54a6eb6b0f11c/client.txt"
+            "url": "https://piston-data.mojang.com/v1/objects/5617ef79eb0bbe6977f7c49346e54a6eb6b0f11c/client.txt"
         },
         "server": {
             "sha1": "686320be073916ae97b1ad78d22627809491dfc2",
             "size": 46425097,
-            "url": "https://launcher.mojang.com/v1/objects/686320be073916ae97b1ad78d22627809491dfc2/server.jar"
+            "url": "https://piston-data.mojang.com/v1/objects/686320be073916ae97b1ad78d22627809491dfc2/server.jar"
         },
         "server_mappings": {
             "sha1": "e6bb23276072ada7b95a5f0b3cf172d1458c1ee6",
             "size": 5121218,
-            "url": "https://launcher.mojang.com/v1/objects/e6bb23276072ada7b95a5f0b3cf172d1458c1ee6/server.txt"
+            "url": "https://piston-data.mojang.com/v1/objects/e6bb23276072ada7b95a5f0b3cf172d1458c1ee6/server.txt"
         }
     },
     "id": "22w03a",
@@ -1338,7 +1338,7 @@
                 "id": "client-1.12.xml",
                 "sha1": "bd65e7d2e3c237be76cfbef4c2405033d7f91521",
                 "size": 888,
-                "url": "https://launcher.mojang.com/v1/objects/bd65e7d2e3c237be76cfbef4c2405033d7f91521/client-1.12.xml"
+                "url": "https://piston-data.mojang.com/v1/objects/bd65e7d2e3c237be76cfbef4c2405033d7f91521/client-1.12.xml"
             },
             "type": "log4j2-xml"
         }
