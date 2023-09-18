@@ -154,39 +154,39 @@
         ]
     },
     "assetIndex": {
-        "id": "7",
-        "sha1": "f83427d27aa5878091ae7910e4386f30b3fa8af5",
+        "id": "8",
+        "sha1": "af4f111894194e6ce5cd257d37ba692e1dc1d97f",
         "size": 414035,
         "totalSize": 619485308,
-        "url": "https://piston-meta.mojang.com/v1/packages/f83427d27aa5878091ae7910e4386f30b3fa8af5/7.json"
+        "url": "https://piston-meta.mojang.com/v1/packages/af4f111894194e6ce5cd257d37ba692e1dc1d97f/8.json"
     },
-    "assets": "7",
+    "assets": "8",
     "complianceLevel": 1,
     "downloads": {
         "client": {
-            "sha1": "fbbd743e671b0faa872be8ff8caab6189178912c",
-            "size": 23179903,
-            "url": "https://piston-data.mojang.com/v1/objects/fbbd743e671b0faa872be8ff8caab6189178912c/client.jar"
+            "sha1": "aeb66414f7c04fe66b10b8a45bf736bf9bda0fbf",
+            "size": 23186172,
+            "url": "https://piston-data.mojang.com/v1/objects/aeb66414f7c04fe66b10b8a45bf736bf9bda0fbf/client.jar"
         },
         "client_mappings": {
-            "sha1": "a87ae393f7368e31d6e130014e86872803cdd3f0",
-            "size": 8146981,
-            "url": "https://piston-data.mojang.com/v1/objects/a87ae393f7368e31d6e130014e86872803cdd3f0/client.txt"
+            "sha1": "6b9342ad92c7eb56bd4a349ac73ecca2c6d8f24e",
+            "size": 8578898,
+            "url": "https://piston-data.mojang.com/v1/objects/6b9342ad92c7eb56bd4a349ac73ecca2c6d8f24e/client.txt"
         },
         "server": {
-            "sha1": "7fa1c9c59238ee98696da880d361d96c728dd9ea",
-            "size": 48283631,
-            "url": "https://piston-data.mojang.com/v1/objects/7fa1c9c59238ee98696da880d361d96c728dd9ea/server.jar"
+            "sha1": "ef01ddc7ee3fd517f55f34259c411323673b6347",
+            "size": 48286284,
+            "url": "https://piston-data.mojang.com/v1/objects/ef01ddc7ee3fd517f55f34259c411323673b6347/server.jar"
         },
         "server_mappings": {
-            "sha1": "fcf4d256daa79d32ee029604052c6ea5fa4193c2",
-            "size": 6233237,
-            "url": "https://piston-data.mojang.com/v1/objects/fcf4d256daa79d32ee029604052c6ea5fa4193c2/server.txt"
+            "sha1": "3074dce5ce162289c28c458653006dcefba2e883",
+            "size": 6548145,
+            "url": "https://piston-data.mojang.com/v1/objects/3074dce5ce162289c28c458653006dcefba2e883/server.txt"
         }
     },
-    "id": "1.20.2-pre1",
+    "id": "1.20.2-rc2",
     "javaVersion": {
-        "component": "java-runtime-gamma-snapshot",
+        "component": "java-runtime-gamma",
         "majorVersion": 17
     },
     "libraries": [
@@ -1533,7 +1533,7 @@
     },
     "mainClass": "net.minecraft.client.main.Main",
     "minimumLauncherVersion": 21,
-    "releaseTime": "2023-09-05T12:06:20+00:00",
-    "time": "2023-09-05T12:06:20+00:00",
+    "releaseTime": "2023-09-18T12:34:57+00:00",
+    "time": "2023-09-18T12:34:57+00:00",
     "type": "snapshot"
 }
