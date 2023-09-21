@@ -164,29 +164,29 @@
     "complianceLevel": 1,
     "downloads": {
         "client": {
-            "sha1": "b04c6a6bd4c7360779f32571058452198136d805",
-            "size": 23184371,
-            "url": "https://piston-data.mojang.com/v1/objects/b04c6a6bd4c7360779f32571058452198136d805/client.jar"
+            "sha1": "82d1974e75fc984c5ed4b038e764e50958ac61a0",
+            "size": 23186213,
+            "url": "https://piston-data.mojang.com/v1/objects/82d1974e75fc984c5ed4b038e764e50958ac61a0/client.jar"
         },
         "client_mappings": {
-            "sha1": "ebc9e6d93393d8a3973bb30bd318ca12dae515ff",
-            "size": 8577917,
-            "url": "https://piston-data.mojang.com/v1/objects/ebc9e6d93393d8a3973bb30bd318ca12dae515ff/client.txt"
+            "sha1": "5c292ff7d3161977041116698e295083fd5ec8f5",
+            "size": 8578898,
+            "url": "https://piston-data.mojang.com/v1/objects/5c292ff7d3161977041116698e295083fd5ec8f5/client.txt"
         },
         "server": {
-            "sha1": "3d2eecdda5f6c7260d73aa5c2e5ce1a42e0f24e4",
-            "size": 48286836,
-            "url": "https://piston-data.mojang.com/v1/objects/3d2eecdda5f6c7260d73aa5c2e5ce1a42e0f24e4/server.jar"
+            "sha1": "5b868151bd02b41319f54c8d4061b8cae84e665c",
+            "size": 48285806,
+            "url": "https://piston-data.mojang.com/v1/objects/5b868151bd02b41319f54c8d4061b8cae84e665c/server.jar"
         },
         "server_mappings": {
-            "sha1": "50ac8afe2f57a8595fd553bfe914da9e6a99618d",
-            "size": 6547723,
-            "url": "https://piston-data.mojang.com/v1/objects/50ac8afe2f57a8595fd553bfe914da9e6a99618d/server.txt"
+            "sha1": "dced504a9b5df367ddd3477adac084cea8024ba4",
+            "size": 6548145,
+            "url": "https://piston-data.mojang.com/v1/objects/dced504a9b5df367ddd3477adac084cea8024ba4/server.txt"
         }
     },
-    "id": "1.20.2-pre3",
+    "id": "1.20.2",
     "javaVersion": {
-        "component": "java-runtime-gamma-snapshot",
+        "component": "java-runtime-gamma",
         "majorVersion": 17
     },
     "libraries": [
@@ -1533,7 +1533,7 @@
     },
     "mainClass": "net.minecraft.client.main.Main",
     "minimumLauncherVersion": 21,
-    "releaseTime": "2023-09-12T12:15:08+00:00",
-    "time": "2023-09-12T12:15:08+00:00",
-    "type": "snapshot"
+    "releaseTime": "2023-09-20T09:02:57+00:00",
+    "time": "2023-09-20T09:02:57+00:00",
+    "type": "release"
 }
