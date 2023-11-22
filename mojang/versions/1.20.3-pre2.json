@@ -154,39 +154,39 @@
         ]
     },
     "assetIndex": {
-        "id": "8",
-        "sha1": "dd6b6442c088f3150f647c61c4234069edf636aa",
-        "size": 415466,
-        "totalSize": 621974718,
-        "url": "https://piston-meta.mojang.com/v1/packages/dd6b6442c088f3150f647c61c4234069edf636aa/8.json"
+        "id": "12",
+        "sha1": "544fa918ca893e86662d5f86f0315ce7d7af5b6f",
+        "size": 426900,
+        "totalSize": 623892459,
+        "url": "https://piston-meta.mojang.com/v1/packages/544fa918ca893e86662d5f86f0315ce7d7af5b6f/12.json"
     },
-    "assets": "8",
+    "assets": "12",
     "complianceLevel": 1,
     "downloads": {
         "client": {
-            "sha1": "b04c6a6bd4c7360779f32571058452198136d805",
-            "size": 23184371,
-            "url": "https://piston-data.mojang.com/v1/objects/b04c6a6bd4c7360779f32571058452198136d805/client.jar"
+            "sha1": "8e9187433bab399843d78585e83bf812422a507d",
+            "size": 24429272,
+            "url": "https://piston-data.mojang.com/v1/objects/8e9187433bab399843d78585e83bf812422a507d/client.jar"
         },
         "client_mappings": {
-            "sha1": "ebc9e6d93393d8a3973bb30bd318ca12dae515ff",
-            "size": 8577917,
-            "url": "https://piston-data.mojang.com/v1/objects/ebc9e6d93393d8a3973bb30bd318ca12dae515ff/client.txt"
+            "sha1": "1f3f0f1e26895e24ab2e6972ed6616a49fbe5cee",
+            "size": 8888577,
+            "url": "https://piston-data.mojang.com/v1/objects/1f3f0f1e26895e24ab2e6972ed6616a49fbe5cee/client.txt"
         },
         "server": {
-            "sha1": "3d2eecdda5f6c7260d73aa5c2e5ce1a42e0f24e4",
-            "size": 48286836,
-            "url": "https://piston-data.mojang.com/v1/objects/3d2eecdda5f6c7260d73aa5c2e5ce1a42e0f24e4/server.jar"
+            "sha1": "5a76da0ae88eee28ab4c0fa2ffabb837a4572398",
+            "size": 49139848,
+            "url": "https://piston-data.mojang.com/v1/objects/5a76da0ae88eee28ab4c0fa2ffabb837a4572398/server.jar"
         },
         "server_mappings": {
-            "sha1": "50ac8afe2f57a8595fd553bfe914da9e6a99618d",
-            "size": 6547723,
-            "url": "https://piston-data.mojang.com/v1/objects/50ac8afe2f57a8595fd553bfe914da9e6a99618d/server.txt"
+            "sha1": "91f864da500b3bd4eb5b3a373fb19dfb4f4e42d4",
+            "size": 6794372,
+            "url": "https://piston-data.mojang.com/v1/objects/91f864da500b3bd4eb5b3a373fb19dfb4f4e42d4/server.txt"
         }
     },
-    "id": "1.20.2-pre3",
+    "id": "1.20.3-pre2",
     "javaVersion": {
-        "component": "java-runtime-gamma-snapshot",
+        "component": "java-runtime-gamma",
         "majorVersion": 17
     },
     "libraries": [
@@ -267,13 +267,13 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/authlib/5.0.47/authlib-5.0.47.jar",
-                    "sha1": "ff7fd2e80a767f6c369fa2065f018ba21d153cbd",
-                    "size": 111087,
-                    "url": "https://libraries.minecraft.net/com/mojang/authlib/5.0.47/authlib-5.0.47.jar"
+                    "path": "com/mojang/authlib/5.0.51/authlib-5.0.51.jar",
+                    "sha1": "83c235be98157238ce6ebec8d6454ef94507360e",
+                    "size": 114272,
+                    "url": "https://libraries.minecraft.net/com/mojang/authlib/5.0.51/authlib-5.0.51.jar"
                 }
             },
-            "name": "com.mojang:authlib:5.0.47"
+            "name": "com.mojang:authlib:5.0.51"
         },
         {
             "downloads": {
@@ -289,13 +289,13 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/brigadier/1.1.8/brigadier-1.1.8.jar",
-                    "sha1": "5244ce82c3337bba4a196a3ce858bfaecc74404a",
-                    "size": 77121,
-                    "url": "https://libraries.minecraft.net/com/mojang/brigadier/1.1.8/brigadier-1.1.8.jar"
+                    "path": "com/mojang/brigadier/1.2.9/brigadier-1.2.9.jar",
+                    "sha1": "73e324f2ee541493a5179abf367237faa782ed21",
+                    "size": 79955,
+                    "url": "https://libraries.minecraft.net/com/mojang/brigadier/1.2.9/brigadier-1.2.9.jar"
                 }
             },
-            "name": "com.mojang:brigadier:1.1.8"
+            "name": "com.mojang:brigadier:1.2.9"
         },
         {
             "downloads": {
@@ -1533,7 +1533,7 @@
     },
     "mainClass": "net.minecraft.client.main.Main",
     "minimumLauncherVersion": 21,
-    "releaseTime": "2023-09-12T12:15:08+00:00",
-    "time": "2023-09-12T12:15:08+00:00",
+    "releaseTime": "2023-11-22T12:21:26+00:00",
+    "time": "2023-11-22T12:21:26+00:00",
     "type": "snapshot"
 }
