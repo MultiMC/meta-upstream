@@ -1,0 +1,65 @@
+{
+    "libraries": {
+        "client": [],
+        "common": [
+            {
+                "name": "net.fabricmc:tiny-mappings-parser:0.3.0+build.17",
+                "url": "https://maven.fabricmc.net/"
+            },
+            {
+                "name": "net.fabricmc:sponge-mixin:0.12.5+mixin.0.8.5",
+                "url": "https://maven.fabricmc.net/"
+            },
+            {
+                "name": "net.fabricmc:tiny-remapper:0.8.6",
+                "url": "https://maven.fabricmc.net/"
+            },
+            {
+                "name": "net.fabricmc:access-widener:2.1.0",
+                "url": "https://maven.fabricmc.net/"
+            },
+            {
+                "name": "org.quiltmc:quilt-json5:1.0.4+final",
+                "url": "https://maven.quiltmc.org/repository/release/"
+            },
+            {
+                "name": "org.ow2.asm:asm:9.6",
+                "url": "https://maven.fabricmc.net/"
+            },
+            {
+                "name": "org.ow2.asm:asm-analysis:9.6",
+                "url": "https://maven.fabricmc.net/"
+            },
+            {
+                "name": "org.ow2.asm:asm-commons:9.6",
+                "url": "https://maven.fabricmc.net/"
+            },
+            {
+                "name": "org.ow2.asm:asm-tree:9.6",
+                "url": "https://maven.fabricmc.net/"
+            },
+            {
+                "name": "org.ow2.asm:asm-util:9.6",
+                "url": "https://maven.fabricmc.net/"
+            },
+            {
+                "name": "org.quiltmc:quilt-config:1.1.0-beta.3",
+                "url": "https://maven.quiltmc.org/repository/release/"
+            }
+        ],
+        "development": [
+            {
+                "name": "io.github.llamalad7:mixinextras-fabric:0.3.0",
+                "url": "https://maven.fabricmc.net/"
+            }
+        ],
+        "server": []
+    },
+    "mainClass": {
+        "client": "org.quiltmc.loader.impl.launch.knot.KnotClient",
+        "server": "org.quiltmc.loader.impl.launch.knot.KnotServer",
+        "serverLauncher": "org.quiltmc.loader.impl.launch.server.QuiltServerLauncher"
+    },
+    "min_java_version": 8,
+    "version": 2
+}
