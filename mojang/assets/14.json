@@ -49,12 +49,16 @@
             "size": 318515
         },
         "minecraft/font/include/unifont.json": {
-            "hash": "f8d4768707b20359f2f7660346bd3a84b6ee27b1",
-            "size": 1879
+            "hash": "bfbacce2135434989934e84e23a3e27ff3fd460d",
+            "size": 3238
         },
         "minecraft/font/unifont.zip": {
-            "hash": "a661b5622172ea1ce1fa9ec78fad484d118e5689",
-            "size": 1546906
+            "hash": "109663114d0099c48a703626c8462e07d802e08b",
+            "size": 1615995
+        },
+        "minecraft/font/unifont_jp.zip": {
+            "hash": "a21d3cd11702b015a91d2e25849f5179dc52e72b",
+            "size": 236913
         },
         "minecraft/lang/af_za.json": {
             "hash": "75dc929085265f61d78d104cc449546d80f685e0",
@@ -565,16 +569,16 @@
             "size": 538122
         },
         "minecraft/resourcepacks/high_contrast.zip": {
-            "hash": "e0dc257546cfa34aca7e8eaecdfce4f6ab86bdc0",
-            "size": 20430
+            "hash": "d80d174ec4d4d8762bb88507953e0d70c7f67c4f",
+            "size": 20801
         },
         "minecraft/resourcepacks/programmer_art.zip": {
-            "hash": "ff2bdfa49d64f6b61a5b04280b7cd12fbcbd3b34",
-            "size": 844134
+            "hash": "5765210e437b7e0d739424477441fab114e280bc",
+            "size": 846776
         },
         "minecraft/sounds.json": {
-            "hash": "1b3b43234e41b3de5da436ea098ebb84f8363540",
-            "size": 479490
+            "hash": "0324b6b71f6e15879d1d9ab6e0967e268003df92",
+            "size": 504254
         },
         "minecraft/sounds/ambient/cave/cave1.ogg": {
             "hash": "29d4dccf3353334c7aa2a49cb6fed3780a51a1ba",
@@ -2868,6 +2872,138 @@
             "hash": "63417f028c4720bd91b1974ef67c93546ac4f3b6",
             "size": 19436
         },
+        "minecraft/sounds/block/copper_bulb/break1.ogg": {
+            "hash": "10b623aa5b21f3eebd19b0ad6cc6703c5ac4e9d1",
+            "size": 10497
+        },
+        "minecraft/sounds/block/copper_bulb/break2.ogg": {
+            "hash": "43d226ad60714e32737509567d016fd5a675eb57",
+            "size": 10212
+        },
+        "minecraft/sounds/block/copper_bulb/break3.ogg": {
+            "hash": "0fec721082e69afd88f9be89e4831e1d266fd2a7",
+            "size": 11117
+        },
+        "minecraft/sounds/block/copper_bulb/break4.ogg": {
+            "hash": "826f002c21ee2c9a51ca9280ac3f5bdd855c662d",
+            "size": 9127
+        },
+        "minecraft/sounds/block/copper_bulb/place1.ogg": {
+            "hash": "8430e3673038b169b61935adc98f3473621cca80",
+            "size": 9179
+        },
+        "minecraft/sounds/block/copper_bulb/place2.ogg": {
+            "hash": "7df37f33cfd6d060b944f8ffa7ba801c811711aa",
+            "size": 9164
+        },
+        "minecraft/sounds/block/copper_bulb/place3.ogg": {
+            "hash": "0fcb21c89b90384789ea4a54ef1eb8256c3df4ab",
+            "size": 9215
+        },
+        "minecraft/sounds/block/copper_bulb/place4.ogg": {
+            "hash": "3dedbbbb6ecfbebcf98d854b44da4e55c9196852",
+            "size": 8769
+        },
+        "minecraft/sounds/block/copper_bulb/step1.ogg": {
+            "hash": "6e80458f40be727bcf5f64c653326e0a0d522977",
+            "size": 8809
+        },
+        "minecraft/sounds/block/copper_bulb/step2.ogg": {
+            "hash": "c63105ce3c8e64d4fbf95b51713903af4e05d0db",
+            "size": 9813
+        },
+        "minecraft/sounds/block/copper_bulb/step3.ogg": {
+            "hash": "0b790ee239b6c7153a94f124a0abcbb7a0597706",
+            "size": 9388
+        },
+        "minecraft/sounds/block/copper_bulb/step4.ogg": {
+            "hash": "8ac3774edb98da4a3494f8b8dfb73f8e4e6d2536",
+            "size": 8821
+        },
+        "minecraft/sounds/block/copper_bulb/step5.ogg": {
+            "hash": "a7d5bf52fdf2132de5347310a0a7d69cd9c7b016",
+            "size": 10636
+        },
+        "minecraft/sounds/block/copper_bulb/step6.ogg": {
+            "hash": "01e7eb96475342f7418a19c2a274632bdea17d98",
+            "size": 9181
+        },
+        "minecraft/sounds/block/copper_bulb/turn_off.ogg": {
+            "hash": "a64ee4fd95ca44a571480e0a586e43ad5d23b66e",
+            "size": 5022
+        },
+        "minecraft/sounds/block/copper_bulb/turn_on.ogg": {
+            "hash": "0d32a999e36b54b3d1ff2e6c8f9e7d7cb0db4cc4",
+            "size": 5489
+        },
+        "minecraft/sounds/block/copper_door/toggle1.ogg": {
+            "hash": "a8ea19293307367c50bc099f4996e8de1605f46f",
+            "size": 18644
+        },
+        "minecraft/sounds/block/copper_door/toggle2.ogg": {
+            "hash": "bccb2d97e5255caa98b2991bb1de8cea3f92d1a1",
+            "size": 21857
+        },
+        "minecraft/sounds/block/copper_door/toggle3.ogg": {
+            "hash": "149fe2032b2da16b1afe7f20f2dd417f00b19661",
+            "size": 18642
+        },
+        "minecraft/sounds/block/copper_grate/break1.ogg": {
+            "hash": "41a66147f1fa43c6662fa5d32421bc7c5df1351c",
+            "size": 19464
+        },
+        "minecraft/sounds/block/copper_grate/break2.ogg": {
+            "hash": "4a17f13123024ae444e0d38cb414de1d32de674f",
+            "size": 13782
+        },
+        "minecraft/sounds/block/copper_grate/break3.ogg": {
+            "hash": "4035b48a2202e98cf546f6b4c6d3152416cc65b8",
+            "size": 20065
+        },
+        "minecraft/sounds/block/copper_grate/break4.ogg": {
+            "hash": "7ea9c737250ddc0ce2591dd772d0c163c867a83a",
+            "size": 17300
+        },
+        "minecraft/sounds/block/copper_grate/step1.ogg": {
+            "hash": "5561e168924657cd67edfd095725cf4f00c92e62",
+            "size": 19746
+        },
+        "minecraft/sounds/block/copper_grate/step2.ogg": {
+            "hash": "1f218dcb6948bbbabc47d389e278bd6cb0a5c9e1",
+            "size": 21692
+        },
+        "minecraft/sounds/block/copper_grate/step3.ogg": {
+            "hash": "a76c13da1853f03a4c4eb0d90bbd141b7542f644",
+            "size": 16859
+        },
+        "minecraft/sounds/block/copper_grate/step4.ogg": {
+            "hash": "cbe94d52bad4fef747930aa6b0091e305e9a4b3f",
+            "size": 19745
+        },
+        "minecraft/sounds/block/copper_grate/step5.ogg": {
+            "hash": "48d6cf4b8b1621ef0310e1f26551234c086b42d8",
+            "size": 17713
+        },
+        "minecraft/sounds/block/copper_grate/step6.ogg": {
+            "hash": "abfac9a19a1858c70c0888f88642b69c4e7b26e8",
+            "size": 10713
+        },
+        "minecraft/sounds/block/copper_trapdoor/toggle1.ogg": {
+            "hash": "654ad210a1b5d7509ff3522bc884c00820ebe87e",
+            "size": 7196
+        },
+        "minecraft/sounds/block/copper_trapdoor/toggle2.ogg": {
+            "hash": "3ef60857a51b2e76ca6b12e7668edb28bd474c8d",
+            "size": 7770
+        },
+        "minecraft/sounds/block/copper_trapdoor/toggle3.ogg": {
+            "hash": "bc4bc17fc30b2ac970ed15f0902b30ce9c5f2f98",
+            "size": 8363
+        },
+        "minecraft/sounds/block/copper_trapdoor/toggle4.ogg": {
+            "hash": "44cc77afa1a45e4fc254a2a9660acc2464bbda73",
+            "size": 7744
+        },
         "minecraft/sounds/block/crafter/craft.ogg": {
             "hash": "40a534629cc459cfe6bb104843e92a132c922046",
             "size": 10571
@@ -2877,20 +3013,20 @@
             "size": 11451
         },
         "minecraft/sounds/block/decorated_pot/break1.ogg": {
-            "hash": "5c84f54276722bea66088e2774e0fcd00929ae58",
-            "size": 9529
+            "hash": "0b1b76e9d84bc193ec7d9aa11027a3b1e40f4d24",
+            "size": 9897
         },
         "minecraft/sounds/block/decorated_pot/break2.ogg": {
-            "hash": "98fe2b2b0c6bcc3f921c1ae8ec0686b719569e70",
-            "size": 8651
+            "hash": "a7c7b14d8c561a8ebeb04b9becd5bf9b8e587c51",
+            "size": 9119
         },
         "minecraft/sounds/block/decorated_pot/break3.ogg": {
-            "hash": "1e37a7e44e34d5a0e338c2d57424eaab4ba8eb46",
-            "size": 7783
+            "hash": "c2d3d32316d7692a54cc7a72b0dff6f668cef4c1",
+            "size": 8393
         },
         "minecraft/sounds/block/decorated_pot/break4.ogg": {
-            "hash": "af6b7387f6d3140d630060c8efe5d25493d9e69c",
-            "size": 9142
+            "hash": "eb04db6e76530e39f99d9a8b56dcf0cdc51933a9",
+            "size": 9270
         },
         "minecraft/sounds/block/decorated_pot/insert1.ogg": {
             "hash": "046116cb8bae23fb9ccd08664bea0ea1e6fa5b8c",
@@ -2929,48 +3065,44 @@
             "size": 16638
         },
         "minecraft/sounds/block/decorated_pot/shatter1.ogg": {
-            "hash": "aab5cf806b0948e7cf0b858fa36385913a2e486f",
-            "size": 21064
+            "hash": "62d22654ef2de2e990eec0871030e41ea0ea41d9",
+            "size": 20714
         },
         "minecraft/sounds/block/decorated_pot/shatter2.ogg": {
-            "hash": "21d4ebdf82249ccdcda3f01b23bb783490fe57d7",
-            "size": 17928
+            "hash": "d2fcc19ba39f8cc7ca4e780c1b6a8a500d9e8862",
+            "size": 21275
         },
         "minecraft/sounds/block/decorated_pot/shatter3.ogg": {
-            "hash": "7cd3d8225fa509ad313cbf622341b90d0b641e7b",
-            "size": 15907
+            "hash": "cda36c2c0cc4428cb7c8fd3857f1597ae906c35b",
+            "size": 18831
         },
         "minecraft/sounds/block/decorated_pot/shatter4.ogg": {
-            "hash": "c2511ffc48374a7b05f83e0718bba9875a1ecfa7",
-            "size": 18212
+            "hash": "5faa68db1a4b77ed66a0a7e412d6b26156fba2b7",
+            "size": 19895
         },
         "minecraft/sounds/block/decorated_pot/shatter5.ogg": {
-            "hash": "162e1406a22bda7483ad1b643a4277bec636c26f",
-            "size": 17708
-        },
-        "minecraft/sounds/block/decorated_pot/shatter6.ogg": {
-            "hash": "5716954e6041e0ec81b8d13b18b31b576d0067ee",
-            "size": 14233
+            "hash": "da34d96320ca548f68ccb08b8b6fead88f678184",
+            "size": 19169
         },
         "minecraft/sounds/block/decorated_pot/step1.ogg": {
-            "hash": "3074b4ae157b43321c2310de6e930b6584e1caac",
-            "size": 10891
+            "hash": "49aaa18e07b554c4760aa82ed3b87fcd8bc000fb",
+            "size": 11353
         },
         "minecraft/sounds/block/decorated_pot/step2.ogg": {
-            "hash": "5985e73faa571a80ce67ea3ced8f90483bf942d6",
-            "size": 12219
+            "hash": "1c6a079997bb8f67a55378e1917c23e45c08b055",
+            "size": 12264
         },
         "minecraft/sounds/block/decorated_pot/step3.ogg": {
-            "hash": "6994b2d54e4ce1e6b65efefac0200faffa7386d0",
-            "size": 11546
+            "hash": "2e14fecfe60ce332a014da7508c59b8f05710532",
+            "size": 11886
         },
         "minecraft/sounds/block/decorated_pot/step4.ogg": {
-            "hash": "9be5bd79cec57751d647b70d2502ef7ea23a4791",
-            "size": 11095
+            "hash": "ff5aa6b98b27f989cf147d518303e335ef405e15",
+            "size": 11734
         },
         "minecraft/sounds/block/decorated_pot/step5.ogg": {
-            "hash": "ed1727e71588360e17a9ec891e448e2dc7cfe4ea",
-            "size": 11052
+            "hash": "ff5a345dc979cc817c1ac87221abb372a3b87a5c",
+            "size": 11889
         },
         "minecraft/sounds/block/deepslate/break1.ogg": {
             "hash": "bb709bbfde582e0b261b4f8d01e10e35ee41e63b",
@@ -5604,6 +5736,110 @@
             "hash": "40e5da14b4608b138ec3cc8706e45d6ffb18c405",
             "size": 13001
         },
+        "minecraft/sounds/block/trial_spawner/ambient1.ogg": {
+            "hash": "60f48749f8f5f0de797549f7079b0f2682462bfd",
+            "size": 27085
+        },
+        "minecraft/sounds/block/trial_spawner/ambient2.ogg": {
+            "hash": "965a270ab94a7bdd4fd6035e9657236acef845c9",
+            "size": 25409
+        },
+        "minecraft/sounds/block/trial_spawner/ambient3.ogg": {
+            "hash": "5c2c79ef9f1997785a709921471078e1387b558c",
+            "size": 22367
+        },
+        "minecraft/sounds/block/trial_spawner/ambient4.ogg": {
+            "hash": "7080c902ae1a7544d22f4c7c57a85326231f47c4",
+            "size": 23626
+        },
+        "minecraft/sounds/block/trial_spawner/ambient5.ogg": {
+            "hash": "3f432f4a1fe80bea3724725d55a838d211296729",
+            "size": 29192
+        },
+        "minecraft/sounds/block/trial_spawner/break1.ogg": {
+            "hash": "01644fe4c50b2ac1c68897171d483bd9ef8bb482",
+            "size": 18474
+        },
+        "minecraft/sounds/block/trial_spawner/break2.ogg": {
+            "hash": "25d946823bfe74465b6b099461a6b76ebf585e84",
+            "size": 19099
+        },
+        "minecraft/sounds/block/trial_spawner/break3.ogg": {
+            "hash": "73195a35ab094a02787f06cc6a0f2f525cb6a245",
+            "size": 19694
+        },
+        "minecraft/sounds/block/trial_spawner/close_shutter.ogg": {
+            "hash": "64cebd4a2cca255cad79825da3c68f8ab8df8a5f",
+            "size": 6753
+        },
+        "minecraft/sounds/block/trial_spawner/detect_player1.ogg": {
+            "hash": "76c2271026bcf9cbaf16dc1c45942ccacaed1ad6",
+            "size": 51572
+        },
+        "minecraft/sounds/block/trial_spawner/detect_player2.ogg": {
+            "hash": "e7341254e0a5ae36234413f8db2ed1fbf65cbc29",
+            "size": 55257
+        },
+        "minecraft/sounds/block/trial_spawner/detect_player3.ogg": {
+            "hash": "1d9a3a8ed523ee760778931a7195df9475685ca7",
+            "size": 59659
+        },
+        "minecraft/sounds/block/trial_spawner/eject_item1.ogg": {
+            "hash": "1dedc4dacb1e77d5f306e27f0151faff33122f12",
+            "size": 16479
+        },
+        "minecraft/sounds/block/trial_spawner/open_shutter.ogg": {
+            "hash": "1fe672d2cc31b1c9aacac9a29d34ec085bd9139b",
+            "size": 26159
+        },
+        "minecraft/sounds/block/trial_spawner/place1.ogg": {
+            "hash": "6d21c07cf9af1fbe2f4ebbcfb8c7aa4796e6eab6",
+            "size": 16602
+        },
+        "minecraft/sounds/block/trial_spawner/place2.ogg": {
+            "hash": "a0ec9ff35ecff8291949501b1f304c5b2359c4d8",
+            "size": 17510
+        },
+        "minecraft/sounds/block/trial_spawner/place3.ogg": {
+            "hash": "d9dc932309a74282182529c6b293cec74d6ac5eb",
+            "size": 15914
+        },
+        "minecraft/sounds/block/trial_spawner/spawn1.ogg": {
+            "hash": "3608722543847655288247fa525a1fa049a5aa08",
+            "size": 45092
+        },
+        "minecraft/sounds/block/trial_spawner/spawn2.ogg": {
+            "hash": "59f4b7fc2d26a2c35125c97c6c535f545ea92fd8",
+            "size": 54774
+        },
+        "minecraft/sounds/block/trial_spawner/spawn3.ogg": {
+            "hash": "58fdda424b9be880eca4a9da0d0aaf6ede10b4d2",
+            "size": 55424
+        },
+        "minecraft/sounds/block/trial_spawner/spawn4.ogg": {
+            "hash": "4c6ef668e5a68fec125882632b143a5ffc3f4438",
+            "size": 57431
+        },
+        "minecraft/sounds/block/trial_spawner/step1.ogg": {
+            "hash": "fbe526c75463e454bba0725fc89fba09259f8826",
+            "size": 7078
+        },
+        "minecraft/sounds/block/trial_spawner/step2.ogg": {
+            "hash": "c38f4b940b6ab8ef01e2faa0ae1e023d3cf167c5",
+            "size": 7051
+        },
+        "minecraft/sounds/block/trial_spawner/step3.ogg": {
+            "hash": "276cd4df500c8e230b5a7c57af249888e320c41c",
+            "size": 6991
+        },
+        "minecraft/sounds/block/trial_spawner/step4.ogg": {
+            "hash": "9a4787ab4d579b8b03c70a1fa1552a14fc89608b",
+            "size": 6905
+        },
+        "minecraft/sounds/block/trial_spawner/step5.ogg": {
+            "hash": "1c8cf9427698ee08d28de9ee188538906d0d575e",
+            "size": 7292
+        },
         "minecraft/sounds/block/tuff/break1.ogg": {
             "hash": "a7f06223dd9eaaaba4f65ce00154016054a4fbe0",
             "size": 15600
@@ -5647,6 +5883,158 @@
         "minecraft/sounds/block/tuff/step6.ogg": {
             "hash": "206c9e28760fbb9667bf45185a44f86349a5d229",
             "size": 15679
+        },
+        "minecraft/sounds/block/tuff_bricks/place1.ogg": {
+            "hash": "fc36451a9f94866223c4cabe2563d8190c075466",
+            "size": 8371
+        },
+        "minecraft/sounds/block/tuff_bricks/place2.ogg": {
+            "hash": "1fd3b994ec940d0cadd370ef1065ddbef2d3f2be",
+            "size": 7685
+        },
+        "minecraft/sounds/block/tuff_bricks/place3.ogg": {
+            "hash": "e20b5088cd0a40f31d71b110821f813a6a94a133",
+            "size": 7921
+        },
+        "minecraft/sounds/block/tuff_bricks/place4.ogg": {
+            "hash": "4122b4543f909f13b37f004bc3eebc3e72378b00",
+            "size": 8180
+        },
+        "minecraft/sounds/block/tuff_bricks/place5.ogg": {
+            "hash": "3e8e9951129c4ae1b44baa158f935f53fe519b8f",
+            "size": 7694
+        },
+        "minecraft/sounds/block/tuff_bricks/step1.ogg": {
+            "hash": "e647d4054c342033fcb17c2a0e42e46dc1bd9ce8",
+            "size": 9432
+        },
+        "minecraft/sounds/block/tuff_bricks/step2.ogg": {
+            "hash": "0bf0724e4623e853a1aea6edb2eb8c42131231ee",
+            "size": 7639
+        },
+        "minecraft/sounds/block/tuff_bricks/step3.ogg": {
+            "hash": "ef7dfffb7e1cbaf4b764d9de86dfc8545b1a4b25",
+            "size": 7570
+        },
+        "minecraft/sounds/block/tuff_bricks/step4.ogg": {
+            "hash": "4f48c9696dd3b8dd08713e3bc75002599d382de5",
+            "size": 8174
+        },
+        "minecraft/sounds/block/tuff_bricks/step5.ogg": {
+            "hash": "892c046fcb58d0e5f267688d1d6f874909b2b0d7",
+            "size": 9277
+        },
+        "minecraft/sounds/block/tuff_bricks/step6.ogg": {
+            "hash": "7be841b7e39f91360fcd74cb352652d38e60f44a",
+            "size": 8350
+        },
+        "minecraft/sounds/block/vault/activate.ogg": {
+            "hash": "73df1a455ae665dc711edc5471740f4415f3a30d",
+            "size": 35322
+        },
+        "minecraft/sounds/block/vault/ambient1.ogg": {
+            "hash": "9a4c49e84a299e46023d6b122c7998016dbaf697",
+            "size": 88341
+        },
+        "minecraft/sounds/block/vault/ambient2.ogg": {
+            "hash": "3d5e61ca95a5dc872292f784ab4e09f0a2be8d5e",
+            "size": 80710
+        },
+        "minecraft/sounds/block/vault/ambient3.ogg": {
+            "hash": "b43d142ae612e9a703fde61b811a83ae88bc5e9c",
+            "size": 63860
+        },
+        "minecraft/sounds/block/vault/break1.ogg": {
+            "hash": "66af1974a94e5ec0f5960f267779c86465f8a606",
+            "size": 39659
+        },
+        "minecraft/sounds/block/vault/break2.ogg": {
+            "hash": "3cb7a8b6fbfebb79dc8b425e1b758dcf3fb50148",
+            "size": 38302
+        },
+        "minecraft/sounds/block/vault/break3.ogg": {
+            "hash": "2e1f3e84b3c1aea6b259d3659a64645146f8c10f",
+            "size": 38683
+        },
+        "minecraft/sounds/block/vault/break4.ogg": {
+            "hash": "58516e499854a37b0ef09a4a94e57ac2825a5ab7",
+            "size": 30165
+        },
+        "minecraft/sounds/block/vault/deactivate.ogg": {
+            "hash": "106d17d4b57d6f1543b71d673ffbb3132e7a3a07",
+            "size": 38916
+        },
+        "minecraft/sounds/block/vault/eject1.ogg": {
+            "hash": "abcaa44f03db6e3f2cb0ef8935a27bdb13471a87",
+            "size": 44426
+        },
+        "minecraft/sounds/block/vault/eject2.ogg": {
+            "hash": "43a55ffacf92ad9d8f3bb448a73f5fea461bb11f",
+            "size": 41817
+        },
+        "minecraft/sounds/block/vault/eject3.ogg": {
+            "hash": "809db3c4e57174cd5b8334db0e82456b63af9ab5",
+            "size": 42617
+        },
+        "minecraft/sounds/block/vault/insert.ogg": {
+            "hash": "a55a2dc3ee551abecdebb245b568f0574342607d",
+            "size": 29689
+        },
+        "minecraft/sounds/block/vault/insert_fail.ogg": {
+            "hash": "54cb246bb63ad741d06c4cacb75d1b9f6a5bc2f1",
+            "size": 24814
+        },
+        "minecraft/sounds/block/vault/open_shutter.ogg": {
+            "hash": "e96aa40aca3dd7abad81cb42b033bdee63a1a9bc",
+            "size": 62401
+        },
+        "minecraft/sounds/block/vault/place1.ogg": {
+            "hash": "0cf427b702d3fff68d667b9709059d56098eb76d",
+            "size": 17521
+        },
+        "minecraft/sounds/block/vault/place2.ogg": {
+            "hash": "b142dae899b099aac120a8f00cc3edeeeae08134",
+            "size": 16016
+        },
+        "minecraft/sounds/block/vault/place3.ogg": {
+            "hash": "465d7f1092969f8b647065ab9771c88c2cd7182d",
+            "size": 14313
+        },
+        "minecraft/sounds/block/vault/place4.ogg": {
+            "hash": "69ed076bcc1fb564f9999b99da767ef3a4f1a9db",
+            "size": 15873
+        },
+        "minecraft/sounds/block/vault/step1.ogg": {
+            "hash": "1913d4963d024157b5f853ff734ef22d1549e0e4",
+            "size": 22691
+        },
+        "minecraft/sounds/block/vault/step2.ogg": {
+            "hash": "c269c86d2849d861855ca07f6e1f109e80c08fcd",
+            "size": 20188
+        },
+        "minecraft/sounds/block/vault/step3.ogg": {
+            "hash": "0f1ff3699ff0b1b33d0ea5c85c17741c1c45f3fc",
+            "size": 20085
+        },
+        "minecraft/sounds/block/vault/step4.ogg": {
+            "hash": "ea86e0395315d7d1bd6d9df2e201e828f5bfa0e8",
+            "size": 19239
+        },
+        "minecraft/sounds/block/vault/step5.ogg": {
+            "hash": "9e85f297a50bc223ad0d4f95c1db45c4a3076204",
+            "size": 22307
+        },
+        "minecraft/sounds/block/vault/step6.ogg": {
+            "hash": "e1fcdcd61abe96c830940af85d750f46e505982c",
+            "size": 22149
+        },
+        "minecraft/sounds/block/vault/step7.ogg": {
+            "hash": "bc3a42dc72bd716ad78473db282ddc3af3bf23f7",
+            "size": 22375
+        },
+        "minecraft/sounds/block/vault/step8.ogg": {
+            "hash": "8a2634d860e9f3bf9e80e98acccf985c8d801c06",
+            "size": 22161
         },
         "minecraft/sounds/block/vine/break1.ogg": {
             "hash": "a355ba3bba2d9b5bc32153f58f7df74242b796d3",
@@ -6860,6 +7248,18 @@
             "hash": "09d6455c9e1d581e52fffd390076cb3bcb3bc0d6",
             "size": 48085
         },
+        "minecraft/sounds/entity/wind_charge/wind_burst1.ogg": {
+            "hash": "b64e99d3d09d12c97242f1d6336a4aea4c3233ec",
+            "size": 36465
+        },
+        "minecraft/sounds/entity/wind_charge/wind_burst2.ogg": {
+            "hash": "c07f8dcd5ec017c90a863a48a52ca2e7b3f0544e",
+            "size": 32181
+        },
+        "minecraft/sounds/entity/wind_charge/wind_burst3.ogg": {
+            "hash": "eb0abf982987a1b0f79a06fb45afbe880e275d17",
+            "size": 28683
+        },
         "minecraft/sounds/entity/witch/ambient1.ogg": {
             "hash": "166af5d48f1f67a4608be9d23fd27f8c16269893",
             "size": 11349
@@ -6987,6 +7387,42 @@
         "minecraft/sounds/fireworks/twinkle_far1.ogg": {
             "hash": "c8053e3b083b08840276de9a728202551302f416",
             "size": 23987
+        },
+        "minecraft/sounds/item/armor/break_wolf.ogg": {
+            "hash": "74d8eba4e23664a6b6d710e55950567040bbc0c9",
+            "size": 15543
+        },
+        "minecraft/sounds/item/armor/crack_wolf1.ogg": {
+            "hash": "0ed6b38ec4330481ce313aa56e26802ee16189d1",
+            "size": 10205
+        },
+        "minecraft/sounds/item/armor/crack_wolf2.ogg": {
+            "hash": "5baca02dca7ecee14f6f162cdddb0111d63d7482",
+            "size": 8991
+        },
+        "minecraft/sounds/item/armor/crack_wolf3.ogg": {
+            "hash": "7f0e196daaf94450ecf7cf36efe21f8e02828e5b",
+            "size": 11960
+        },
+        "minecraft/sounds/item/armor/crack_wolf4.ogg": {
+            "hash": "6bf739fe311ec337600bed2ebfd3fac7dabaf4d3",
+            "size": 10536
+        },
+        "minecraft/sounds/item/armor/damage_wolf1.ogg": {
+            "hash": "c07896007865ff025a1261a4fa519a60c4d7ae47",
+            "size": 7685
+        },
+        "minecraft/sounds/item/armor/damage_wolf2.ogg": {
+            "hash": "b40a94336928d7c2ae611c36f275afc868b8cf00",
+            "size": 7303
+        },
+        "minecraft/sounds/item/armor/damage_wolf3.ogg": {
+            "hash": "41b2955116651970a92f6f7aa45ca7d7ecd69ed5",
+            "size": 7872
+        },
+        "minecraft/sounds/item/armor/damage_wolf4.ogg": {
+            "hash": "9b3571e3ee987c0aca83572bbd2a9f4ef42c86b3",
+            "size": 8285
         },
         "minecraft/sounds/item/armor/equip_chain1.ogg": {
             "hash": "fd29d5ae9309aafaf40e5ec308cabd45c4a1e152",
@@ -7147,6 +7583,38 @@
         "minecraft/sounds/item/armor/equip_netherite4.ogg": {
             "hash": "1ffc6f4549c2a00c29ebe5cd54d907ea9345df9e",
             "size": 22796
+        },
+        "minecraft/sounds/item/armor/equip_wolf1.ogg": {
+            "hash": "ba4916e608ac3a1edecf471b2a94585535c4e5ca",
+            "size": 18810
+        },
+        "minecraft/sounds/item/armor/equip_wolf2.ogg": {
+            "hash": "aaa44c84e33fbf7f1f12cf365fe29963f92fc849",
+            "size": 19430
+        },
+        "minecraft/sounds/item/armor/repair_wolf1.ogg": {
+            "hash": "f509239925846e79b4892d79bfb96c2f3c1e1e0e",
+            "size": 11368
+        },
+        "minecraft/sounds/item/armor/repair_wolf2.ogg": {
+            "hash": "95b1be1afda74e2f278d0fa29489a4b7361c36b8",
+            "size": 11089
+        },
+        "minecraft/sounds/item/armor/repair_wolf3.ogg": {
+            "hash": "5d9a0fe67d76e23dbb251c068d306ffd33edcc6d",
+            "size": 10085
+        },
+        "minecraft/sounds/item/armor/repair_wolf4.ogg": {
+            "hash": "abc827da22f5a9288fd562ea8b9b60593aa14640",
+            "size": 9882
+        },
+        "minecraft/sounds/item/armor/unequip_wolf1.ogg": {
+            "hash": "e3f04a632629e09c2d016ec81cbb5e611946a008",
+            "size": 23011
+        },
+        "minecraft/sounds/item/armor/unequip_wolf2.ogg": {
+            "hash": "e24a2cac0ddc2f27cd6e74181ad0719b2cda33c6",
+            "size": 21604
         },
         "minecraft/sounds/item/axe/scrape1.ogg": {
             "hash": "e91db11f0dbb7580b1e9e57483827f6724018049",
@@ -8016,6 +8484,186 @@
             "hash": "e56a9f248acfc53fd12e64a9d54ef14f2a7de5fb",
             "size": 26682
         },
+        "minecraft/sounds/mob/armadillo/ambient1.ogg": {
+            "hash": "cb6f7ae2f8d10f2df7724d6296d6fcce03d7f63e",
+            "size": 16312
+        },
+        "minecraft/sounds/mob/armadillo/ambient2.ogg": {
+            "hash": "fc89adb60b61d2fe8b9bfd66a980a4e07494e761",
+            "size": 12960
+        },
+        "minecraft/sounds/mob/armadillo/ambient3.ogg": {
+            "hash": "744cbff6c19c4ed15fbde1d0b1c7c0667857598b",
+            "size": 15219
+        },
+        "minecraft/sounds/mob/armadillo/ambient4.ogg": {
+            "hash": "42be5a4ca8d53cd5042ba64adc4f7ea23427d717",
+            "size": 15942
+        },
+        "minecraft/sounds/mob/armadillo/ambient5.ogg": {
+            "hash": "466b85bdf9e58b35b744ec87d7732c57d07f4063",
+            "size": 15432
+        },
+        "minecraft/sounds/mob/armadillo/ambient6.ogg": {
+            "hash": "49ed3b28fccda37cbebd2d34de7353acb6acd2c6",
+            "size": 14093
+        },
+        "minecraft/sounds/mob/armadillo/ambient7.ogg": {
+            "hash": "ce94135832b9f1b004747fdce6239861e3188a54",
+            "size": 10640
+        },
+        "minecraft/sounds/mob/armadillo/ambient8.ogg": {
+            "hash": "d14c1527c122d12d5640ede441f64c71c6dad958",
+            "size": 12633
+        },
+        "minecraft/sounds/mob/armadillo/brush_armadillo1.ogg": {
+            "hash": "9269e0fab5e813e809ad962e4ece7a302973231f",
+            "size": 13264
+        },
+        "minecraft/sounds/mob/armadillo/brush_armadillo2.ogg": {
+            "hash": "4b02fc032a7414ef45a1a1e545b9469791b25224",
+            "size": 13090
+        },
+        "minecraft/sounds/mob/armadillo/death1.ogg": {
+            "hash": "cf49a8ee96f115fa39086722a7220b15c120b6b7",
+            "size": 45160
+        },
+        "minecraft/sounds/mob/armadillo/death2.ogg": {
+            "hash": "a872475442b2944eda22d845e71e30d43dff1e0b",
+            "size": 44123
+        },
+        "minecraft/sounds/mob/armadillo/death3.ogg": {
+            "hash": "4178494fd182b540929b0c1f52233d6089fa5ca2",
+            "size": 41101
+        },
+        "minecraft/sounds/mob/armadillo/death4.ogg": {
+            "hash": "20a8f42ea5b8b2bc2f7b3f6b2d57cfc8fbf8bfbd",
+            "size": 38899
+        },
+        "minecraft/sounds/mob/armadillo/eat1.ogg": {
+            "hash": "71743ea879b9903f74680ba036810922619997e6",
+            "size": 20423
+        },
+        "minecraft/sounds/mob/armadillo/eat2.ogg": {
+            "hash": "6dc446eabf8a8b4fe73b96bf6bd324fa457d30cb",
+            "size": 18619
+        },
+        "minecraft/sounds/mob/armadillo/eat3.ogg": {
+            "hash": "c32215798440d20d3a1abe7184982bc7de7b8018",
+            "size": 18919
+        },
+        "minecraft/sounds/mob/armadillo/hurt1.ogg": {
+            "hash": "bff154e44b79ae76fde450ec3dd000ee29660157",
+            "size": 18565
+        },
+        "minecraft/sounds/mob/armadillo/hurt2.ogg": {
+            "hash": "f1e592cd54b7c88dcd8d62d0612199be25c2b64d",
+            "size": 19653
+        },
+        "minecraft/sounds/mob/armadillo/hurt3.ogg": {
+            "hash": "fd9548fef82e6ec8e254e46becf76d5d40419757",
+            "size": 17791
+        },
+        "minecraft/sounds/mob/armadillo/hurt4.ogg": {
+            "hash": "c9a965f9f2a6db5f68cd46015985e7a2190a74be",
+            "size": 18317
+        },
+        "minecraft/sounds/mob/armadillo/hurt5.ogg": {
+            "hash": "7a09d71409eff220fc9d48053e7faa2d315f9de8",
+            "size": 20686
+        },
+        "minecraft/sounds/mob/armadillo/hurt_reduced1.ogg": {
+            "hash": "4feea37a3f783e2c9ea844ef2b4ee9f3cc20698d",
+            "size": 11959
+        },
+        "minecraft/sounds/mob/armadillo/hurt_reduced2.ogg": {
+            "hash": "f29746a1c78de0e7e75adeac1d605c4f0e4da73e",
+            "size": 11321
+        },
+        "minecraft/sounds/mob/armadillo/hurt_reduced3.ogg": {
+            "hash": "e8b4ff9971ce75716227605ae62da465a632c5d5",
+            "size": 11869
+        },
+        "minecraft/sounds/mob/armadillo/hurt_reduced4.ogg": {
+            "hash": "a4a4553b144aea8b4fa63778cf900b909b1c4d30",
+            "size": 11541
+        },
+        "minecraft/sounds/mob/armadillo/land1.ogg": {
+            "hash": "eb187a91ae4ea9efb383b9ee15bc74ce4d5631c1",
+            "size": 8798
+        },
+        "minecraft/sounds/mob/armadillo/land2.ogg": {
+            "hash": "b238154dc455d7b96a654d2d88df7a5d9f1f1c5a",
+            "size": 8295
+        },
+        "minecraft/sounds/mob/armadillo/land3.ogg": {
+            "hash": "f3e6ddd0a1388cc27a92668bd7501c1b880fcd43",
+            "size": 7406
+        },
+        "minecraft/sounds/mob/armadillo/land4.ogg": {
+            "hash": "167e7bc7da370415d4a3f40aa6614fca472b71a0",
+            "size": 9617
+        },
+        "minecraft/sounds/mob/armadillo/peek.ogg": {
+            "hash": "becaa3fe9df62d21f2dcbd107d1271fd8aab81e8",
+            "size": 62111
+        },
+        "minecraft/sounds/mob/armadillo/roll1.ogg": {
+            "hash": "56b9f15306b40fe0e6b6eff83a41d38184b27592",
+            "size": 20934
+        },
+        "minecraft/sounds/mob/armadillo/roll2.ogg": {
+            "hash": "bc891bcf154019454a9833a328f9a5d3c9f9ac78",
+            "size": 16997
+        },
+        "minecraft/sounds/mob/armadillo/roll3.ogg": {
+            "hash": "79081e734887536ff42c30187ee83aa8d7aad176",
+            "size": 18238
+        },
+        "minecraft/sounds/mob/armadillo/roll4.ogg": {
+            "hash": "1500e817ce7e100b5bfd06553d50bf740f8ee86d",
+            "size": 19298
+        },
+        "minecraft/sounds/mob/armadillo/scute_drop1.ogg": {
+            "hash": "ab106a4d5ebb591dd998cd021bd53a446800ff34",
+            "size": 10673
+        },
+        "minecraft/sounds/mob/armadillo/scute_drop2.ogg": {
+            "hash": "64c7611a394b9adf8a532156cdc168fba9ef28eb",
+            "size": 11574
+        },
+        "minecraft/sounds/mob/armadillo/step1.ogg": {
+            "hash": "1c6cfea5aa5815286558703e21c03abfb92b33ca",
+            "size": 8920
+        },
+        "minecraft/sounds/mob/armadillo/step2.ogg": {
+            "hash": "9462062c536bb648c41c31872ff147bd6fce2eda",
+            "size": 7760
+        },
+        "minecraft/sounds/mob/armadillo/step3.ogg": {
+            "hash": "a1aca3fc5ecde937748c1d701b4f726b03ed4f27",
+            "size": 8461
+        },
+        "minecraft/sounds/mob/armadillo/step4.ogg": {
+            "hash": "49fad98686f1972b15ce93d10ff3b71a58758408",
+            "size": 9711
+        },
+        "minecraft/sounds/mob/armadillo/step5.ogg": {
+            "hash": "85937b1b39be6a3817a6ebb5e8f6505be7ddfbd7",
+            "size": 10285
+        },
+        "minecraft/sounds/mob/armadillo/unroll_finish1.ogg": {
+            "hash": "0e985cabe00eef63c117bfba48a7ae6552fe4fe0",
+            "size": 18540
+        },
+        "minecraft/sounds/mob/armadillo/unroll_finish2.ogg": {
+            "hash": "5bb6ff790e44bd2cedb0929fd040f0b847fbcd14",
+            "size": 20882
+        },
+        "minecraft/sounds/mob/armadillo/unroll_start.ogg": {
+            "hash": "36196e23d75142d74e9907883f7dd3e1002b0166",
+            "size": 34882
+        },
         "minecraft/sounds/mob/axolotl/attack1.ogg": {
             "hash": "16ea969a1db6ae466df28025bee90d704d81e969",
             "size": 27414
@@ -8247,6 +8895,194 @@
         "minecraft/sounds/mob/blaze/hit4.ogg": {
             "hash": "3f447f3e331b59ad014d9bd4a6536f98cf3a08c3",
             "size": 7383
+        },
+        "minecraft/sounds/mob/bogged/ambient1.ogg": {
+            "hash": "5f8556f723c34a345892f9b668af94d69d68d68d",
+            "size": 30489
+        },
+        "minecraft/sounds/mob/bogged/ambient2.ogg": {
+            "hash": "4832e2d96223ab0023d26f9a8b62bd178da7d034",
+            "size": 26679
+        },
+        "minecraft/sounds/mob/bogged/ambient3.ogg": {
+            "hash": "1bdacbed0f0895030d7749bf37f3444af86acb16",
+            "size": 24910
+        },
+        "minecraft/sounds/mob/bogged/ambient4.ogg": {
+            "hash": "5fa87b6c86c70f2b59d9cefbaf72d22b5ecc0e4f",
+            "size": 28307
+        },
+        "minecraft/sounds/mob/bogged/death.ogg": {
+            "hash": "8bd17ca560e4355c5f8988ac995aa105952e3b19",
+            "size": 53483
+        },
+        "minecraft/sounds/mob/bogged/hurt1.ogg": {
+            "hash": "de88522690b70fe1765c2a043c771ea220b01b55",
+            "size": 33171
+        },
+        "minecraft/sounds/mob/bogged/hurt2.ogg": {
+            "hash": "eb94d6b07d96b35a034539bacbef956870fdeb71",
+            "size": 22915
+        },
+        "minecraft/sounds/mob/bogged/hurt3.ogg": {
+            "hash": "8d82ba7b46b05bdfae5d4d4e840d3782dc2c1398",
+            "size": 24070
+        },
+        "minecraft/sounds/mob/bogged/hurt4.ogg": {
+            "hash": "07f8691ee57050c62d6d1230c13f74f9fcad5dab",
+            "size": 31178
+        },
+        "minecraft/sounds/mob/bogged/step1.ogg": {
+            "hash": "ede11b981f756a2c8a02f3e69618e06fc3ce3aa9",
+            "size": 24548
+        },
+        "minecraft/sounds/mob/bogged/step2.ogg": {
+            "hash": "9fa505d6126fe5b5faf7084bce5452afaa02668c",
+            "size": 25211
+        },
+        "minecraft/sounds/mob/bogged/step3.ogg": {
+            "hash": "4e7472536275a5afcfbc2496eb35929843b0c655",
+            "size": 24513
+        },
+        "minecraft/sounds/mob/bogged/step4.ogg": {
+            "hash": "e5dbbe6fb3a1f780f2685b3490d24da868262abb",
+            "size": 23488
+        },
+        "minecraft/sounds/mob/breeze/charge1.ogg": {
+            "hash": "90680b63399e258ac5607825debc615acf92151a",
+            "size": 18832
+        },
+        "minecraft/sounds/mob/breeze/charge2.ogg": {
+            "hash": "964d9e3ac555a4e5b204e8e1b25f35588709d7ff",
+            "size": 21731
+        },
+        "minecraft/sounds/mob/breeze/charge3.ogg": {
+            "hash": "38f948ad20d82b0b9126ab77fee485bb9e4dc6ef",
+            "size": 18679
+        },
+        "minecraft/sounds/mob/breeze/death1.ogg": {
+            "hash": "c202f0860b6138c0ac79054b6f36fd1addc9aa56",
+            "size": 41091
+        },
+        "minecraft/sounds/mob/breeze/death2.ogg": {
+            "hash": "43ab5177a7851f3306d991b907eb7c49b7a6a7ff",
+            "size": 40883
+        },
+        "minecraft/sounds/mob/breeze/deflect1.ogg": {
+            "hash": "808408bef5a97f889e851ef7f51db5206beb691d",
+            "size": 23643
+        },
+        "minecraft/sounds/mob/breeze/deflect2.ogg": {
+            "hash": "444f7b9560d44cfd5901d5a0e803c382138342ff",
+            "size": 23245
+        },
+        "minecraft/sounds/mob/breeze/deflect3.ogg": {
+            "hash": "4b2d403365d008c2de04205429c57134a6238948",
+            "size": 22340
+        },
+        "minecraft/sounds/mob/breeze/hurt1.ogg": {
+            "hash": "ba8211d400e834c2f7663af2214a68e44ee82942",
+            "size": 11368
+        },
+        "minecraft/sounds/mob/breeze/hurt2.ogg": {
+            "hash": "fc603184d75b017650f1d4b4d02254a81aa801df",
+            "size": 11697
+        },
+        "minecraft/sounds/mob/breeze/hurt3.ogg": {
+            "hash": "51fff105f89bb1a21a59c621911d80ae231214d9",
+            "size": 14950
+        },
+        "minecraft/sounds/mob/breeze/idle1.ogg": {
+            "hash": "cbed5f15a05b3a662adf264509699df2891e5154",
+            "size": 47376
+        },
+        "minecraft/sounds/mob/breeze/idle2.ogg": {
+            "hash": "0d889b4e0e441244f74ae65a66b340d19055cf24",
+            "size": 51790
+        },
+        "minecraft/sounds/mob/breeze/idle3.ogg": {
+            "hash": "8bff765dad4eff48f8c6aa6e994da65910bf0ad1",
+            "size": 46668
+        },
+        "minecraft/sounds/mob/breeze/idle4.ogg": {
+            "hash": "b47c126e90c1e3f77f7adb2da485825b3b5a8cbc",
+            "size": 54539
+        },
+        "minecraft/sounds/mob/breeze/idle_air1.ogg": {
+            "hash": "fb444b48bc2d5cf6960de7d5d4e6a0be91dc9321",
+            "size": 34063
+        },
+        "minecraft/sounds/mob/breeze/idle_air2.ogg": {
+            "hash": "edbb18c9026dd2d40b9446400463c3d5b662c0a0",
+            "size": 33563
+        },
+        "minecraft/sounds/mob/breeze/idle_air3.ogg": {
+            "hash": "286f6b96458622474fc03f5152603e811b9d3887",
+            "size": 39341
+        },
+        "minecraft/sounds/mob/breeze/idle_air4.ogg": {
+            "hash": "ae4ffd746ff417111f7b7a2ba6eba2aa01645a6b",
+            "size": 32097
+        },
+        "minecraft/sounds/mob/breeze/inhale1.ogg": {
+            "hash": "13dd3f6cd67c6789ded0108006317cbda08a2aff",
+            "size": 16108
+        },
+        "minecraft/sounds/mob/breeze/inhale2.ogg": {
+            "hash": "766d75e814c9e6d8ff3a82cded2ef571aae504c4",
+            "size": 15044
+        },
+        "minecraft/sounds/mob/breeze/jump1.ogg": {
+            "hash": "38ae67559dd3d1b390f3bd9bbed3a258d9b2038a",
+            "size": 49744
+        },
+        "minecraft/sounds/mob/breeze/jump2.ogg": {
+            "hash": "3497fd1c0597325bb3226c53fd9f076609f89c7e",
+            "size": 43993
+        },
+        "minecraft/sounds/mob/breeze/land1.ogg": {
+            "hash": "b34c0a6ad6d02d54d3a073d6faa019d0be9265bf",
+            "size": 11725
+        },
+        "minecraft/sounds/mob/breeze/land2.ogg": {
+            "hash": "7cea8fa333a936a8ef9b6f8c1d318d8159a36409",
+            "size": 12054
+        },
+        "minecraft/sounds/mob/breeze/shoot.ogg": {
+            "hash": "7455c3943373804f3cf466981240ef1ef4233184",
+            "size": 12067
+        },
+        "minecraft/sounds/mob/breeze/slide1.ogg": {
+            "hash": "a907555ea42c3ca4b7aba304b18041b48ac37980",
+            "size": 43753
+        },
+        "minecraft/sounds/mob/breeze/slide2.ogg": {
+            "hash": "b962dd713e13158e086b741329c88ef1d2aa506b",
+            "size": 41953
+        },
+        "minecraft/sounds/mob/breeze/slide3.ogg": {
+            "hash": "01b562613c6fb2500fd94ac821912ce82c4e7d83",
+            "size": 42077
+        },
+        "minecraft/sounds/mob/breeze/slide4.ogg": {
+            "hash": "f72a443da00bf94c598ea1e7db346a7db9384afc",
+            "size": 43685
+        },
+        "minecraft/sounds/mob/breeze/whirl.ogg": {
+            "hash": "b4ee736f5c053aad10a62731c82c5f19dc751aa2",
+            "size": 57240
+        },
+        "minecraft/sounds/mob/breeze/wind_burst1.ogg": {
+            "hash": "ed1eb91a8f52c44fab47bfae8502a0758e0fcaff",
+            "size": 55992
+        },
+        "minecraft/sounds/mob/breeze/wind_burst2.ogg": {
+            "hash": "bfb5ae6dc11ef5c6c863c822da59e10497195c47",
+            "size": 47223
+        },
+        "minecraft/sounds/mob/breeze/wind_burst3.ogg": {
+            "hash": "b980f449c9fde0ca1422e44e3d1605185f0c595f",
+            "size": 41312
         },
         "minecraft/sounds/mob/camel/ambient1.ogg": {
             "hash": "450e6ae5f90c21a8317eb7d1e76e427a7b765233",
@@ -13580,43 +14416,35 @@
             "hash": "62171ee4d5ed33a224c59f985a6b304860523b17",
             "size": 18131788
         },
-        "minecraft/sounds/music/game/calm1.ogg": {
-            "hash": "50a59a4f56e4046701b758ddbb1c1587efa4cadf",
-            "size": 2530812
-        },
-        "minecraft/sounds/music/game/calm2.ogg": {
+        "minecraft/sounds/music/game/clark.ogg": {
             "hash": "74da65c99aa578486efa7b69983d3533e14c0d6e",
             "size": 1976731
-        },
-        "minecraft/sounds/music/game/calm3.ogg": {
-            "hash": "14ae57a6bce3d4254daa8be2b098c2d99743cc3f",
-            "size": 2232651
         },
         "minecraft/sounds/music/game/comforting_memories.ogg": {
             "hash": "cab779f1a15d9fe49bcc975d077717ebd1f87cda",
             "size": 11097991
         },
-        "minecraft/sounds/music/game/creative/creative1.ogg": {
-            "hash": "3fe4c878450d4dc2bf3ac304e547f20d4efabad8",
-            "size": 4271435
-        },
-        "minecraft/sounds/music/game/creative/creative2.ogg": {
-            "hash": "591f41a2c5f53bcc60d7ded982fe29e76223a8ca",
-            "size": 3704574
-        },
-        "minecraft/sounds/music/game/creative/creative3.ogg": {
-            "hash": "4f8c3f9b4f290f63c78bf3bbaad16906a3ccff29",
-            "size": 3834148
-        },
-        "minecraft/sounds/music/game/creative/creative4.ogg": {
+        "minecraft/sounds/music/game/creative/aria_math.ogg": {
             "hash": "4664de25eb2bfc88ebbd638cfae6934dd968ceaa",
             "size": 3668042
         },
-        "minecraft/sounds/music/game/creative/creative5.ogg": {
+        "minecraft/sounds/music/game/creative/biome_fest.ogg": {
+            "hash": "3fe4c878450d4dc2bf3ac304e547f20d4efabad8",
+            "size": 4271435
+        },
+        "minecraft/sounds/music/game/creative/blind_spots.ogg": {
+            "hash": "591f41a2c5f53bcc60d7ded982fe29e76223a8ca",
+            "size": 3704574
+        },
+        "minecraft/sounds/music/game/creative/dreiton.ogg": {
             "hash": "45cb6cbbff2d7fc1daefbd85b031fd9dcfc70e7b",
             "size": 5532231
         },
-        "minecraft/sounds/music/game/creative/creative6.ogg": {
+        "minecraft/sounds/music/game/creative/haunt_muskie.ogg": {
+            "hash": "4f8c3f9b4f290f63c78bf3bbaad16906a3ccff29",
+            "size": 3834148
+        },
+        "minecraft/sounds/music/game/creative/taswell.ogg": {
             "hash": "6254527d626a2c7d80901cc2e62dce3ba4bd81f6",
             "size": 5468843
         },
@@ -13624,19 +14452,27 @@
             "hash": "a0ad97718ec427d5651ef602331ebda9c91bc906",
             "size": 12997949
         },
+        "minecraft/sounds/music/game/danny.ogg": {
+            "hash": "5e7d63e75c6e042f452bc5e151276911ef92fed8",
+            "size": 2558252
+        },
+        "minecraft/sounds/music/game/dry_hands.ogg": {
+            "hash": "0f374764aafba398f4ba90dba05a53a9e6166138",
+            "size": 542805
+        },
         "minecraft/sounds/music/game/echo_in_the_wind.ogg": {
             "hash": "a40303dd9d4bfbb0986e66fc93553a0755621880",
             "size": 13445440
+        },
+        "minecraft/sounds/music/game/end/alpha.ogg": {
+            "hash": "27fcacc68bb77f01b23ea9c9d36d9018f8509cdf",
+            "size": 6065908
         },
         "minecraft/sounds/music/game/end/boss.ogg": {
             "hash": "b9eef13c2337a6335c4523858619ca560dff4496",
             "size": 3329788
         },
-        "minecraft/sounds/music/game/end/credits.ogg": {
-            "hash": "27fcacc68bb77f01b23ea9c9d36d9018f8509cdf",
-            "size": 6065908
-        },
-        "minecraft/sounds/music/game/end/end.ogg": {
+        "minecraft/sounds/music/game/end/the_end.ogg": {
             "hash": "47800737d078e751698df291054adc596ba8195a",
             "size": 9914930
         },
@@ -13644,49 +14480,49 @@
             "hash": "45bdfe06cc8c375dc507e59527c9a89105980085",
             "size": 4761864
         },
-        "minecraft/sounds/music/game/hal1.ogg": {
-            "hash": "df1ff11b79757432c5c3f279e5ecde7b63ceda64",
-            "size": 1972217
-        },
-        "minecraft/sounds/music/game/hal2.ogg": {
-            "hash": "ceaaaa1d57dfdfbb0bd4da5ea39628b42897a687",
-            "size": 1754429
-        },
-        "minecraft/sounds/music/game/hal3.ogg": {
+        "minecraft/sounds/music/game/haggstrom.ogg": {
             "hash": "dd85fb564e96ee2dbd4754f711ae9deb08a169f9",
             "size": 1923269
-        },
-        "minecraft/sounds/music/game/hal4.ogg": {
-            "hash": "5e7d63e75c6e042f452bc5e151276911ef92fed8",
-            "size": 2558252
         },
         "minecraft/sounds/music/game/infinite_amethyst.ogg": {
             "hash": "c9c4d7988a578eccfc31cb2f04defc40d71ef719",
             "size": 13690596
         },
+        "minecraft/sounds/music/game/key.ogg": {
+            "hash": "cc1a80b6becfc6d6489c069f053d0a8adc71c339",
+            "size": 156322
+        },
         "minecraft/sounds/music/game/left_to_bloom.ogg": {
             "hash": "aa1d3aace1c481ac32d5827fba287294b6bc99fb",
             "size": 17607318
+        },
+        "minecraft/sounds/music/game/living_mice.ogg": {
+            "hash": "ceaaaa1d57dfdfbb0bd4da5ea39628b42897a687",
+            "size": 1754429
+        },
+        "minecraft/sounds/music/game/mice_on_venus.ogg": {
+            "hash": "9528b6a76e7bac64ca1145cc682e8a8448cc04e5",
+            "size": 2665984
+        },
+        "minecraft/sounds/music/game/minecraft.ogg": {
+            "hash": "50a59a4f56e4046701b758ddbb1c1587efa4cadf",
+            "size": 2530812
+        },
+        "minecraft/sounds/music/game/nether/ballad_of_the_cats.ogg": {
+            "hash": "e2ee9a161e2d6ea2452e5320edf8b4b01b63e350",
+            "size": 2771287
+        },
+        "minecraft/sounds/music/game/nether/concrete_halls.ogg": {
+            "hash": "71cc853556f7ca5784c9e9fc8e0bd6778d13027b",
+            "size": 2731933
         },
         "minecraft/sounds/music/game/nether/crimson_forest/chrysopoeia.ogg": {
             "hash": "eb065c510ad0810a1096f04c2a6fe692c415bc88",
             "size": 15903050
         },
-        "minecraft/sounds/music/game/nether/nether1.ogg": {
-            "hash": "71cc853556f7ca5784c9e9fc8e0bd6778d13027b",
-            "size": 2731933
-        },
-        "minecraft/sounds/music/game/nether/nether2.ogg": {
+        "minecraft/sounds/music/game/nether/dead_voxel.ogg": {
             "hash": "5a7ce2181203dd558cbd55d02081b9e95a07f16f",
             "size": 2783300
-        },
-        "minecraft/sounds/music/game/nether/nether3.ogg": {
-            "hash": "b0b12118a97ddd733a50e9382e91a21652568641",
-            "size": 2460079
-        },
-        "minecraft/sounds/music/game/nether/nether4.ogg": {
-            "hash": "e2ee9a161e2d6ea2452e5320edf8b4b01b63e350",
-            "size": 2771287
         },
         "minecraft/sounds/music/game/nether/nether_wastes/rubedo.ogg": {
             "hash": "473768ad0df67d518b3bd4cfe1c380d6d84bddbf",
@@ -13696,33 +14532,25 @@
             "hash": "574ee01c1617c1cd9d2111822637f3da9d5a34f0",
             "size": 16374197
         },
-        "minecraft/sounds/music/game/nuance1.ogg": {
-            "hash": "cc1a80b6becfc6d6489c069f053d0a8adc71c339",
-            "size": 156322
-        },
-        "minecraft/sounds/music/game/nuance2.ogg": {
-            "hash": "78152dc42b036e0de7616e6e669ce5a81d17f82a",
-            "size": 219029
+        "minecraft/sounds/music/game/nether/warmth.ogg": {
+            "hash": "b0b12118a97ddd733a50e9382e91a21652568641",
+            "size": 2460079
         },
         "minecraft/sounds/music/game/one_more_day.ogg": {
             "hash": "8b0b49dcab54157bb02ef81380990dac2a187b99",
             "size": 14684917
         },
-        "minecraft/sounds/music/game/piano1.ogg": {
-            "hash": "0f374764aafba398f4ba90dba05a53a9e6166138",
-            "size": 542805
-        },
-        "minecraft/sounds/music/game/piano2.ogg": {
-            "hash": "98a918eb2694defd19726436d4b9dca9e7dd6a65",
-            "size": 824333
-        },
-        "minecraft/sounds/music/game/piano3.ogg": {
-            "hash": "9528b6a76e7bac64ca1145cc682e8a8448cc04e5",
-            "size": 2665984
+        "minecraft/sounds/music/game/oxygene.ogg": {
+            "hash": "78152dc42b036e0de7616e6e669ce5a81d17f82a",
+            "size": 219029
         },
         "minecraft/sounds/music/game/stand_tall.ogg": {
             "hash": "5b3ae419f7f7648568f0b5303594078aea12f598",
             "size": 17469590
+        },
+        "minecraft/sounds/music/game/subwoofer_lullaby.ogg": {
+            "hash": "df1ff11b79757432c5c3f279e5ecde7b63ceda64",
+            "size": 1972217
         },
         "minecraft/sounds/music/game/swamp/aerie.ogg": {
             "hash": "6615ab7f668384cf98b0cb034ce8e4c52eaf86b2",
@@ -13735,6 +14563,10 @@
         "minecraft/sounds/music/game/swamp/labyrinthine.ogg": {
             "hash": "b83bbafa9799680da24f10215de2c40b73ce1fe3",
             "size": 17462951
+        },
+        "minecraft/sounds/music/game/sweden.ogg": {
+            "hash": "14ae57a6bce3d4254daa8be2b098c2d99743cc3f",
+            "size": 2232651
         },
         "minecraft/sounds/music/game/water/axolotl.ogg": {
             "hash": "ee92e4ed79b3c4c47eabe71b36375b5d3f05b017",
@@ -13752,21 +14584,25 @@
             "hash": "5dd32ce63e2ff412c0c1009255e944fae80b03b0",
             "size": 18069569
         },
-        "minecraft/sounds/music/menu/menu1.ogg": {
-            "hash": "c157c56846f0e50620f808fecd9d069423dd6c41",
-            "size": 1744657
+        "minecraft/sounds/music/game/wet_hands.ogg": {
+            "hash": "98a918eb2694defd19726436d4b9dca9e7dd6a65",
+            "size": 824333
         },
-        "minecraft/sounds/music/menu/menu2.ogg": {
-            "hash": "783ddccf4681a0c50d3e651f4e6ac27a0f4ea76f",
-            "size": 1809290
-        },
-        "minecraft/sounds/music/menu/menu3.ogg": {
+        "minecraft/sounds/music/menu/beginning_2.ogg": {
             "hash": "87722a59c8d488370f3d430cd4c97a3161081785",
             "size": 1724614
         },
-        "minecraft/sounds/music/menu/menu4.ogg": {
+        "minecraft/sounds/music/menu/floating_trees.ogg": {
             "hash": "15f38314274e759c44f50ac641d11bde12474a25",
             "size": 2017245
+        },
+        "minecraft/sounds/music/menu/moog_city_2.ogg": {
+            "hash": "783ddccf4681a0c50d3e651f4e6ac27a0f4ea76f",
+            "size": 1809290
+        },
+        "minecraft/sounds/music/menu/mutation.ogg": {
+            "hash": "c157c56846f0e50620f808fecd9d069423dd6c41",
+            "size": 1744657
         },
         "minecraft/sounds/note/banjo.ogg": {
             "hash": "3429a726bdda71c20b84d20fc35693a5eb04f096",
