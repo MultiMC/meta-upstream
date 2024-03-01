@@ -1,7 +1,7 @@
 {
     "by_mcversion": {
         "1.20.1": {
-            "latest": "1.20.1-47.1.100",
+            "latest": "1.20.1-47.1.101",
             "recommended": null,
             "versions": [
                 "1.20.1-47.1.5",
@@ -58,7 +58,8 @@
                 "1.20.1-47.1.97",
                 "1.20.1-47.1.98",
                 "1.20.1-47.1.99",
-                "1.20.1-47.1.100"
+                "1.20.1-47.1.100",
+                "1.20.1-47.1.101"
             ]
         },
         "1.20.2": {
@@ -376,12 +377,49 @@
                     "legacy": true
                 }
             },
-            "latest": true,
+            "latest": false,
             "longversion": "1.20.1-47.1.100",
             "mcversion": "1.20.1",
             "package": "forge",
             "recommended": false,
             "version": "47.1.100"
+        },
+        "1.20.1-47.1.101": {
+            "branch": null,
+            "build": 101,
+            "files": {
+                "changelog": {
+                    "classifier": "changelog",
+                    "extension": "txt",
+                    "legacy": true
+                },
+                "installer": {
+                    "classifier": "installer",
+                    "extension": "jar",
+                    "legacy": true
+                },
+                "sources": {
+                    "classifier": "sources",
+                    "extension": "jar",
+                    "legacy": true
+                },
+                "universal": {
+                    "classifier": "universal",
+                    "extension": "jar",
+                    "legacy": true
+                },
+                "userdev": {
+                    "classifier": "userdev",
+                    "extension": "jar",
+                    "legacy": true
+                }
+            },
+            "latest": true,
+            "longversion": "1.20.1-47.1.101",
+            "mcversion": "1.20.1",
+            "package": "forge",
+            "recommended": false,
+            "version": "47.1.101"
         },
         "1.20.1-47.1.11": {
             "branch": null,
