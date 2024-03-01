@@ -1,0 +1,827 @@
+{
+    "spec": 1,
+    "profile": "forge",
+    "version": "1.20.1-forge-47.1.27",
+    "path": null,
+    "minecraft": "1.20.1",
+    "serverJarPath": "{LIBRARY_DIR}/net/minecraft/server/{MINECRAFT_VERSION}/server-{MINECRAFT_VERSION}.jar",
+    "data": {
+        "MAPPINGS": {
+            "client": "[de.oceanlabs.mcp:mcp_config:1.20.1-20230612.114412:mappings@txt]",
+            "server": "[de.oceanlabs.mcp:mcp_config:1.20.1-20230612.114412:mappings@txt]"
+        },
+        "MOJMAPS": {
+            "client": "[net.minecraft:client:1.20.1-20230612.114412:mappings@txt]",
+            "server": "[net.minecraft:server:1.20.1-20230612.114412:mappings@txt]"
+        },
+        "MERGED_MAPPINGS": {
+            "client": "[de.oceanlabs.mcp:mcp_config:1.20.1-20230612.114412:mappings-merged@txt]",
+            "server": "[de.oceanlabs.mcp:mcp_config:1.20.1-20230612.114412:mappings-merged@txt]"
+        },
+        "BINPATCH": {
+            "client": "/data/client.lzma",
+            "server": "/data/server.lzma"
+        },
+        "MC_UNPACKED": {
+            "client": "[net.minecraft:client:1.20.1-20230612.114412:unpacked]",
+            "server": "[net.minecraft:server:1.20.1-20230612.114412:unpacked]"
+        },
+        "MC_SLIM": {
+            "client": "[net.minecraft:client:1.20.1-20230612.114412:slim]",
+            "server": "[net.minecraft:server:1.20.1-20230612.114412:slim]"
+        },
+        "MC_SLIM_SHA": {
+            "client": "'de86b035d2da0f78940796bb95c39a932ed84834'",
+            "server": "'9e06bdd77ca6d95b2cced0bf372245f753eeb16a'"
+        },
+        "MC_EXTRA": {
+            "client": "[net.minecraft:client:1.20.1-20230612.114412:extra]",
+            "server": "[net.minecraft:server:1.20.1-20230612.114412:extra]"
+        },
+        "MC_EXTRA_SHA": {
+            "client": "'8c5a95cbce940cfdb304376ae9fea47968d02587'",
+            "server": "'13522e3278befd103064d91a199451df4cd2633f'"
+        },
+        "MC_SRG": {
+            "client": "[net.minecraft:client:1.20.1-20230612.114412:srg]",
+            "server": "[net.minecraft:server:1.20.1-20230612.114412:srg]"
+        },
+        "PATCHED": {
+            "client": "[net.neoforged:forge:1.20.1-47.1.27:client]",
+            "server": "[net.neoforged:forge:1.20.1-47.1.27:server]"
+        },
+        "PATCHED_SHA": {
+            "client": "'fbcde18b4a2348cbc4cd581d07e4a113f86e943d'",
+            "server": "'2b008ffa8fd2e33509ac2f92707b256bb767930c'"
+        },
+        "MCP_VERSION": {
+            "client": "'20230612.114412'",
+            "server": "'20230612.114412'"
+        }
+    },
+    "processors": [
+        {
+            "sides": [
+                "server"
+            ],
+            "jar": "net.minecraftforge:installertools:1.3.0",
+            "classpath": [
+                "net.md-5:SpecialSource:1.11.0",
+                "net.sf.jopt-simple:jopt-simple:5.0.4",
+                "com.google.code.gson:gson:2.8.7",
+                "de.siegmar:fastcsv:2.0.0",
+                "net.minecraftforge:srgutils:0.4.11",
+                "org.ow2.asm:asm-commons:9.3",
+                "com.google.guava:guava:20.0",
+                "com.opencsv:opencsv:4.4",
+                "org.ow2.asm:asm-analysis:9.3",
+                "org.ow2.asm:asm-tree:9.3",
+                "org.ow2.asm:asm:9.3",
+                "org.apache.commons:commons-text:1.3",
+                "org.apache.commons:commons-lang3:3.8.1",
+                "commons-beanutils:commons-beanutils:1.9.3",
+                "org.apache.commons:commons-collections4:4.2",
+                "commons-logging:commons-logging:1.2",
+                "commons-collections:commons-collections:3.2.2"
+            ],
+            "args": [
+                "--task",
+                "EXTRACT_FILES",
+                "--archive",
+                "{INSTALLER}",
+                "--from",
+                "data/run.sh",
+                "--to",
+                "{ROOT}/run.sh",
+                "--exec",
+                "{ROOT}/run.sh",
+                "--from",
+                "data/run.bat",
+                "--to",
+                "{ROOT}/run.bat",
+                "--from",
+                "data/user_jvm_args.txt",
+                "--to",
+                "{ROOT}/user_jvm_args.txt",
+                "--optional",
+                "{ROOT}/user_jvm_args.txt",
+                "--from",
+                "data/win_args.txt",
+                "--to",
+                "{ROOT}/libraries/net/neoforged/forge/1.20.1-47.1.27/win_args.txt",
+                "--from",
+                "data/unix_args.txt",
+                "--to",
+                "{ROOT}/libraries/net/neoforged/forge/1.20.1-47.1.27/unix_args.txt"
+            ]
+        },
+        {
+            "sides": [
+                "server"
+            ],
+            "jar": "net.minecraftforge:installertools:1.3.0",
+            "classpath": [
+                "net.md-5:SpecialSource:1.11.0",
+                "net.sf.jopt-simple:jopt-simple:5.0.4",
+                "com.google.code.gson:gson:2.8.7",
+                "de.siegmar:fastcsv:2.0.0",
+                "net.minecraftforge:srgutils:0.4.11",
+                "org.ow2.asm:asm-commons:9.3",
+                "com.google.guava:guava:20.0",
+                "com.opencsv:opencsv:4.4",
+                "org.ow2.asm:asm-analysis:9.3",
+                "org.ow2.asm:asm-tree:9.3",
+                "org.ow2.asm:asm:9.3",
+                "org.apache.commons:commons-text:1.3",
+                "org.apache.commons:commons-lang3:3.8.1",
+                "commons-beanutils:commons-beanutils:1.9.3",
+                "org.apache.commons:commons-collections4:4.2",
+                "commons-logging:commons-logging:1.2",
+                "commons-collections:commons-collections:3.2.2"
+            ],
+            "args": [
+                "--task",
+                "BUNDLER_EXTRACT",
+                "--input",
+                "{MINECRAFT_JAR}",
+                "--output",
+                "{ROOT}/libraries/",
+                "--libraries"
+            ]
+        },
+        {
+            "sides": [
+                "server"
+            ],
+            "jar": "net.minecraftforge:installertools:1.3.0",
+            "classpath": [
+                "net.md-5:SpecialSource:1.11.0",
+                "net.sf.jopt-simple:jopt-simple:5.0.4",
+                "com.google.code.gson:gson:2.8.7",
+                "de.siegmar:fastcsv:2.0.0",
+                "net.minecraftforge:srgutils:0.4.11",
+                "org.ow2.asm:asm-commons:9.3",
+                "com.google.guava:guava:20.0",
+                "com.opencsv:opencsv:4.4",
+                "org.ow2.asm:asm-analysis:9.3",
+                "org.ow2.asm:asm-tree:9.3",
+                "org.ow2.asm:asm:9.3",
+                "org.apache.commons:commons-text:1.3",
+                "org.apache.commons:commons-lang3:3.8.1",
+                "commons-beanutils:commons-beanutils:1.9.3",
+                "org.apache.commons:commons-collections4:4.2",
+                "commons-logging:commons-logging:1.2",
+                "commons-collections:commons-collections:3.2.2"
+            ],
+            "args": [
+                "--task",
+                "BUNDLER_EXTRACT",
+                "--input",
+                "{MINECRAFT_JAR}",
+                "--output",
+                "{MC_UNPACKED}",
+                "--jar-only"
+            ]
+        },
+        {
+            "jar": "net.minecraftforge:installertools:1.3.0",
+            "classpath": [
+                "net.md-5:SpecialSource:1.11.0",
+                "net.sf.jopt-simple:jopt-simple:5.0.4",
+                "com.google.code.gson:gson:2.8.7",
+                "de.siegmar:fastcsv:2.0.0",
+                "net.minecraftforge:srgutils:0.4.11",
+                "org.ow2.asm:asm-commons:9.3",
+                "com.google.guava:guava:20.0",
+                "com.opencsv:opencsv:4.4",
+                "org.ow2.asm:asm-analysis:9.3",
+                "org.ow2.asm:asm-tree:9.3",
+                "org.ow2.asm:asm:9.3",
+                "org.apache.commons:commons-text:1.3",
+                "org.apache.commons:commons-lang3:3.8.1",
+                "commons-beanutils:commons-beanutils:1.9.3",
+                "org.apache.commons:commons-collections4:4.2",
+                "commons-logging:commons-logging:1.2",
+                "commons-collections:commons-collections:3.2.2"
+            ],
+            "args": [
+                "--task",
+                "MCP_DATA",
+                "--input",
+                "[de.oceanlabs.mcp:mcp_config:1.20.1-20230612.114412@zip]",
+                "--output",
+                "{MAPPINGS}",
+                "--key",
+                "mappings"
+            ]
+        },
+        {
+            "jar": "net.minecraftforge:installertools:1.3.0",
+            "classpath": [
+                "net.md-5:SpecialSource:1.11.0",
+                "net.sf.jopt-simple:jopt-simple:5.0.4",
+                "com.google.code.gson:gson:2.8.7",
+                "de.siegmar:fastcsv:2.0.0",
+                "net.minecraftforge:srgutils:0.4.11",
+                "org.ow2.asm:asm-commons:9.3",
+                "com.google.guava:guava:20.0",
+                "com.opencsv:opencsv:4.4",
+                "org.ow2.asm:asm-analysis:9.3",
+                "org.ow2.asm:asm-tree:9.3",
+                "org.ow2.asm:asm:9.3",
+                "org.apache.commons:commons-text:1.3",
+                "org.apache.commons:commons-lang3:3.8.1",
+                "commons-beanutils:commons-beanutils:1.9.3",
+                "org.apache.commons:commons-collections4:4.2",
+                "commons-logging:commons-logging:1.2",
+                "commons-collections:commons-collections:3.2.2"
+            ],
+            "args": [
+                "--task",
+                "DOWNLOAD_MOJMAPS",
+                "--version",
+                "1.20.1",
+                "--side",
+                "{SIDE}",
+                "--output",
+                "{MOJMAPS}"
+            ]
+        },
+        {
+            "jar": "net.minecraftforge:installertools:1.3.0",
+            "classpath": [
+                "net.md-5:SpecialSource:1.11.0",
+                "net.sf.jopt-simple:jopt-simple:5.0.4",
+                "com.google.code.gson:gson:2.8.7",
+                "de.siegmar:fastcsv:2.0.0",
+                "net.minecraftforge:srgutils:0.4.11",
+                "org.ow2.asm:asm-commons:9.3",
+                "com.google.guava:guava:20.0",
+                "com.opencsv:opencsv:4.4",
+                "org.ow2.asm:asm-analysis:9.3",
+                "org.ow2.asm:asm-tree:9.3",
+                "org.ow2.asm:asm:9.3",
+                "org.apache.commons:commons-text:1.3",
+                "org.apache.commons:commons-lang3:3.8.1",
+                "commons-beanutils:commons-beanutils:1.9.3",
+                "org.apache.commons:commons-collections4:4.2",
+                "commons-logging:commons-logging:1.2",
+                "commons-collections:commons-collections:3.2.2"
+            ],
+            "args": [
+                "--task",
+                "MERGE_MAPPING",
+                "--left",
+                "{MAPPINGS}",
+                "--right",
+                "{MOJMAPS}",
+                "--output",
+                "{MERGED_MAPPINGS}",
+                "--classes",
+                "--reverse-right"
+            ]
+        },
+        {
+            "sides": [
+                "client"
+            ],
+            "jar": "net.minecraftforge:jarsplitter:1.1.4",
+            "classpath": [
+                "net.sf.jopt-simple:jopt-simple:5.0.4",
+                "net.minecraftforge:srgutils:0.4.3"
+            ],
+            "args": [
+                "--input",
+                "{MINECRAFT_JAR}",
+                "--slim",
+                "{MC_SLIM}",
+                "--extra",
+                "{MC_EXTRA}",
+                "--srg",
+                "{MERGED_MAPPINGS}"
+            ],
+            "outputs": {
+                "{MC_SLIM}": "{MC_SLIM_SHA}",
+                "{MC_EXTRA}": "{MC_EXTRA_SHA}"
+            }
+        },
+        {
+            "sides": [
+                "server"
+            ],
+            "jar": "net.minecraftforge:jarsplitter:1.1.4",
+            "classpath": [
+                "net.sf.jopt-simple:jopt-simple:5.0.4",
+                "net.minecraftforge:srgutils:0.4.3"
+            ],
+            "args": [
+                "--input",
+                "{MC_UNPACKED}",
+                "--slim",
+                "{MC_SLIM}",
+                "--extra",
+                "{MC_EXTRA}",
+                "--srg",
+                "{MERGED_MAPPINGS}"
+            ],
+            "outputs": {
+                "{MC_SLIM}": "{MC_SLIM_SHA}",
+                "{MC_EXTRA}": "{MC_EXTRA_SHA}"
+            }
+        },
+        {
+            "jar": "net.minecraftforge:ForgeAutoRenamingTool:0.1.22:all",
+            "classpath": [
+                "net.sf.jopt-simple:jopt-simple:6.0-alpha-3",
+                "org.ow2.asm:asm-commons:9.2",
+                "org.ow2.asm:asm-analysis:9.2",
+                "org.ow2.asm:asm-tree:9.2",
+                "org.ow2.asm:asm:9.2",
+                "net.minecraftforge:srgutils:0.4.9"
+            ],
+            "args": [
+                "--input",
+                "{MC_SLIM}",
+                "--output",
+                "{MC_SRG}",
+                "--names",
+                "{MERGED_MAPPINGS}",
+                "--ann-fix",
+                "--ids-fix",
+                "--src-fix",
+                "--record-fix"
+            ]
+        },
+        {
+            "jar": "net.minecraftforge:binarypatcher:1.1.1",
+            "classpath": [
+                "commons-io:commons-io:2.4",
+                "com.google.guava:guava:25.1-jre",
+                "net.sf.jopt-simple:jopt-simple:5.0.4",
+                "com.github.jponge:lzma-java:1.3",
+                "com.nothome:javaxdelta:2.0.1",
+                "com.google.code.findbugs:jsr305:3.0.2",
+                "org.checkerframework:checker-qual:2.0.0",
+                "com.google.errorprone:error_prone_annotations:2.1.3",
+                "com.google.j2objc:j2objc-annotations:1.1",
+                "org.codehaus.mojo:animal-sniffer-annotations:1.14",
+                "trove:trove:1.0.2"
+            ],
+            "args": [
+                "--clean",
+                "{MC_SRG}",
+                "--output",
+                "{PATCHED}",
+                "--apply",
+                "{BINPATCH}"
+            ]
+        }
+    ],
+    "libraries": [
+        {
+            "name": "com.github.jponge:lzma-java:1.3",
+            "downloads": {
+                "artifact": {
+                    "path": "com/github/jponge/lzma-java/1.3/lzma-java-1.3.jar",
+                    "url": "https://maven.neoforged.net/releases/com/github/jponge/lzma-java/1.3/lzma-java-1.3.jar",
+                    "sha1": "a25db9d4d385ccda4825ae1b47a7a61d86e595af",
+                    "size": 51041
+                }
+            }
+        },
+        {
+            "name": "com.google.code.findbugs:jsr305:3.0.2",
+            "downloads": {
+                "artifact": {
+                    "path": "com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+                    "url": "https://libraries.minecraft.net/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+                    "sha1": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d",
+                    "size": 19936
+                }
+            }
+        },
+        {
+            "name": "com.google.code.gson:gson:2.8.7",
+            "downloads": {
+                "artifact": {
+                    "path": "com/google/code/gson/gson/2.8.7/gson-2.8.7.jar",
+                    "url": "https://maven.neoforged.net/releases/com/google/code/gson/gson/2.8.7/gson-2.8.7.jar",
+                    "sha1": "69d9503ea0a40ee16f0bcdac7e3eaf83d0fa914a",
+                    "size": 240400
+                }
+            }
+        },
+        {
+            "name": "com.google.errorprone:error_prone_annotations:2.1.3",
+            "downloads": {
+                "artifact": {
+                    "path": "com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar",
+                    "url": "https://maven.neoforged.net/releases/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar",
+                    "sha1": "39b109f2cd352b2d71b52a3b5a1a9850e1dc304b",
+                    "size": 13704
+                }
+            }
+        },
+        {
+            "name": "com.google.guava:guava:20.0",
+            "downloads": {
+                "artifact": {
+                    "path": "com/google/guava/guava/20.0/guava-20.0.jar",
+                    "url": "https://maven.neoforged.net/releases/com/google/guava/guava/20.0/guava-20.0.jar",
+                    "sha1": "89507701249388e1ed5ddcf8c41f4ce1be7831ef",
+                    "size": 2442625
+                }
+            }
+        },
+        {
+            "name": "com.google.guava:guava:25.1-jre",
+            "downloads": {
+                "artifact": {
+                    "path": "com/google/guava/guava/25.1-jre/guava-25.1-jre.jar",
+                    "url": "https://maven.neoforged.net/releases/com/google/guava/guava/25.1-jre/guava-25.1-jre.jar",
+                    "sha1": "6c57e4b22b44e89e548b5c9f70f0c45fe10fb0b4",
+                    "size": 2734339
+                }
+            }
+        },
+        {
+            "name": "com.google.j2objc:j2objc-annotations:1.1",
+            "downloads": {
+                "artifact": {
+                    "path": "com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar",
+                    "url": "https://maven.neoforged.net/releases/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar",
+                    "sha1": "ed28ded51a8b1c6b112568def5f4b455e6809019",
+                    "size": 8782
+                }
+            }
+        },
+        {
+            "name": "com.nothome:javaxdelta:2.0.1",
+            "downloads": {
+                "artifact": {
+                    "path": "com/nothome/javaxdelta/2.0.1/javaxdelta-2.0.1.jar",
+                    "url": "https://maven.neoforged.net/releases/com/nothome/javaxdelta/2.0.1/javaxdelta-2.0.1.jar",
+                    "sha1": "d4f5d077f1b15c6f67595015d69572303ad3f66d",
+                    "size": 38995
+                }
+            }
+        },
+        {
+            "name": "com.opencsv:opencsv:4.4",
+            "downloads": {
+                "artifact": {
+                    "path": "com/opencsv/opencsv/4.4/opencsv-4.4.jar",
+                    "url": "https://maven.neoforged.net/releases/com/opencsv/opencsv/4.4/opencsv-4.4.jar",
+                    "sha1": "525932a1edf46c9ca75aa9c83d31dc180c186865",
+                    "size": 167167
+                }
+            }
+        },
+        {
+            "name": "commons-beanutils:commons-beanutils:1.9.3",
+            "downloads": {
+                "artifact": {
+                    "path": "commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar",
+                    "url": "https://maven.neoforged.net/releases/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar",
+                    "sha1": "c845703de334ddc6b4b3cd26835458cb1cba1f3d",
+                    "size": 246174
+                }
+            }
+        },
+        {
+            "name": "commons-collections:commons-collections:3.2.2",
+            "downloads": {
+                "artifact": {
+                    "path": "commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar",
+                    "url": "https://maven.neoforged.net/releases/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar",
+                    "sha1": "8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5",
+                    "size": 588337
+                }
+            }
+        },
+        {
+            "name": "commons-io:commons-io:2.4",
+            "downloads": {
+                "artifact": {
+                    "path": "commons-io/commons-io/2.4/commons-io-2.4.jar",
+                    "url": "https://libraries.minecraft.net/commons-io/commons-io/2.4/commons-io-2.4.jar",
+                    "sha1": "b1b6ea3b7e4aa4f492509a4952029cd8e48019ad",
+                    "size": 185140
+                }
+            }
+        },
+        {
+            "name": "commons-logging:commons-logging:1.2",
+            "downloads": {
+                "artifact": {
+                    "path": "commons-logging/commons-logging/1.2/commons-logging-1.2.jar",
+                    "url": "https://libraries.minecraft.net/commons-logging/commons-logging/1.2/commons-logging-1.2.jar",
+                    "sha1": "4bfc12adfe4842bf07b657f0369c4cb522955686",
+                    "size": 61829
+                }
+            }
+        },
+        {
+            "name": "de.oceanlabs.mcp:mcp_config:1.20.1-20230612.114412@zip",
+            "downloads": {
+                "artifact": {
+                    "path": "de/oceanlabs/mcp/mcp_config/1.20.1-20230612.114412/mcp_config-1.20.1-20230612.114412.zip",
+                    "url": "https://maven.neoforged.net/releases/de/oceanlabs/mcp/mcp_config/1.20.1-20230612.114412/mcp_config-1.20.1-20230612.114412.zip",
+                    "sha1": "c7d29380ddb38becad7c0819b5b325e43bca23f0",
+                    "size": 1740711
+                }
+            }
+        },
+        {
+            "name": "de.siegmar:fastcsv:2.0.0",
+            "downloads": {
+                "artifact": {
+                    "path": "de/siegmar/fastcsv/2.0.0/fastcsv-2.0.0.jar",
+                    "url": "https://maven.neoforged.net/releases/de/siegmar/fastcsv/2.0.0/fastcsv-2.0.0.jar",
+                    "sha1": "b615f26c03edeac966618b93b9ee4f4eed50aae1",
+                    "size": 29476
+                }
+            }
+        },
+        {
+            "name": "net.md-5:SpecialSource:1.11.0",
+            "downloads": {
+                "artifact": {
+                    "path": "net/md-5/SpecialSource/1.11.0/SpecialSource-1.11.0.jar",
+                    "url": "https://maven.neoforged.net/releases/net/md-5/SpecialSource/1.11.0/SpecialSource-1.11.0.jar",
+                    "sha1": "43b84c4bb8d01cf90a29dfeec1c958a4b64baf46",
+                    "size": 88737
+                }
+            }
+        },
+        {
+            "name": "net.minecraftforge:ForgeAutoRenamingTool:0.1.22:all",
+            "downloads": {
+                "artifact": {
+                    "path": "net/minecraftforge/ForgeAutoRenamingTool/0.1.22/ForgeAutoRenamingTool-0.1.22-all.jar",
+                    "url": "https://maven.neoforged.net/releases/net/minecraftforge/ForgeAutoRenamingTool/0.1.22/ForgeAutoRenamingTool-0.1.22-all.jar",
+                    "sha1": "0b337aca253a6fe63f9c39d4e6272ca1b2e7cfd8",
+                    "size": 509933
+                }
+            }
+        },
+        {
+            "name": "net.minecraftforge:binarypatcher:1.1.1",
+            "downloads": {
+                "artifact": {
+                    "path": "net/minecraftforge/binarypatcher/1.1.1/binarypatcher-1.1.1.jar",
+                    "url": "https://maven.neoforged.net/releases/net/minecraftforge/binarypatcher/1.1.1/binarypatcher-1.1.1.jar",
+                    "sha1": "23176c4f9fd7a8db961dc0b2ec32ad97ab08513c",
+                    "size": 21892
+                }
+            }
+        },
+        {
+            "name": "net.minecraftforge:installertools:1.3.0",
+            "downloads": {
+                "artifact": {
+                    "path": "net/minecraftforge/installertools/1.3.0/installertools-1.3.0.jar",
+                    "url": "https://maven.neoforged.net/releases/net/minecraftforge/installertools/1.3.0/installertools-1.3.0.jar",
+                    "sha1": "248be3a2b70ecf8aca430d52cbbecd4d63b077cc",
+                    "size": 83178
+                }
+            }
+        },
+        {
+            "name": "net.minecraftforge:jarsplitter:1.1.4",
+            "downloads": {
+                "artifact": {
+                    "path": "net/minecraftforge/jarsplitter/1.1.4/jarsplitter-1.1.4.jar",
+                    "url": "https://maven.neoforged.net/releases/net/minecraftforge/jarsplitter/1.1.4/jarsplitter-1.1.4.jar",
+                    "sha1": "57ce2d6564c1176b23a911ef57127ff3c45bffb3",
+                    "size": 7405
+                }
+            }
+        },
+        {
+            "name": "net.minecraftforge:srgutils:0.4.11",
+            "downloads": {
+                "artifact": {
+                    "path": "net/minecraftforge/srgutils/0.4.11/srgutils-0.4.11.jar",
+                    "url": "https://maven.neoforged.net/releases/net/minecraftforge/srgutils/0.4.11/srgutils-0.4.11.jar",
+                    "sha1": "fbad1341ffdb47d276bbdc40ecb06da49e053e74",
+                    "size": 69289
+                }
+            }
+        },
+        {
+            "name": "net.minecraftforge:srgutils:0.4.3",
+            "downloads": {
+                "artifact": {
+                    "path": "net/minecraftforge/srgutils/0.4.3/srgutils-0.4.3.jar",
+                    "url": "https://maven.neoforged.net/releases/net/minecraftforge/srgutils/0.4.3/srgutils-0.4.3.jar",
+                    "sha1": "84aecb8fc78bd0dd7299bd9963ac9eb83bd00aad",
+                    "size": 69020
+                }
+            }
+        },
+        {
+            "name": "net.minecraftforge:srgutils:0.4.9",
+            "downloads": {
+                "artifact": {
+                    "path": "net/minecraftforge/srgutils/0.4.9/srgutils-0.4.9.jar",
+                    "url": "https://maven.neoforged.net/releases/net/minecraftforge/srgutils/0.4.9/srgutils-0.4.9.jar",
+                    "sha1": "7595dae3ad2554b1dac30ae3a9521bd026639e38",
+                    "size": 69076
+                }
+            }
+        },
+        {
+            "name": "net.neoforged:forge:1.20.1-47.1.27:universal",
+            "downloads": {
+                "artifact": {
+                    "path": "net/neoforged/forge/1.20.1-47.1.27/forge-1.20.1-47.1.27-universal.jar",
+                    "url": "https://maven.neoforged.net/releases/net/neoforged/forge/1.20.1-47.1.27/forge-1.20.1-47.1.27-universal.jar",
+                    "sha1": "c1a89e343775910af918051dd996325a023afe0b",
+                    "size": 2355895
+                }
+            }
+        },
+        {
+            "name": "net.sf.jopt-simple:jopt-simple:5.0.4",
+            "downloads": {
+                "artifact": {
+                    "path": "net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar",
+                    "url": "https://libraries.minecraft.net/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar",
+                    "sha1": "4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c",
+                    "size": 78146
+                }
+            }
+        },
+        {
+            "name": "net.sf.jopt-simple:jopt-simple:6.0-alpha-3",
+            "downloads": {
+                "artifact": {
+                    "path": "net/sf/jopt-simple/jopt-simple/6.0-alpha-3/jopt-simple-6.0-alpha-3.jar",
+                    "url": "https://maven.neoforged.net/releases/net/sf/jopt-simple/jopt-simple/6.0-alpha-3/jopt-simple-6.0-alpha-3.jar",
+                    "sha1": "02ab1a73e1e22d2b73469362a0908a98644b681d",
+                    "size": 79368
+                }
+            }
+        },
+        {
+            "name": "org.apache.commons:commons-collections4:4.2",
+            "downloads": {
+                "artifact": {
+                    "path": "org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar",
+                    "url": "https://maven.neoforged.net/releases/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar",
+                    "sha1": "54ebea0a5b653d3c680131e73fe807bb8f78c4ed",
+                    "size": 752798
+                }
+            }
+        },
+        {
+            "name": "org.apache.commons:commons-lang3:3.8.1",
+            "downloads": {
+                "artifact": {
+                    "path": "org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar",
+                    "url": "https://maven.neoforged.net/releases/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar",
+                    "sha1": "6505a72a097d9270f7a9e7bf42c4238283247755",
+                    "size": 501879
+                }
+            }
+        },
+        {
+            "name": "org.apache.commons:commons-text:1.3",
+            "downloads": {
+                "artifact": {
+                    "path": "org/apache/commons/commons-text/1.3/commons-text-1.3.jar",
+                    "url": "https://maven.neoforged.net/releases/org/apache/commons/commons-text/1.3/commons-text-1.3.jar",
+                    "sha1": "9abf61708a66ab5e55f6169a200dbfc584b546d9",
+                    "size": 182954
+                }
+            }
+        },
+        {
+            "name": "org.checkerframework:checker-qual:2.0.0",
+            "downloads": {
+                "artifact": {
+                    "path": "org/checkerframework/checker-qual/2.0.0/checker-qual-2.0.0.jar",
+                    "url": "https://maven.neoforged.net/releases/org/checkerframework/checker-qual/2.0.0/checker-qual-2.0.0.jar",
+                    "sha1": "518929596ee3249127502a8573b2e008e2d51ed3",
+                    "size": 343222
+                }
+            }
+        },
+        {
+            "name": "org.codehaus.mojo:animal-sniffer-annotations:1.14",
+            "downloads": {
+                "artifact": {
+                    "path": "org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar",
+                    "url": "https://maven.neoforged.net/releases/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar",
+                    "sha1": "775b7e22fb10026eed3f86e8dc556dfafe35f2d5",
+                    "size": 3482
+                }
+            }
+        },
+        {
+            "name": "org.ow2.asm:asm-analysis:9.2",
+            "downloads": {
+                "artifact": {
+                    "path": "org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.jar",
+                    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.jar",
+                    "sha1": "7487dd756daf96cab9986e44b9d7bcb796a61c10",
+                    "size": 34257
+                }
+            }
+        },
+        {
+            "name": "org.ow2.asm:asm-analysis:9.3",
+            "downloads": {
+                "artifact": {
+                    "path": "org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar",
+                    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar",
+                    "sha1": "4b071f211b37c38e0e9f5998550197c8593f6ad8",
+                    "size": 34276
+                }
+            }
+        },
+        {
+            "name": "org.ow2.asm:asm-commons:9.2",
+            "downloads": {
+                "artifact": {
+                    "path": "org/ow2/asm/asm-commons/9.2/asm-commons-9.2.jar",
+                    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.jar",
+                    "sha1": "f4d7f0fc9054386f2893b602454d48e07d4fbead",
+                    "size": 72642
+                }
+            }
+        },
+        {
+            "name": "org.ow2.asm:asm-commons:9.3",
+            "downloads": {
+                "artifact": {
+                    "path": "org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar",
+                    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar",
+                    "sha1": "1f2a432d1212f5c352ae607d7b61dcae20c20af5",
+                    "size": 72716
+                }
+            }
+        },
+        {
+            "name": "org.ow2.asm:asm-tree:9.2",
+            "downloads": {
+                "artifact": {
+                    "path": "org/ow2/asm/asm-tree/9.2/asm-tree-9.2.jar",
+                    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.jar",
+                    "sha1": "d96c99a30f5e1a19b0e609dbb19a44d8518ac01e",
+                    "size": 52660
+                }
+            }
+        },
+        {
+            "name": "org.ow2.asm:asm-tree:9.3",
+            "downloads": {
+                "artifact": {
+                    "path": "org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar",
+                    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar",
+                    "sha1": "78d2ecd61318b5a58cd04fb237636c0e86b77d97",
+                    "size": 52669
+                }
+            }
+        },
+        {
+            "name": "org.ow2.asm:asm:9.2",
+            "downloads": {
+                "artifact": {
+                    "path": "org/ow2/asm/asm/9.2/asm-9.2.jar",
+                    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm/9.2/asm-9.2.jar",
+                    "sha1": "81a03f76019c67362299c40e0ba13405f5467bff",
+                    "size": 122004
+                }
+            }
+        },
+        {
+            "name": "org.ow2.asm:asm:9.3",
+            "downloads": {
+                "artifact": {
+                    "path": "org/ow2/asm/asm/9.3/asm-9.3.jar",
+                    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm/9.3/asm-9.3.jar",
+                    "sha1": "8e6300ef51c1d801a7ed62d07cd221aca3a90640",
+                    "size": 122176
+                }
+            }
+        },
+        {
+            "name": "trove:trove:1.0.2",
+            "downloads": {
+                "artifact": {
+                    "path": "trove/trove/1.0.2/trove-1.0.2.jar",
+                    "url": "https://maven.neoforged.net/releases/trove/trove/1.0.2/trove-1.0.2.jar",
+                    "sha1": "112b40581ab9a4d3de4636d49985a7f686d181c8",
+                    "size": 361155
+                }
+            }
+        }
+    ],
+    "icon": "data:image/png;base64,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HnvssYbdFgB0XceVV16JH/7wh7jzzjvR19eHRx55RDgAboQQtLS04NOf/jQA4A//8A/x4IMP4rvf/S6OO+443HTTTQCAq6++Gg8++CC+853vYP369Xjve9+LkZERPPbYY6jVagCA3/3ud3jyySdxwQUX4NRTT234HEVRMDk5CU3T8LGPfQyxWAxf//rXsXnz5qadit/97nf4zne+g3Xr1uHOO+/EAw88gH/8x3+Epml48MEHkcvlUK1W8bWvfQ1DQ0O45ppr8MADD+C73/0uNm3ahCeeeALf/OY30dPTg5tvvhnHH3884vE4br/9dnz961/H6aefjh/84Ad45JFHcPbZZ+Oee+7BAw88gE996lMol8v43Oc+h1wuR4E5moYdu3dDJwQ3XnEFbj73XGzMZPByoYDnikUMRCL48zVrcMsxx+Bdvb1w6Qkj1tsLff16PPDyyygRgr/62Mdw79134+7/+3/x5je/Gb/YsgUjySTa3/hGPDk5iZ3T0zjruOPwD+97Hz5/0UV4c38//PoF5F8YAl8gZTPaNq0NrLCu+IqpARiGgUsuuQQbNmzA888/j+3bt+OFF17A97//fbz88su44447cMYZZwCg4XZvby/+4A/+ALFYDGeddRa6urqwffv2WY7iQExRFJx55pl461vfivvvvx/vfve7sX79evzrv/4ruru7cemll8I0zVmvAejOfuaZZ+J973sfvva1r+Eb3/gGPvrRj86KFl5++WW88sor2LhxI77yla+I3b1Wq2HPnj2YmZmB67r46U9/itWrV+OSSy5BJpNBKpXCJZdcgn/5l3/BM888g1qthkgkIuoMPMcnhODJJ5/E9PQ0Nm3ahNWrV0PXdZx33nlYs2YNfv3rX2N0dBR9fX3imM4/9VQc3dGB6T17YHsehiwLU66Lt7a2Yn0igYSu44RMBselUvjl1BQinZ2wW1rw5AsvwCMEj/3yl3j+tdfg+T5GxsdRrtUwbtuIrl6NV0ZHUbEsXHnppTj2xBNRfuklnDk6iof37EG+SY2HG+cj7De34QixFeMAAOoEjjvuOBx33HFwXRcTExP4zne+g09+8pN4/PHHhQMAaASQTqfFY1VV4S2igk1/fz+uuOIKfPzjH8cTTzyBQqGAxx9/HBdddBHOOeecOV9HCIFhGPjTP/1TPProo/jP//xPnHXWWdD1xq+S1xZeffVVvPrqq+L3iqJg7dq1cF1XFO80TUMkEhHPiUajFEnneXAcp8EZCbqw74vCXywWayhS8mOxbbvx+gPw2UBW3/fhsfeKsEImAaCpKiK6DkVRoKdSIPE4qpaFUrmMHzz0UMN5dHd3w/Y8KJEIfNYhyHZ2Qk+nAcOAqWnQ+Yi3OfAGfF7CnFyDI9xWjAPwPA+lUgnxeBy6rkPXdXR1deHYY49FtVrF5OTkrNfsTy+YPzfoJPjv3SbFpbe85S0444wz8G//9m/4+c9/jkgkgk2bNjUsxrlsw4YN+PCHP4zrr78eX/va1zA8PNyQCnR3dyORSOCCCy7A9ddfj/b2dhBC4HkeotEo+vr6UC6Xceyxx2JiYgJDQ0M48cQT4fs+du/eDUIIkskkYrHYrGMnhEDTNGzYsAGJRAJbt26F4zjQNA1jY2PI5/OIRqPCgYrvoFKBaxjwazWoAKLseEctC5bnIW4YKHse8gzKq8fjyHR0YNWqVXA9D3/7t3+LN7zhDVQkhEVi3d3dUBQF8XgcALB12za8ua0NXrGIyWIRZded/T3K8um6TslDbN6BImkHrARbMQ5gcHAQH/3oR3HhhRfixBNPRDQaxdatW3HHHXcglUph9erVr+v9TdNEIpHAb37zGzzxxBNobW3FiSeeiEgkglgshmeeeQY///nP0draimOPPRaGYWDNmjX4/d//fdx000147rnncPHFF+Otb33rgj/v8ssvx09/+lM89NBDUFVVLAIAeOMb34iLLroIjzzyCE499VScffbZAGg7tL+/H/39/UilUrjqqqtw3XXX4Qtf+AJc10WlUsE///M/o7OzE+95z3tgmmZT5wUAl19+OR566CHceeedWL16Nfr6+vDd734X27Ztw9VXX42+vj7ULEsIh3rlMlxNE+KpxycS2BCL4fGZGaweH8eGZBKvlEp4NZ+n6szRKNq7u/Ghq6/Gpz/9aXzve99DKpVCIpFAoVCAZVkCwPXOK67AY48+irvuuQepyUlEcjk8tmMHxqtVZOXoSJ5DyAafGOm0GHoSIgGPUNN1HYVCAbfddhtyuRxc14Wu62hvb8d73vMeXHrppa/r/fv6+nD55Zfj+9//Pn74wx8inU5jy5YtGBgYwKWXXoof/OAHuP/++9HS0oLXXnsNnZ2dAICLLroI3/rWt7B582Z88IMfRJRBZ4PWrDg1MDCA97znPXjyyScxMzMz62/XXnstfN/H3XffjX/4h3+Aqqro7OzExz/+cZx99tnQdR3vfOc7sWvXLvzwhz/EH/3RH0HTNAwMDOB//a//hYsvvnjWZ8uPTzvtNFx33XW466678MlPfhLlchldXV244oor8JGPfATxeByVYhEeSwWcYhEuI+v4vo81iQTObWtDaXwc39mzBy2miQ2ZDAZSKWytVKCaJmKJBN73vvdhdHQUDz/8MD74wQ/Csiy0trbi/PPPx9ve9jYAwJvf8AZc8uY348ePPopb/t//Q2ckgjek0+iPxzFVqzXMS+TzE1TThJFOw2xvh9neDiOVgqqvmCUBYAU5gN7eXnzjG9/AM888gx07dqBSqSCZTOKYY47Bueeei46ODgCApmn48Ic/DNM0G0LH97///RgfHxf58Nlnn42Pf/zjosjV29uLT33qUzjzzDMxNjYGwzAQi8XQ2dmJm2++GWeffTbGx8cRiUQadmrTNKHrOk4//XS85S1vaVrRV1UVZ555Jv7iL/4CJ510UsPvL7nkEti2jddeew2xWAypVAoATT3OPfdcbNiwAS+88AK2bdsm2ngnnHCCKBp2d3fjxhtvxDve8Q68+OKLMAwDJ510Eo4//njhjAzDwP/8n/8TY2NjDZGSYRj4wAc+gDPOOAPPP/88crkcjj76aJx22mloa2sDCIHh+zj/5JNBhoawyjBg5/Oi2h5RVbyrpwcnJJPYWS5jIJlEWzaLu3bsQFpREEsmAV1Hf38//vZv/xbvfve78corr6BQKGDNmjU46aSTkM1m4VkWEr6P6975TpyuKNjxyitYp+tYHYng57kcpmo1ROQiKdMY0BIJRDo6EO3pQaSjA1oiQesAKygFCNmAh9nuuece3HDDDfjUpz6Fq6++elYxbzmb73moDg2hsmULCs8+i6kXXkBlbAweSwvKrosp20ZC15HQdUDX8atiEf/06qt442mn4Suf/zyOOeMMIOCMZSOeB3t6GsXNmzHz7LMovfgiqkNDsEsleK4Lne34jsQ7UJjKUKy3F5kTTkD2tNOQOvZYRDo6aASwghzAkXO3LTN7+umncd1112F4eBjd3d14y1veckQtfgCA58EaG0Nhxw7kBwdhTU8LarACoOS6uHd4GFsqFZgM759zHJixGC5761vROzCwzylGXq2G2uQkqnv2oDI0hMr4OOxK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",
+    "json": "/version.json",
+    "logo": "/big_logo.png",
+    "mirrorList": "https://mirrors.neoforged.net/",
+    "welcome": "Welcome to the simple Forge installer."
+}
