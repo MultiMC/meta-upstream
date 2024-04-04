@@ -158,7 +158,7 @@
             ]
         },
         "1.20.4": {
-            "latest": "20.4.219",
+            "latest": "20.4.221",
             "recommended": null,
             "versions": [
                 "20.4.0-beta",
@@ -373,7 +373,8 @@
                 "20.4.216",
                 "20.4.217",
                 "20.4.218",
-                "20.4.219"
+                "20.4.219",
+                "20.4.221"
             ]
         }
     },
@@ -10450,7 +10451,7 @@
                     "legacy": false
                 }
             },
-            "latest": true,
+            "latest": false,
             "longversion": "20.4.219",
             "mcversion": "1.20.4",
             "package": "neoforge",
@@ -10493,6 +10494,43 @@
             "package": "neoforge",
             "recommended": false,
             "version": "22"
+        },
+        "20.4.221": {
+            "branch": null,
+            "build": 221,
+            "files": {
+                "changelog": {
+                    "classifier": "changelog",
+                    "extension": "txt",
+                    "legacy": false
+                },
+                "installer": {
+                    "classifier": "installer",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "sources": {
+                    "classifier": "sources",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "universal": {
+                    "classifier": "universal",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "userdev": {
+                    "classifier": "userdev",
+                    "extension": "jar",
+                    "legacy": false
+                }
+            },
+            "latest": true,
+            "longversion": "20.4.221",
+            "mcversion": "1.20.4",
+            "package": "neoforge",
+            "recommended": false,
+            "version": "221"
         },
         "20.4.24-beta": {
             "branch": "beta",
