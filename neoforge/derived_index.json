@@ -1,7 +1,7 @@
 {
     "by_mcversion": {
         "1.20.1": {
-            "latest": "1.20.1-47.1.104",
+            "latest": "1.20.1-47.1.105",
             "recommended": null,
             "versions": [
                 "1.20.1-47.1.5",
@@ -62,7 +62,8 @@
                 "1.20.1-47.1.101",
                 "1.20.1-47.1.102",
                 "1.20.1-47.1.103",
-                "1.20.1-47.1.104"
+                "1.20.1-47.1.104",
+                "1.20.1-47.1.105"
             ]
         },
         "1.20.2": {
@@ -391,14 +392,15 @@
             ]
         },
         "1.20.5": {
-            "latest": "20.5.4-beta",
+            "latest": "20.5.5-beta",
             "recommended": null,
             "versions": [
                 "20.5.0-beta",
                 "20.5.1-beta",
                 "20.5.2-beta",
                 "20.5.3-beta",
-                "20.5.4-beta"
+                "20.5.4-beta",
+                "20.5.5-beta"
             ]
         }
     },
@@ -581,12 +583,49 @@
                     "legacy": true
                 }
             },
-            "latest": true,
+            "latest": false,
             "longversion": "1.20.1-47.1.104",
             "mcversion": "1.20.1",
             "package": "forge",
             "recommended": false,
             "version": "47.1.104"
+        },
+        "1.20.1-47.1.105": {
+            "branch": null,
+            "build": 105,
+            "files": {
+                "changelog": {
+                    "classifier": "changelog",
+                    "extension": "txt",
+                    "legacy": true
+                },
+                "installer": {
+                    "classifier": "installer",
+                    "extension": "jar",
+                    "legacy": true
+                },
+                "sources": {
+                    "classifier": "sources",
+                    "extension": "jar",
+                    "legacy": true
+                },
+                "universal": {
+                    "classifier": "universal",
+                    "extension": "jar",
+                    "legacy": true
+                },
+                "userdev": {
+                    "classifier": "userdev",
+                    "extension": "jar",
+                    "legacy": true
+                }
+            },
+            "latest": true,
+            "longversion": "1.20.1-47.1.105",
+            "mcversion": "1.20.1",
+            "package": "forge",
+            "recommended": false,
+            "version": "47.1.105"
         },
         "1.20.1-47.1.11": {
             "branch": null,
@@ -14138,12 +14177,49 @@
                     "legacy": false
                 }
             },
-            "latest": true,
+            "latest": false,
             "longversion": "20.5.4-beta",
             "mcversion": "1.20.5",
             "package": "neoforge",
             "recommended": false,
             "version": "4"
+        },
+        "20.5.5-beta": {
+            "branch": "beta",
+            "build": 5,
+            "files": {
+                "changelog": {
+                    "classifier": "changelog",
+                    "extension": "txt",
+                    "legacy": false
+                },
+                "installer": {
+                    "classifier": "installer",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "sources": {
+                    "classifier": "sources",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "universal": {
+                    "classifier": "universal",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "userdev": {
+                    "classifier": "userdev",
+                    "extension": "jar",
+                    "legacy": false
+                }
+            },
+            "latest": true,
+            "longversion": "20.5.5-beta",
+            "mcversion": "1.20.5",
+            "package": "neoforge",
+            "recommended": false,
+            "version": "5"
         }
     }
 }
