@@ -421,7 +421,7 @@
             ]
         },
         "1.20.6": {
-            "latest": "20.6.32-beta",
+            "latest": "20.6.39-beta",
             "recommended": null,
             "versions": [
                 "20.6.1-beta",
@@ -455,7 +455,8 @@
                 "20.6.29-beta",
                 "20.6.30-beta",
                 "20.6.31-beta",
-                "20.6.32-beta"
+                "20.6.32-beta",
+                "20.6.39-beta"
             ]
         }
     },
@@ -15860,12 +15861,49 @@
                     "legacy": false
                 }
             },
-            "latest": true,
+            "latest": false,
             "longversion": "20.6.32-beta",
             "mcversion": "1.20.6",
             "package": "neoforge",
             "recommended": false,
             "version": "32"
+        },
+        "20.6.39-beta": {
+            "branch": "beta",
+            "build": 39,
+            "files": {
+                "changelog": {
+                    "classifier": "changelog",
+                    "extension": "txt",
+                    "legacy": false
+                },
+                "installer": {
+                    "classifier": "installer",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "sources": {
+                    "classifier": "sources",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "universal": {
+                    "classifier": "universal",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "userdev": {
+                    "classifier": "userdev",
+                    "extension": "jar",
+                    "legacy": false
+                }
+            },
+            "latest": true,
+            "longversion": "20.6.39-beta",
+            "mcversion": "1.20.6",
+            "package": "neoforge",
+            "recommended": false,
+            "version": "39"
         },
         "20.6.4-beta": {
             "branch": "beta",
