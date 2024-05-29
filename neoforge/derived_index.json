@@ -423,7 +423,7 @@
             ]
         },
         "1.20.6": {
-            "latest": "20.6.95-beta",
+            "latest": "20.6.98-beta",
             "recommended": null,
             "versions": [
                 "20.6.1-beta",
@@ -510,7 +510,10 @@
                 "20.6.92-beta",
                 "20.6.93-beta",
                 "20.6.94-beta",
-                "20.6.95-beta"
+                "20.6.95-beta",
+                "20.6.96-beta",
+                "20.6.97-beta",
+                "20.6.98-beta"
             ]
         }
     },
@@ -18172,12 +18175,123 @@
                     "legacy": false
                 }
             },
-            "latest": true,
+            "latest": false,
             "longversion": "20.6.95-beta",
             "mcversion": "1.20.6",
             "package": "neoforge",
             "recommended": false,
             "version": "95"
+        },
+        "20.6.96-beta": {
+            "branch": "beta",
+            "build": 96,
+            "files": {
+                "changelog": {
+                    "classifier": "changelog",
+                    "extension": "txt",
+                    "legacy": false
+                },
+                "installer": {
+                    "classifier": "installer",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "sources": {
+                    "classifier": "sources",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "universal": {
+                    "classifier": "universal",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "userdev": {
+                    "classifier": "userdev",
+                    "extension": "jar",
+                    "legacy": false
+                }
+            },
+            "latest": false,
+            "longversion": "20.6.96-beta",
+            "mcversion": "1.20.6",
+            "package": "neoforge",
+            "recommended": false,
+            "version": "96"
+        },
+        "20.6.97-beta": {
+            "branch": "beta",
+            "build": 97,
+            "files": {
+                "changelog": {
+                    "classifier": "changelog",
+                    "extension": "txt",
+                    "legacy": false
+                },
+                "installer": {
+                    "classifier": "installer",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "sources": {
+                    "classifier": "sources",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "universal": {
+                    "classifier": "universal",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "userdev": {
+                    "classifier": "userdev",
+                    "extension": "jar",
+                    "legacy": false
+                }
+            },
+            "latest": false,
+            "longversion": "20.6.97-beta",
+            "mcversion": "1.20.6",
+            "package": "neoforge",
+            "recommended": false,
+            "version": "97"
+        },
+        "20.6.98-beta": {
+            "branch": "beta",
+            "build": 98,
+            "files": {
+                "changelog": {
+                    "classifier": "changelog",
+                    "extension": "txt",
+                    "legacy": false
+                },
+                "installer": {
+                    "classifier": "installer",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "sources": {
+                    "classifier": "sources",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "universal": {
+                    "classifier": "universal",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "userdev": {
+                    "classifier": "userdev",
+                    "extension": "jar",
+                    "legacy": false
+                }
+            },
+            "latest": true,
+            "longversion": "20.6.98-beta",
+            "mcversion": "1.20.6",
+            "package": "neoforge",
+            "recommended": false,
+            "version": "98"
         }
     }
 }
