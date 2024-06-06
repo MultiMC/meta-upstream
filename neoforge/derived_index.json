@@ -423,7 +423,7 @@
             ]
         },
         "1.20.6": {
-            "latest": "20.6.109-beta",
+            "latest": "20.6.110-beta",
             "recommended": null,
             "versions": [
                 "20.6.1-beta",
@@ -522,7 +522,8 @@
                 "20.6.106-beta",
                 "20.6.107-beta",
                 "20.6.108-beta",
-                "20.6.109-beta"
+                "20.6.109-beta",
+                "20.6.110-beta"
             ]
         }
     },
@@ -15409,7 +15410,7 @@
                     "legacy": false
                 }
             },
-            "latest": true,
+            "latest": false,
             "longversion": "20.6.109-beta",
             "mcversion": "1.20.6",
             "package": "neoforge",
@@ -15452,6 +15453,43 @@
             "package": "neoforge",
             "recommended": false,
             "version": "11"
+        },
+        "20.6.110-beta": {
+            "branch": "beta",
+            "build": 110,
+            "files": {
+                "changelog": {
+                    "classifier": "changelog",
+                    "extension": "txt",
+                    "legacy": false
+                },
+                "installer": {
+                    "classifier": "installer",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "sources": {
+                    "classifier": "sources",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "universal": {
+                    "classifier": "universal",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "userdev": {
+                    "classifier": "userdev",
+                    "extension": "jar",
+                    "legacy": false
+                }
+            },
+            "latest": true,
+            "longversion": "20.6.110-beta",
+            "mcversion": "1.20.6",
+            "package": "neoforge",
+            "recommended": false,
+            "version": "110"
         },
         "20.6.12-beta": {
             "branch": "beta",
