@@ -161,7 +161,7 @@
             ]
         },
         "1.20.4": {
-            "latest": "20.4.236",
+            "latest": "20.4.237",
             "recommended": null,
             "versions": [
                 "20.4.0-beta",
@@ -392,7 +392,8 @@
                 "20.4.233",
                 "20.4.234",
                 "20.4.235",
-                "20.4.236"
+                "20.4.236",
+                "20.4.237"
             ]
         },
         "1.20.5": {
@@ -11343,12 +11344,49 @@
                     "legacy": false
                 }
             },
-            "latest": true,
+            "latest": false,
             "longversion": "20.4.236",
             "mcversion": "1.20.4",
             "package": "neoforge",
             "recommended": false,
             "version": "236"
+        },
+        "20.4.237": {
+            "branch": null,
+            "build": 237,
+            "files": {
+                "changelog": {
+                    "classifier": "changelog",
+                    "extension": "txt",
+                    "legacy": false
+                },
+                "installer": {
+                    "classifier": "installer",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "sources": {
+                    "classifier": "sources",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "universal": {
+                    "classifier": "universal",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "userdev": {
+                    "classifier": "userdev",
+                    "extension": "jar",
+                    "legacy": false
+                }
+            },
+            "latest": true,
+            "longversion": "20.4.237",
+            "mcversion": "1.20.4",
+            "package": "neoforge",
+            "recommended": false,
+            "version": "237"
         },
         "20.4.24-beta": {
             "branch": "beta",
