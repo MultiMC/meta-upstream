@@ -164,27 +164,27 @@
     "complianceLevel": 1,
     "downloads": {
         "client": {
-            "sha1": "e01724ca24f6ad9e0f4669ab63d08a7a23e82be2",
-            "size": 26796803,
-            "url": "https://piston-data.mojang.com/v1/objects/e01724ca24f6ad9e0f4669ab63d08a7a23e82be2/client.jar"
+            "sha1": "0e9a07b9bb3390602f977073aa12884a4ce12431",
+            "size": 26836080,
+            "url": "https://piston-data.mojang.com/v1/objects/0e9a07b9bb3390602f977073aa12884a4ce12431/client.jar"
         },
         "client_mappings": {
-            "sha1": "d4f9ffcc966ba9b479c261211030719431508cb3",
-            "size": 9570739,
-            "url": "https://piston-data.mojang.com/v1/objects/d4f9ffcc966ba9b479c261211030719431508cb3/client.txt"
+            "sha1": "0530a206839eb1e9b35ec86acbbe394b07a2d9fb",
+            "size": 9597156,
+            "url": "https://piston-data.mojang.com/v1/objects/0530a206839eb1e9b35ec86acbbe394b07a2d9fb/client.txt"
         },
         "server": {
-            "sha1": "6ba7192e60bedb3ff02db3c57b75f7ea56c63242",
-            "size": 51592683,
-            "url": "https://piston-data.mojang.com/v1/objects/6ba7192e60bedb3ff02db3c57b75f7ea56c63242/server.jar"
+            "sha1": "450698d1863ab5180c25d7c804ef0fe6369dd1ba",
+            "size": 51623779,
+            "url": "https://piston-data.mojang.com/v1/objects/450698d1863ab5180c25d7c804ef0fe6369dd1ba/server.jar"
         },
         "server_mappings": {
-            "sha1": "69fd349bdd8ca1c79e57240e8eae9550d25565fd",
-            "size": 7429656,
-            "url": "https://piston-data.mojang.com/v1/objects/69fd349bdd8ca1c79e57240e8eae9550d25565fd/server.txt"
+            "sha1": "31c77994d96f05ba25a870ada70f47f315330437",
+            "size": 7454609,
+            "url": "https://piston-data.mojang.com/v1/objects/31c77994d96f05ba25a870ada70f47f315330437/server.txt"
         }
     },
-    "id": "24w21a",
+    "id": "1.21",
     "javaVersion": {
         "component": "java-runtime-delta",
         "majorVersion": 21
@@ -676,13 +676,13 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl/lwjgl-freetype/3.3.3/lwjgl-freetype-3.3.3-natives-macos-patch.jar",
-                    "sha1": "806d869f37ce0df388a24e17aaaf5ca0894d851b",
-                    "size": 1071983,
-                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-freetype/3.3.3/lwjgl-freetype-3.3.3-natives-macos-patch.jar"
+                    "path": "org/lwjgl/lwjgl-freetype/3.3.3/lwjgl-freetype-3.3.3-natives-macos-arm64.jar",
+                    "sha1": "b0a8c9baa9d1f54ac61e1ab9640c7659e7fa700c",
+                    "size": 1040981,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-freetype/3.3.3/lwjgl-freetype-3.3.3-natives-macos-arm64.jar"
                 }
             },
-            "name": "org.lwjgl:lwjgl-freetype:3.3.3:natives-macos-patch",
+            "name": "org.lwjgl:lwjgl-freetype:3.3.3:natives-macos-arm64",
             "rules": [
                 {
                     "action": "allow",
@@ -695,13 +695,13 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl/lwjgl-freetype/3.3.3/lwjgl-freetype-3.3.3-natives-macos-arm64.jar",
-                    "sha1": "b0a8c9baa9d1f54ac61e1ab9640c7659e7fa700c",
-                    "size": 1040981,
-                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-freetype/3.3.3/lwjgl-freetype-3.3.3-natives-macos-arm64.jar"
+                    "path": "org/lwjgl/lwjgl-freetype/3.3.3/lwjgl-freetype-3.3.3-natives-macos-patch.jar",
+                    "sha1": "806d869f37ce0df388a24e17aaaf5ca0894d851b",
+                    "size": 1071983,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-freetype/3.3.3/lwjgl-freetype-3.3.3-natives-macos-patch.jar"
                 }
             },
-            "name": "org.lwjgl:lwjgl-freetype:3.3.3:natives-macos-arm64",
+            "name": "org.lwjgl:lwjgl-freetype:3.3.3:natives-macos-patch",
             "rules": [
                 {
                     "action": "allow",
@@ -1680,7 +1680,7 @@
     },
     "mainClass": "net.minecraft.client.main.Main",
     "minimumLauncherVersion": 21,
-    "releaseTime": "2024-05-22T14:18:26+00:00",
-    "time": "2024-05-22T14:18:26+00:00",
-    "type": "snapshot"
+    "releaseTime": "2024-06-13T08:24:03+00:00",
+    "time": "2024-06-13T08:24:03+00:00",
+    "type": "release"
 }
