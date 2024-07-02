@@ -538,7 +538,7 @@
             ]
         },
         "1.21": {
-            "latest": "21.0.46-beta",
+            "latest": "21.0.47-beta",
             "recommended": null,
             "versions": [
                 "21.0.0-beta",
@@ -586,7 +586,8 @@
                 "21.0.43-beta",
                 "21.0.44-beta",
                 "21.0.45-beta",
-                "21.0.46-beta"
+                "21.0.46-beta",
+                "21.0.47-beta"
             ]
         }
     },
@@ -20858,12 +20859,54 @@
                     "legacy": false
                 }
             },
-            "latest": true,
+            "latest": false,
             "longversion": "21.0.46-beta",
             "mcversion": "1.21",
             "package": "neoforge",
             "recommended": false,
             "version": "46"
+        },
+        "21.0.47-beta": {
+            "branch": "beta",
+            "build": 47,
+            "files": {
+                "changelog": {
+                    "classifier": "changelog",
+                    "extension": "txt",
+                    "legacy": false
+                },
+                "installer": {
+                    "classifier": "installer",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "moddev-config": {
+                    "classifier": "moddev-config",
+                    "extension": "json",
+                    "legacy": false
+                },
+                "sources": {
+                    "classifier": "sources",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "universal": {
+                    "classifier": "universal",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "userdev": {
+                    "classifier": "userdev",
+                    "extension": "jar",
+                    "legacy": false
+                }
+            },
+            "latest": true,
+            "longversion": "21.0.47-beta",
+            "mcversion": "1.21",
+            "package": "neoforge",
+            "recommended": false,
+            "version": "47"
         },
         "21.0.5-beta": {
             "branch": "beta",
