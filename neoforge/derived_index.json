@@ -709,7 +709,7 @@
             ]
         },
         "1.21.1": {
-            "latest": "21.1.8",
+            "latest": "21.1.9",
             "recommended": null,
             "versions": [
                 "21.1.1",
@@ -719,7 +719,8 @@
                 "21.1.5",
                 "21.1.6",
                 "21.1.7",
-                "21.1.8"
+                "21.1.8",
+                "21.1.9"
             ]
         }
     },
@@ -26535,12 +26536,54 @@
                     "legacy": false
                 }
             },
-            "latest": true,
+            "latest": false,
             "longversion": "21.1.8",
             "mcversion": "1.21.1",
             "package": "neoforge",
             "recommended": false,
             "version": "8"
+        },
+        "21.1.9": {
+            "branch": null,
+            "build": 9,
+            "files": {
+                "changelog": {
+                    "classifier": "changelog",
+                    "extension": "txt",
+                    "legacy": false
+                },
+                "installer": {
+                    "classifier": "installer",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "moddev-config": {
+                    "classifier": "moddev-config",
+                    "extension": "json",
+                    "legacy": false
+                },
+                "sources": {
+                    "classifier": "sources",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "universal": {
+                    "classifier": "universal",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "userdev": {
+                    "classifier": "userdev",
+                    "extension": "jar",
+                    "legacy": false
+                }
+            },
+            "latest": true,
+            "longversion": "21.1.9",
+            "mcversion": "1.21.1",
+            "package": "neoforge",
+            "recommended": false,
+            "version": "9"
         }
     }
 }
