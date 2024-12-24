@@ -879,7 +879,7 @@
             ]
         },
         "1.21.4": {
-            "latest": "21.4.39-beta",
+            "latest": "21.4.40-beta",
             "recommended": null,
             "versions": [
                 "21.4.0-beta",
@@ -919,7 +919,8 @@
                 "21.4.36-beta",
                 "21.4.37-beta",
                 "21.4.38-beta",
-                "21.4.39-beta"
+                "21.4.39-beta",
+                "21.4.40-beta"
             ]
         }
     },
@@ -34117,7 +34118,7 @@
                     "legacy": false
                 }
             },
-            "latest": true,
+            "latest": false,
             "longversion": "21.4.39-beta",
             "mcversion": "1.21.4",
             "package": "neoforge",
@@ -34165,6 +34166,48 @@
             "package": "neoforge",
             "recommended": false,
             "version": "4"
+        },
+        "21.4.40-beta": {
+            "branch": "beta",
+            "build": 40,
+            "files": {
+                "changelog": {
+                    "classifier": "changelog",
+                    "extension": "txt",
+                    "legacy": false
+                },
+                "installer": {
+                    "classifier": "installer",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "moddev-config": {
+                    "classifier": "moddev-config",
+                    "extension": "json",
+                    "legacy": false
+                },
+                "sources": {
+                    "classifier": "sources",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "universal": {
+                    "classifier": "universal",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "userdev": {
+                    "classifier": "userdev",
+                    "extension": "jar",
+                    "legacy": false
+                }
+            },
+            "latest": true,
+            "longversion": "21.4.40-beta",
+            "mcversion": "1.21.4",
+            "package": "neoforge",
+            "recommended": false,
+            "version": "40"
         },
         "21.4.5-beta": {
             "branch": "beta",
