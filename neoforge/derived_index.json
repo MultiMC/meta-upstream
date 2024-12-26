@@ -426,7 +426,7 @@
             ]
         },
         "1.20.6": {
-            "latest": "20.6.122",
+            "latest": "20.6.123",
             "recommended": null,
             "versions": [
                 "20.6.1-beta",
@@ -538,7 +538,8 @@
                 "20.6.119",
                 "20.6.120",
                 "20.6.121",
-                "20.6.122"
+                "20.6.122",
+                "20.6.123"
             ]
         },
         "1.21": {
@@ -16486,12 +16487,54 @@
                     "legacy": false
                 }
             },
-            "latest": true,
+            "latest": false,
             "longversion": "20.6.122",
             "mcversion": "1.20.6",
             "package": "neoforge",
             "recommended": false,
             "version": "122"
+        },
+        "20.6.123": {
+            "branch": null,
+            "build": 123,
+            "files": {
+                "changelog": {
+                    "classifier": "changelog",
+                    "extension": "txt",
+                    "legacy": false
+                },
+                "installer": {
+                    "classifier": "installer",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "moddev-config": {
+                    "classifier": "moddev-config",
+                    "extension": "json",
+                    "legacy": false
+                },
+                "sources": {
+                    "classifier": "sources",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "universal": {
+                    "classifier": "universal",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "userdev": {
+                    "classifier": "userdev",
+                    "extension": "jar",
+                    "legacy": false
+                }
+            },
+            "latest": true,
+            "longversion": "20.6.123",
+            "mcversion": "1.20.6",
+            "package": "neoforge",
+            "recommended": false,
+            "version": "123"
         },
         "20.6.13-beta": {
             "branch": "beta",
