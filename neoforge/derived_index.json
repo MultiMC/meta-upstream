@@ -717,7 +717,7 @@
             ]
         },
         "1.21.1": {
-            "latest": "21.1.136",
+            "latest": "21.1.137",
             "recommended": null,
             "versions": [
                 "21.1.1",
@@ -852,7 +852,8 @@
                 "21.1.133",
                 "21.1.134",
                 "21.1.135",
-                "21.1.136"
+                "21.1.136",
+                "21.1.137"
             ]
         },
         "1.21.2": {
@@ -937,7 +938,7 @@
             ]
         },
         "1.21.4": {
-            "latest": "21.4.116-beta",
+            "latest": "21.4.118-beta",
             "recommended": null,
             "versions": [
                 "21.4.0-beta",
@@ -1054,7 +1055,8 @@
                 "21.4.113-beta",
                 "21.4.114-beta",
                 "21.4.115-beta",
-                "21.4.116-beta"
+                "21.4.116-beta",
+                "21.4.118-beta"
             ]
         }
     },
@@ -28624,12 +28626,54 @@
                     "legacy": false
                 }
             },
-            "latest": true,
+            "latest": false,
             "longversion": "21.1.136",
             "mcversion": "1.21.1",
             "package": "neoforge",
             "recommended": false,
             "version": "136"
+        },
+        "21.1.137": {
+            "branch": null,
+            "build": 137,
+            "files": {
+                "changelog": {
+                    "classifier": "changelog",
+                    "extension": "txt",
+                    "legacy": false
+                },
+                "installer": {
+                    "classifier": "installer",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "moddev-config": {
+                    "classifier": "moddev-config",
+                    "extension": "json",
+                    "legacy": false
+                },
+                "sources": {
+                    "classifier": "sources",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "universal": {
+                    "classifier": "universal",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "userdev": {
+                    "classifier": "userdev",
+                    "extension": "jar",
+                    "legacy": false
+                }
+            },
+            "latest": true,
+            "longversion": "21.1.137",
+            "mcversion": "1.21.1",
+            "package": "neoforge",
+            "recommended": false,
+            "version": "137"
         },
         "21.1.15": {
             "branch": null,
@@ -36226,12 +36270,54 @@
                     "legacy": false
                 }
             },
-            "latest": true,
+            "latest": false,
             "longversion": "21.4.116-beta",
             "mcversion": "1.21.4",
             "package": "neoforge",
             "recommended": false,
             "version": "116"
+        },
+        "21.4.118-beta": {
+            "branch": "beta",
+            "build": 118,
+            "files": {
+                "changelog": {
+                    "classifier": "changelog",
+                    "extension": "txt",
+                    "legacy": false
+                },
+                "installer": {
+                    "classifier": "installer",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "moddev-config": {
+                    "classifier": "moddev-config",
+                    "extension": "json",
+                    "legacy": false
+                },
+                "sources": {
+                    "classifier": "sources",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "universal": {
+                    "classifier": "universal",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "userdev": {
+                    "classifier": "userdev",
+                    "extension": "jar",
+                    "legacy": false
+                }
+            },
+            "latest": true,
+            "longversion": "21.4.118-beta",
+            "mcversion": "1.21.4",
+            "package": "neoforge",
+            "recommended": false,
+            "version": "118"
         },
         "21.4.12-beta": {
             "branch": "beta",
