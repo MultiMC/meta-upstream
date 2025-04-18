@@ -68,7 +68,7 @@
             ]
         },
         "1.20.2": {
-            "latest": "20.2.88",
+            "latest": "20.2.89",
             "recommended": null,
             "versions": [
                 "20.2.3-beta",
@@ -144,7 +144,8 @@
                 "20.2.84-beta",
                 "20.2.85-beta",
                 "20.2.86",
-                "20.2.88"
+                "20.2.88",
+                "20.2.89"
             ]
         },
         "1.20.3": {
@@ -6141,12 +6142,49 @@
                     "legacy": false
                 }
             },
-            "latest": true,
+            "latest": false,
             "longversion": "20.2.88",
             "mcversion": "1.20.2",
             "package": "neoforge",
             "recommended": false,
             "version": "88"
+        },
+        "20.2.89": {
+            "branch": null,
+            "build": 89,
+            "files": {
+                "changelog": {
+                    "classifier": "changelog",
+                    "extension": "txt",
+                    "legacy": false
+                },
+                "installer": {
+                    "classifier": "installer",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "sources": {
+                    "classifier": "sources",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "universal": {
+                    "classifier": "universal",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "userdev": {
+                    "classifier": "userdev",
+                    "extension": "jar",
+                    "legacy": false
+                }
+            },
+            "latest": true,
+            "longversion": "20.2.89",
+            "mcversion": "1.20.2",
+            "package": "neoforge",
+            "recommended": false,
+            "version": "89"
         },
         "20.3.1-beta": {
             "branch": "beta",
