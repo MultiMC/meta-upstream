@@ -740,7 +740,7 @@
             ]
         },
         "1.21.1": {
-            "latest": "21.1.192",
+            "latest": "21.1.193",
             "recommended": null,
             "versions": [
                 "21.1.1",
@@ -930,7 +930,8 @@
                 "21.1.189",
                 "21.1.190",
                 "21.1.191",
-                "21.1.192"
+                "21.1.192",
+                "21.1.193"
             ]
         },
         "1.21.2": {
@@ -32378,12 +32379,54 @@
                     "legacy": false
                 }
             },
-            "latest": true,
+            "latest": false,
             "longversion": "21.1.192",
             "mcversion": "1.21.1",
             "package": "neoforge",
             "recommended": false,
             "version": "192"
+        },
+        "21.1.193": {
+            "branch": null,
+            "build": 193,
+            "files": {
+                "changelog": {
+                    "classifier": "changelog",
+                    "extension": "txt",
+                    "legacy": false
+                },
+                "installer": {
+                    "classifier": "installer",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "moddev-config": {
+                    "classifier": "moddev-config",
+                    "extension": "json",
+                    "legacy": false
+                },
+                "sources": {
+                    "classifier": "sources",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "universal": {
+                    "classifier": "universal",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "userdev": {
+                    "classifier": "userdev",
+                    "extension": "jar",
+                    "legacy": false
+                }
+            },
+            "latest": true,
+            "longversion": "21.1.193",
+            "mcversion": "1.21.1",
+            "package": "neoforge",
+            "recommended": false,
+            "version": "193"
         },
         "21.1.2": {
             "branch": null,
