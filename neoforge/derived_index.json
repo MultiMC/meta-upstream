@@ -1342,7 +1342,7 @@
             ]
         },
         "1.21.8": {
-            "latest": "21.8.9",
+            "latest": "21.8.10",
             "recommended": null,
             "versions": [
                 "21.8.0-beta",
@@ -1354,7 +1354,8 @@
                 "21.8.6-beta",
                 "21.8.7-beta",
                 "21.8.8-beta",
-                "21.8.9"
+                "21.8.9",
+                "21.8.10"
             ]
         }
     },
@@ -51717,6 +51718,48 @@
             "recommended": false,
             "version": "1"
         },
+        "21.8.10": {
+            "branch": null,
+            "build": 10,
+            "files": {
+                "changelog": {
+                    "classifier": "changelog",
+                    "extension": "txt",
+                    "legacy": false
+                },
+                "installer": {
+                    "classifier": "installer",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "moddev-config": {
+                    "classifier": "moddev-config",
+                    "extension": "json",
+                    "legacy": false
+                },
+                "sources": {
+                    "classifier": "sources",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "universal": {
+                    "classifier": "universal",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "userdev": {
+                    "classifier": "userdev",
+                    "extension": "jar",
+                    "legacy": false
+                }
+            },
+            "latest": true,
+            "longversion": "21.8.10",
+            "mcversion": "1.21.8",
+            "package": "neoforge",
+            "recommended": false,
+            "version": "10"
+        },
         "21.8.2-beta": {
             "branch": "beta",
             "build": 2,
@@ -52046,7 +52089,7 @@
                     "legacy": false
                 }
             },
-            "latest": true,
+            "latest": false,
             "longversion": "21.8.9",
             "mcversion": "1.21.8",
             "package": "neoforge",
