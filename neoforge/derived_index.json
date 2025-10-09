@@ -1112,7 +1112,6 @@
                 "21.4.29-beta",
                 "21.4.30-beta",
                 "21.4.31-beta",
-                "21.4.32-beta",
                 "21.4.33-beta",
                 "21.4.34-beta",
                 "21.4.35-beta",
@@ -44724,33 +44723,6 @@
             "package": "neoforge",
             "recommended": false,
             "version": "31"
-        },
-        "21.4.32-beta": {
-            "branch": "beta",
-            "build": 32,
-            "files": {
-                "sources": {
-                    "classifier": "sources",
-                    "extension": "jar",
-                    "legacy": false
-                },
-                "universal": {
-                    "classifier": "universal",
-                    "extension": "jar",
-                    "legacy": false
-                },
-                "userdev": {
-                    "classifier": "userdev",
-                    "extension": "jar",
-                    "legacy": false
-                }
-            },
-            "latest": false,
-            "longversion": "21.4.32-beta",
-            "mcversion": "1.21.4",
-            "package": "neoforge",
-            "recommended": false,
-            "version": "32"
         },
         "21.4.33-beta": {
             "branch": "beta",
