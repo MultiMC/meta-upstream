@@ -550,11 +550,6 @@
         "version": "24w14potato"
     },
     {
-        "maven": "net.fabricmc:intermediary:24w14potato_original",
-        "stable": true,
-        "version": "24w14potato_original"
-    },
-    {
         "maven": "net.fabricmc:intermediary:24w13a",
         "stable": true,
         "version": "24w13a"
@@ -838,11 +833,6 @@
         "maven": "net.fabricmc:intermediary:23w13a_or_b",
         "stable": true,
         "version": "23w13a_or_b"
-    },
-    {
-        "maven": "net.fabricmc:intermediary:23w13a_or_b_original",
-        "stable": true,
-        "version": "23w13a_or_b_original"
     },
     {
         "maven": "net.fabricmc:intermediary:23w13a",
@@ -1170,11 +1160,6 @@
         "version": "1.18.2-pre1"
     },
     {
-        "maven": "net.fabricmc:intermediary:1.19_deep_dark_experimental_snapshot-1",
-        "stable": true,
-        "version": "1.19_deep_dark_experimental_snapshot-1"
-    },
-    {
         "maven": "net.fabricmc:intermediary:22w07a",
         "stable": true,
         "version": "22w07a"
@@ -1323,41 +1308,6 @@
         "maven": "net.fabricmc:intermediary:21w37a",
         "stable": true,
         "version": "21w37a"
-    },
-    {
-        "maven": "net.fabricmc:intermediary:1.18_experimental-snapshot-7",
-        "stable": true,
-        "version": "1.18_experimental-snapshot-7"
-    },
-    {
-        "maven": "net.fabricmc:intermediary:1.18_experimental-snapshot-6",
-        "stable": true,
-        "version": "1.18_experimental-snapshot-6"
-    },
-    {
-        "maven": "net.fabricmc:intermediary:1.18_experimental-snapshot-5",
-        "stable": true,
-        "version": "1.18_experimental-snapshot-5"
-    },
-    {
-        "maven": "net.fabricmc:intermediary:1.18_experimental-snapshot-4",
-        "stable": true,
-        "version": "1.18_experimental-snapshot-4"
-    },
-    {
-        "maven": "net.fabricmc:intermediary:1.18_experimental-snapshot-3",
-        "stable": true,
-        "version": "1.18_experimental-snapshot-3"
-    },
-    {
-        "maven": "net.fabricmc:intermediary:1.18_experimental-snapshot-2",
-        "stable": true,
-        "version": "1.18_experimental-snapshot-2"
-    },
-    {
-        "maven": "net.fabricmc:intermediary:1.18_experimental-snapshot-1",
-        "stable": true,
-        "version": "1.18_experimental-snapshot-1"
     },
     {
         "maven": "net.fabricmc:intermediary:1.17.1",
@@ -1578,11 +1528,6 @@
         "maven": "net.fabricmc:intermediary:1.16.3-rc1",
         "stable": true,
         "version": "1.16.3-rc1"
-    },
-    {
-        "maven": "net.fabricmc:intermediary:1.16_combat-3",
-        "stable": true,
-        "version": "1.16_combat-3"
     },
     {
         "maven": "net.fabricmc:intermediary:1.16.2",
@@ -1840,11 +1785,6 @@
         "version": "1.15-pre4"
     },
     {
-        "maven": "net.fabricmc:intermediary:1.15_combat-1",
-        "stable": true,
-        "version": "1.15_combat-1"
-    },
-    {
         "maven": "net.fabricmc:intermediary:1.15-pre3",
         "stable": true,
         "version": "1.15-pre3"
@@ -1878,11 +1818,6 @@
         "maven": "net.fabricmc:intermediary:19w45a",
         "stable": true,
         "version": "19w45a"
-    },
-    {
-        "maven": "net.fabricmc:intermediary:1.14_combat-3",
-        "stable": true,
-        "version": "1.14_combat-3"
     },
     {
         "maven": "net.fabricmc:intermediary:19w44a",
@@ -1940,11 +1875,6 @@
         "version": "19w34a"
     },
     {
-        "maven": "net.fabricmc:intermediary:1.14_combat-0",
-        "stable": true,
-        "version": "1.14_combat-0"
-    },
-    {
         "maven": "net.fabricmc:intermediary:1.14.4",
         "stable": true,
         "version": "1.14.4"
@@ -1988,11 +1918,6 @@
         "maven": "net.fabricmc:intermediary:1.14.3",
         "stable": true,
         "version": "1.14.3"
-    },
-    {
-        "maven": "net.fabricmc:intermediary:1.14_combat-212796",
-        "stable": true,
-        "version": "1.14_combat-212796"
     },
     {
         "maven": "net.fabricmc:intermediary:1.14.3-pre4",
@@ -2243,5 +2168,80 @@
         "maven": "net.fabricmc:intermediary:18w43b",
         "stable": true,
         "version": "18w43b"
+    },
+    {
+        "maven": "net.fabricmc:intermediary:24w14potato_original",
+        "stable": true,
+        "version": "24w14potato_original"
+    },
+    {
+        "maven": "net.fabricmc:intermediary:23w13a_or_b_original",
+        "stable": true,
+        "version": "23w13a_or_b_original"
+    },
+    {
+        "maven": "net.fabricmc:intermediary:1.19_deep_dark_experimental_snapshot-1",
+        "stable": true,
+        "version": "1.19_deep_dark_experimental_snapshot-1"
+    },
+    {
+        "maven": "net.fabricmc:intermediary:1.18_experimental-snapshot-7",
+        "stable": true,
+        "version": "1.18_experimental-snapshot-7"
+    },
+    {
+        "maven": "net.fabricmc:intermediary:1.18_experimental-snapshot-6",
+        "stable": true,
+        "version": "1.18_experimental-snapshot-6"
+    },
+    {
+        "maven": "net.fabricmc:intermediary:1.18_experimental-snapshot-5",
+        "stable": true,
+        "version": "1.18_experimental-snapshot-5"
+    },
+    {
+        "maven": "net.fabricmc:intermediary:1.18_experimental-snapshot-4",
+        "stable": true,
+        "version": "1.18_experimental-snapshot-4"
+    },
+    {
+        "maven": "net.fabricmc:intermediary:1.18_experimental-snapshot-3",
+        "stable": true,
+        "version": "1.18_experimental-snapshot-3"
+    },
+    {
+        "maven": "net.fabricmc:intermediary:1.18_experimental-snapshot-2",
+        "stable": true,
+        "version": "1.18_experimental-snapshot-2"
+    },
+    {
+        "maven": "net.fabricmc:intermediary:1.18_experimental-snapshot-1",
+        "stable": true,
+        "version": "1.18_experimental-snapshot-1"
+    },
+    {
+        "maven": "net.fabricmc:intermediary:1.16_combat-3",
+        "stable": true,
+        "version": "1.16_combat-3"
+    },
+    {
+        "maven": "net.fabricmc:intermediary:1.15_combat-1",
+        "stable": true,
+        "version": "1.15_combat-1"
+    },
+    {
+        "maven": "net.fabricmc:intermediary:1.14_combat-3",
+        "stable": true,
+        "version": "1.14_combat-3"
+    },
+    {
+        "maven": "net.fabricmc:intermediary:1.14_combat-0",
+        "stable": true,
+        "version": "1.14_combat-0"
+    },
+    {
+        "maven": "net.fabricmc:intermediary:1.14_combat-212796",
+        "stable": true,
+        "version": "1.14_combat-212796"
     }
 ]
