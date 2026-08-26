@@ -1779,7 +1779,7 @@
             ]
         },
         "26.2": {
-            "latest": "26.2.0.68",
+            "latest": "26.2.0.69",
             "recommended": null,
             "versions": [
                 "26.2.0.0-beta",
@@ -1844,7 +1844,8 @@
                 "26.2.0.65",
                 "26.2.0.66",
                 "26.2.0.67",
-                "26.2.0.68"
+                "26.2.0.68",
+                "26.2.0.69"
             ]
         }
     },
@@ -71206,12 +71207,54 @@
                     "legacy": false
                 }
             },
-            "latest": true,
+            "latest": false,
             "longversion": "26.2.0.68",
             "mcversion": "26.2",
             "package": "neoforge",
             "recommended": false,
             "version": "68"
+        },
+        "26.2.0.69": {
+            "branch": null,
+            "build": 69,
+            "files": {
+                "changelog": {
+                    "classifier": "changelog",
+                    "extension": "txt",
+                    "legacy": false
+                },
+                "installer": {
+                    "classifier": "installer",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "moddev-config": {
+                    "classifier": "moddev-config",
+                    "extension": "json",
+                    "legacy": false
+                },
+                "sources": {
+                    "classifier": "sources",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "universal": {
+                    "classifier": "universal",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "userdev": {
+                    "classifier": "userdev",
+                    "extension": "jar",
+                    "legacy": false
+                }
+            },
+            "latest": true,
+            "longversion": "26.2.0.69",
+            "mcversion": "26.2",
+            "package": "neoforge",
+            "recommended": false,
+            "version": "69"
         },
         "26.2.0.7-beta": {
             "branch": "beta",
