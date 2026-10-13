@@ -2935,7 +2935,7 @@
             ]
         },
         "1.20.1": {
-            "latest": "1.20.1-47.4.27",
+            "latest": "1.20.1-47.4.28",
             "recommended": "1.20.1-47.4.10",
             "versions": [
                 "1.20.1-47.0.0",
@@ -3073,7 +3073,8 @@
                 "1.20.1-47.4.24",
                 "1.20.1-47.4.25",
                 "1.20.1-47.4.26",
-                "1.20.1-47.4.27"
+                "1.20.1-47.4.27",
+                "1.20.1-47.4.28"
             ]
         },
         "1.20.2": {
@@ -3130,7 +3131,7 @@
             ]
         },
         "1.20.4": {
-            "latest": "1.20.4-49.2.11",
+            "latest": "1.20.4-49.2.12",
             "recommended": "1.20.4-49.2.0",
             "versions": [
                 "1.20.4-49.0.3",
@@ -3209,7 +3210,8 @@
                 "1.20.4-49.2.7",
                 "1.20.4-49.2.8",
                 "1.20.4-49.2.9",
-                "1.20.4-49.2.11"
+                "1.20.4-49.2.11",
+                "1.20.4-49.2.12"
             ]
         },
         "1.20.6": {
@@ -122152,11 +122154,52 @@
                     "hash": "fda2d589ff39ab506f65b78a7bcd56f3"
                 }
             },
-            "latest": true,
+            "latest": false,
             "longversion": "1.20.1-47.4.27",
             "mcversion": "1.20.1",
             "recommended": false,
             "version": "47.4.27"
+        },
+        "1.20.1-47.4.28": {
+            "branch": null,
+            "build": 28,
+            "files": {
+                "changelog": {
+                    "classifier": "changelog",
+                    "extension": "txt",
+                    "hash": "fb3c3cdeb20a2e50e5376a8f18713797"
+                },
+                "installer": {
+                    "classifier": "installer",
+                    "extension": "jar",
+                    "hash": "868ef4dec1c70f360b77200282702e3d"
+                },
+                "mdk": {
+                    "classifier": "mdk",
+                    "extension": "zip",
+                    "hash": "b2f852e47ff9dd412719785b7184811b"
+                },
+                "sources": {
+                    "classifier": "sources",
+                    "extension": "jar",
+                    "hash": "8baa8d3a0e0529204eb2cffd20c06a5b"
+                },
+                "universal": {
+                    "classifier": "universal",
+                    "extension": "jar",
+                    "hash": "27d8f613d87e7cf84dcaad1fdfdb94dc"
+                },
+                "userdev": {
+                    "classifier": "userdev",
+                    "extension": "jar",
+                    "hash": "2274df4b36e8cbf0b6dd5cda53670eee"
+                }
+            },
+            "latest": true,
+            "longversion": "1.20.1-47.4.28",
+            "mcversion": "1.20.1",
+            "recommended": false,
+            "version": "47.4.28"
         },
         "1.20.1-47.4.3": {
             "branch": null,
@@ -127309,11 +127352,57 @@
                     "hash": "75a9ea2f5655684ade201eb344629be9"
                 }
             },
-            "latest": true,
+            "latest": false,
             "longversion": "1.20.4-49.2.11",
             "mcversion": "1.20.4",
             "recommended": false,
             "version": "49.2.11"
+        },
+        "1.20.4-49.2.12": {
+            "branch": null,
+            "build": 12,
+            "files": {
+                "changelog": {
+                    "classifier": "changelog",
+                    "extension": "txt",
+                    "hash": "59249d1ef637cdaed6672824e61335ff"
+                },
+                "installer": {
+                    "classifier": "installer",
+                    "extension": "jar",
+                    "hash": "2d6b16d964ae1f0e81cede69f538d38f"
+                },
+                "mdk": {
+                    "classifier": "mdk",
+                    "extension": "zip",
+                    "hash": "6d45ab338bf64393ddc697f6e1839ded"
+                },
+                "shim": {
+                    "classifier": "shim",
+                    "extension": "jar",
+                    "hash": "6f0aad5390dc3b381cb8a0f328ff029e"
+                },
+                "sources": {
+                    "classifier": "sources",
+                    "extension": "jar",
+                    "hash": "61f0adb08d806c6accfed04cae58769a"
+                },
+                "universal": {
+                    "classifier": "universal",
+                    "extension": "jar",
+                    "hash": "84df1bc54d59ee1fd1a0469ff8a1e7bb"
+                },
+                "userdev": {
+                    "classifier": "userdev",
+                    "extension": "jar",
+                    "hash": "11212c27d4d4f49585f26bc075482870"
+                }
+            },
+            "latest": true,
+            "longversion": "1.20.4-49.2.12",
+            "mcversion": "1.20.4",
+            "recommended": false,
+            "version": "49.2.12"
         },
         "1.20.4-49.2.2": {
             "branch": null,
