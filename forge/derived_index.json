@@ -2936,7 +2936,7 @@
         },
         "1.20.1": {
             "latest": "1.20.1-47.4.28",
-            "recommended": "1.20.1-47.4.10",
+            "recommended": "1.20.1-47.4.28",
             "versions": [
                 "1.20.1-47.0.0",
                 "1.20.1-47.0.1",
@@ -3132,7 +3132,7 @@
         },
         "1.20.4": {
             "latest": "1.20.4-49.2.13",
-            "recommended": "1.20.4-49.2.0",
+            "recommended": "1.20.4-49.2.13",
             "versions": [
                 "1.20.4-49.0.3",
                 "1.20.4-49.0.4",
@@ -3217,7 +3217,7 @@
         },
         "1.20.6": {
             "latest": "1.20.6-50.2.14",
-            "recommended": "1.20.6-50.2.0",
+            "recommended": "1.20.6-50.2.14",
             "versions": [
                 "1.20.6-50.0.0",
                 "1.20.6-50.0.1",
@@ -3341,7 +3341,7 @@
         },
         "1.21.1": {
             "latest": "1.21.1-52.1.20",
-            "recommended": "1.21.1-52.1.0",
+            "recommended": "1.21.1-52.1.20",
             "versions": [
                 "1.21.1-52.0.0",
                 "1.21.1-52.0.1",
@@ -3416,7 +3416,7 @@
         },
         "1.21.10": {
             "latest": "1.21.10-60.1.18",
-            "recommended": "1.21.10-60.1.0",
+            "recommended": "1.21.10-60.1.18",
             "versions": [
                 "1.21.10-60.0.0",
                 "1.21.10-60.0.1",
@@ -3458,7 +3458,7 @@
         },
         "1.21.11": {
             "latest": "1.21.11-61.2.4",
-            "recommended": "1.21.11-61.2.0",
+            "recommended": "1.21.11-61.2.4",
             "versions": [
                 "1.21.11-61.0.0",
                 "1.21.11-61.0.1",
@@ -3497,7 +3497,7 @@
         },
         "1.21.3": {
             "latest": "1.21.3-53.1.16",
-            "recommended": "1.21.3-53.1.0",
+            "recommended": "1.21.3-53.1.16",
             "versions": [
                 "1.21.3-53.0.0",
                 "1.21.3-53.0.1",
@@ -3560,7 +3560,7 @@
         },
         "1.21.4": {
             "latest": "1.21.4-54.1.22",
-            "recommended": "1.21.4-54.1.14",
+            "recommended": "1.21.4-54.1.22",
             "versions": [
                 "1.21.4-54.0.0",
                 "1.21.4-54.0.1",
@@ -3619,7 +3619,7 @@
         },
         "1.21.5": {
             "latest": "1.21.5-55.1.18",
-            "recommended": "1.21.5-55.1.0",
+            "recommended": "1.21.5-55.1.18",
             "versions": [
                 "1.21.5-55.0.0",
                 "1.21.5-55.0.1",
@@ -3692,7 +3692,7 @@
         },
         "1.21.8": {
             "latest": "1.21.8-58.1.26",
-            "recommended": "1.21.8-58.1.0",
+            "recommended": "1.21.8-58.1.26",
             "versions": [
                 "1.21.8-58.0.0",
                 "1.21.8-58.0.1",
@@ -5494,7 +5494,7 @@
         },
         "26.1.2": {
             "latest": "26.1.2-64.1.5",
-            "recommended": "26.1.2-64.1.0",
+            "recommended": "26.1.2-64.1.5",
             "versions": [
                 "26.1.2-64.0.0",
                 "26.1.2-64.0.1",
@@ -5523,7 +5523,7 @@
         },
         "26.2": {
             "latest": "26.2-65.1.5",
-            "recommended": "26.2-65.1.0",
+            "recommended": "26.2-65.1.5",
             "versions": [
                 "26.2-65.0.0",
                 "26.2-65.0.1",
@@ -5544,8 +5544,8 @@
             ]
         },
         "26.3": {
-            "latest": "26.3-66.0.13",
-            "recommended": null,
+            "latest": "26.3-66.1.0",
+            "recommended": "26.3-66.1.0",
             "versions": [
                 "26.3-66.0.0",
                 "26.3-66.0.2",
@@ -5558,7 +5558,8 @@
                 "26.3-66.0.10",
                 "26.3-66.0.11",
                 "26.3-66.0.12",
-                "26.3-66.0.13"
+                "26.3-66.0.13",
+                "26.3-66.1.0"
             ]
         }
     },
@@ -121520,7 +121521,7 @@
             "latest": false,
             "longversion": "1.20.1-47.4.10",
             "mcversion": "1.20.1",
-            "recommended": true,
+            "recommended": false,
             "version": "47.4.10"
         },
         "1.20.1-47.4.11": {
@@ -122217,7 +122218,7 @@
             "latest": true,
             "longversion": "1.20.1-47.4.28",
             "mcversion": "1.20.1",
-            "recommended": false,
+            "recommended": true,
             "version": "47.4.28"
         },
         "1.20.1-47.4.3": {
@@ -127282,7 +127283,7 @@
             "latest": false,
             "longversion": "1.20.4-49.2.0",
             "mcversion": "1.20.4",
-            "recommended": true,
+            "recommended": false,
             "version": "49.2.0"
         },
         "1.20.4-49.2.1": {
@@ -127466,7 +127467,7 @@
             "latest": true,
             "longversion": "1.20.4-49.2.13",
             "mcversion": "1.20.4",
-            "recommended": false,
+            "recommended": true,
             "version": "49.2.13"
         },
         "1.20.4-49.2.2": {
@@ -131613,7 +131614,7 @@
             "latest": false,
             "longversion": "1.20.6-50.2.0",
             "mcversion": "1.20.6",
-            "recommended": true,
+            "recommended": false,
             "version": "50.2.0"
         },
         "1.20.6-50.2.1": {
@@ -131868,7 +131869,7 @@
             "latest": true,
             "longversion": "1.20.6-50.2.14",
             "mcversion": "1.20.6",
-            "recommended": false,
+            "recommended": true,
             "version": "50.2.14"
         },
         "1.20.6-50.2.2": {
@@ -136101,7 +136102,7 @@
             "latest": false,
             "longversion": "1.21.1-52.1.0",
             "mcversion": "1.21.1",
-            "recommended": true,
+            "recommended": false,
             "version": "52.1.0"
         },
         "1.21.1-52.1.1": {
@@ -136662,7 +136663,7 @@
             "latest": true,
             "longversion": "1.21.1-52.1.20",
             "mcversion": "1.21.1",
-            "recommended": false,
+            "recommended": true,
             "version": "52.1.20"
         },
         "1.21.1-52.1.3": {
@@ -138141,7 +138142,7 @@
             "latest": false,
             "longversion": "1.21.10-60.1.0",
             "mcversion": "1.21.10",
-            "recommended": true,
+            "recommended": false,
             "version": "60.1.0"
         },
         "1.21.10-60.1.10": {
@@ -138549,7 +138550,7 @@
             "latest": true,
             "longversion": "1.21.10-60.1.18",
             "mcversion": "1.21.10",
-            "recommended": false,
+            "recommended": true,
             "version": "60.1.18"
         },
         "1.21.10-60.1.3": {
@@ -140385,7 +140386,7 @@
             "latest": false,
             "longversion": "1.21.11-61.2.0",
             "mcversion": "1.21.11",
-            "recommended": true,
+            "recommended": false,
             "version": "61.2.0"
         },
         "1.21.11-61.2.1": {
@@ -140538,7 +140539,7 @@
             "latest": true,
             "longversion": "1.21.11-61.2.4",
             "mcversion": "1.21.11",
-            "recommended": false,
+            "recommended": true,
             "version": "61.2.4"
         },
         "1.21.3-53.0.0": {
@@ -142731,7 +142732,7 @@
             "latest": false,
             "longversion": "1.21.3-53.1.0",
             "mcversion": "1.21.3",
-            "recommended": true,
+            "recommended": false,
             "version": "53.1.0"
         },
         "1.21.3-53.1.1": {
@@ -143088,7 +143089,7 @@
             "latest": true,
             "longversion": "1.21.3-53.1.16",
             "mcversion": "1.21.3",
-            "recommended": false,
+            "recommended": true,
             "version": "53.1.16"
         },
         "1.21.3-53.1.2": {
@@ -145434,7 +145435,7 @@
             "latest": false,
             "longversion": "1.21.4-54.1.14",
             "mcversion": "1.21.4",
-            "recommended": true,
+            "recommended": false,
             "version": "54.1.14"
         },
         "1.21.4-54.1.15": {
@@ -145842,7 +145843,7 @@
             "latest": true,
             "longversion": "1.21.4-54.1.22",
             "mcversion": "1.21.4",
-            "recommended": false,
+            "recommended": true,
             "version": "54.1.22"
         },
         "1.21.4-54.1.3": {
@@ -147423,7 +147424,7 @@
             "latest": false,
             "longversion": "1.21.5-55.1.0",
             "mcversion": "1.21.5",
-            "recommended": true,
+            "recommended": false,
             "version": "55.1.0"
         },
         "1.21.5-55.1.1": {
@@ -147882,7 +147883,7 @@
             "latest": true,
             "longversion": "1.21.5-55.1.18",
             "mcversion": "1.21.5",
-            "recommended": false,
+            "recommended": true,
             "version": "55.1.18"
         },
         "1.21.5-55.1.2": {
@@ -149565,7 +149566,7 @@
             "latest": false,
             "longversion": "1.21.8-58.1.0",
             "mcversion": "1.21.8",
-            "recommended": true,
+            "recommended": false,
             "version": "58.1.0"
         },
         "1.21.8-58.1.1": {
@@ -150432,7 +150433,7 @@
             "latest": true,
             "longversion": "1.21.8-58.1.26",
             "mcversion": "1.21.8",
-            "recommended": false,
+            "recommended": true,
             "version": "58.1.26"
         },
         "1.21.8-58.1.3": {
@@ -205125,7 +205126,7 @@
             "latest": false,
             "longversion": "26.1.2-64.1.0",
             "mcversion": "26.1.2",
-            "recommended": true,
+            "recommended": false,
             "version": "64.1.0"
         },
         "26.1.2-64.1.1": {
@@ -205355,7 +205356,7 @@
             "latest": true,
             "longversion": "26.1.2-64.1.5",
             "mcversion": "26.1.2",
-            "recommended": false,
+            "recommended": true,
             "version": "64.1.5"
         },
         "26.2-65.0.0": {
@@ -205861,7 +205862,7 @@
             "latest": false,
             "longversion": "26.2-65.1.0",
             "mcversion": "26.2",
-            "recommended": true,
+            "recommended": false,
             "version": "65.1.0"
         },
         "26.2-65.1.1": {
@@ -206091,7 +206092,7 @@
             "latest": true,
             "longversion": "26.2-65.1.5",
             "mcversion": "26.2",
-            "recommended": false,
+            "recommended": true,
             "version": "65.1.5"
         },
         "26.3-66.0.0": {
@@ -206318,7 +206319,7 @@
                     "hash": "7d523a58ee6e94c6a8a057d5a0ce497b"
                 }
             },
-            "latest": true,
+            "latest": false,
             "longversion": "26.3-66.0.13",
             "mcversion": "26.3",
             "recommended": false,
@@ -206645,6 +206646,52 @@
             "mcversion": "26.3",
             "recommended": false,
             "version": "66.0.9"
+        },
+        "26.3-66.1.0": {
+            "branch": null,
+            "build": 0,
+            "files": {
+                "changelog": {
+                    "classifier": "changelog",
+                    "extension": "txt",
+                    "hash": "b7e26a55abb7904cfe0cb80aca8fe6f1"
+                },
+                "installer": {
+                    "classifier": "installer",
+                    "extension": "jar",
+                    "hash": "19c81b7a58422b447a5cc084e777d086"
+                },
+                "mdk": {
+                    "classifier": "mdk",
+                    "extension": "zip",
+                    "hash": "aead6a4572b6c278d2f29c3d29f6757c"
+                },
+                "shim": {
+                    "classifier": "shim",
+                    "extension": "jar",
+                    "hash": "d2f5a067533a73f5577d322e5034782c"
+                },
+                "sources": {
+                    "classifier": "sources",
+                    "extension": "jar",
+                    "hash": "bca6a921457b9d1ea4d30e0e11c27496"
+                },
+                "universal": {
+                    "classifier": "universal",
+                    "extension": "jar",
+                    "hash": "e2f1ea108c2af0a2abd424d2a8b27615"
+                },
+                "userdev": {
+                    "classifier": "userdev",
+                    "extension": "jar",
+                    "hash": "fbbe05e6c37ab5d8b6831db5863df813"
+                }
+            },
+            "latest": true,
+            "longversion": "26.3-66.1.0",
+            "mcversion": "26.3",
+            "recommended": true,
+            "version": "66.1.0"
         }
     }
 }
