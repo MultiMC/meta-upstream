@@ -1934,7 +1934,7 @@
             ]
         },
         "26.3": {
-            "latest": "26.3.0.99",
+            "latest": "26.3.0.100",
             "recommended": null,
             "versions": [
                 "26.3.0.0-beta",
@@ -2031,7 +2031,8 @@
                 "26.3.0.95",
                 "26.3.0.97",
                 "26.3.0.98",
-                "26.3.0.99"
+                "26.3.0.99",
+                "26.3.0.100"
             ]
         }
     },
@@ -75259,6 +75260,48 @@
             "recommended": false,
             "version": "10"
         },
+        "26.3.0.100": {
+            "branch": null,
+            "build": 100,
+            "files": {
+                "changelog": {
+                    "classifier": "changelog",
+                    "extension": "txt",
+                    "legacy": false
+                },
+                "installer": {
+                    "classifier": "installer",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "moddev-config": {
+                    "classifier": "moddev-config",
+                    "extension": "json",
+                    "legacy": false
+                },
+                "sources": {
+                    "classifier": "sources",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "universal": {
+                    "classifier": "universal",
+                    "extension": "jar",
+                    "legacy": false
+                },
+                "userdev": {
+                    "classifier": "userdev",
+                    "extension": "jar",
+                    "legacy": false
+                }
+            },
+            "latest": true,
+            "longversion": "26.3.0.100",
+            "mcversion": "26.3",
+            "package": "neoforge",
+            "recommended": false,
+            "version": "100"
+        },
         "26.3.0.11-beta": {
             "branch": "beta",
             "build": 11,
@@ -79116,7 +79159,7 @@
                     "legacy": false
                 }
             },
-            "latest": true,
+            "latest": false,
             "longversion": "26.3.0.99",
             "mcversion": "26.3",
             "package": "neoforge",
