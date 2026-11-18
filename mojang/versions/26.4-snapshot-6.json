@@ -199,7 +199,11 @@
                         }
                     }
                 ],
-                "value": "-Xss1M"
+                "value": [
+                    "-Xss1M",
+                    "-XX:+UnlockDiagnosticVMOptions",
+                    "-XX:-UseBASE64Intrinsics"
+                ]
             },
             "-XX:StackShadowPages=32",
             "--enable-native-access=ALL-UNNAMED",

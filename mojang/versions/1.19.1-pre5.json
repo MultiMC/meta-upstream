@@ -100,7 +100,11 @@
                         }
                     }
                 ],
-                "value": "-Xss1M"
+                "value": [
+                    "-Xss1M",
+                    "-XX:+UnlockDiagnosticVMOptions",
+                    "-XX:-UseBASE64Intrinsics"
+                ]
             },
             "-Djava.library.path=${natives_directory}",
             "-Dminecraft.launcher.brand=${launcher_name}",

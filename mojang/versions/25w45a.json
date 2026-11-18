@@ -139,7 +139,11 @@
                         }
                     }
                 ],
-                "value": "-Xss1M"
+                "value": [
+                    "-Xss1M",
+                    "-XX:+UnlockDiagnosticVMOptions",
+                    "-XX:-UseBASE64Intrinsics"
+                ]
             },
             "-Djava.library.path=${natives_directory}",
             "-Djna.tmpdir=${natives_directory}",
@@ -153,10 +157,10 @@
     },
     "assetIndex": {
         "id": "28",
-        "sha1": "13e7b9452056cb6b4398bcb5df3930484521c08c",
+        "sha1": "9b11567faa439f9f54be89a165ba039da2208333",
         "size": 524535,
-        "totalSize": 454759219,
-        "url": "https://piston-meta.mojang.com/v1/packages/13e7b9452056cb6b4398bcb5df3930484521c08c/28.json"
+        "totalSize": 455149564,
+        "url": "https://piston-meta.mojang.com/v1/packages/9b11567faa439f9f54be89a165ba039da2208333/28.json"
     },
     "assets": "28",
     "complianceLevel": 1,
